@@ -1,0 +1,162 @@
+[
+    {
+        "id": 77,
+        "league_id": 2224,
+        "name": "Athletic Club",
+        "short_name": "Athletic",
+        "tla": "ATH",
+        "venue": "San Mamés"
+    },
+    {
+        "id": 78,
+        "league_id": 2224,
+        "name": "Club Atlético de Madrid",
+        "short_name": "Atleti",
+        "tla": "ATL",
+        "venue": "Estadio Wanda Metropolitano"
+    },
+    {
+        "id": 79,
+        "league_id": 2224,
+        "name": "CA Osasuna",
+        "short_name": "Osasuna",
+        "tla": "OSA",
+        "venue": "Estadio El Sadar"
+    },
+    {
+        "id": 80,
+        "league_id": 2224,
+        "name": "RCD Espanyol de Barcelona",
+        "short_name": "Espanyol",
+        "tla": "ESP",
+        "venue": "RCDE Stadium"
+    },
+    {
+        "id": 81,
+        "league_id": 2224,
+        "name": "FC Barcelona",
+        "short_name": "Barça",
+        "tla": "FCB",
+        "venue": "Camp Nou"
+    },
+    {
+        "id": 82,
+        "league_id": 2224,
+        "name": "Getafe CF",
+        "short_name": "Getafe",
+        "tla": "GET",
+        "venue": "Coliseum Alfonso Pérez"
+    },
+    {
+        "id": 86,
+        "league_id": 2224,
+        "name": "Real Madrid CF",
+        "short_name": "Real Madrid",
+        "tla": "RMA",
+        "venue": "Estadio Santiago Bernabéu"
+    },
+    {
+        "id": 87,
+        "league_id": 2224,
+        "name": "Rayo Vallecano de Madrid",
+        "short_name": "Rayo Vallecano",
+        "tla": "RAY",
+        "venue": "Estadio del Rayo Vallecano"
+    },
+    {
+        "id": 89,
+        "league_id": 2224,
+        "name": "RCD Mallorca",
+        "short_name": "Mallorca",
+        "tla": "MAL",
+        "venue": "Iberostar Estadi"
+    },
+    {
+        "id": 90,
+        "league_id": 2224,
+        "name": "Real Betis Balompié",
+        "short_name": "Real Betis",
+        "tla": "BET",
+        "venue": "Estadio Benito Villamarín"
+    },
+    {
+        "id": 92,
+        "league_id": 2224,
+        "name": "Real Sociedad de Fútbol",
+        "short_name": "Real Sociedad",
+        "tla": "RSO",
+        "venue": "Estadio Municipal de Anoeta"
+    },
+    {
+        "id": 94,
+        "league_id": 2224,
+        "name": "Villarreal CF",
+        "short_name": "Villarreal",
+        "tla": "VIL",
+        "venue": "Estadio de la Cerámica"
+    },
+    {
+        "id": 95,
+        "league_id": 2224,
+        "name": "Valencia CF",
+        "short_name": "Valencia",
+        "tla": "VAL",
+        "venue": "Estadio de Mestalla"
+    },
+    {
+        "id": 250,
+        "league_id": 2224,
+        "name": "Real Valladolid CF",
+        "short_name": "Valladolid",
+        "tla": "VDD",
+        "venue": "Estadio Municipal José Zorrilla"
+    },
+    {
+        "id": 264,
+        "league_id": 2224,
+        "name": "Cádiz CF",
+        "short_name": "Cádiz CF",
+        "tla": "CAD",
+        "venue": "Estadio Ramón de Carranza"
+    },
+    {
+        "id": 267,
+        "league_id": 2224,
+        "name": "UD Almería",
+        "short_name": "Almería",
+        "tla": "ALM",
+        "venue": "Estadio de los Juegos Mediterráneos"
+    },
+    {
+        "id": 285,
+        "league_id": 2224,
+        "name": "Elche CF",
+        "short_name": "Elche",
+        "tla": "ELC",
+        "venue": "Estadio Manuel Martínez Valero"
+    },
+    {
+        "id": 298,
+        "league_id": 2224,
+        "name": "Girona FC",
+        "short_name": "Girona",
+        "tla": "GIR",
+        "venue": "Estadi Municipal de Montilivi"
+    },
+    {
+        "id": 558,
+        "league_id": 2224,
+        "name": "RC Celta de Vigo",
+        "short_name": "Celta",
+        "tla": "CEL",
+        "venue": "Estadio de Balaídos"
+    },
+    {
+        "id": 559,
+        "league_id": 2224,
+        "name": "Sevilla FC",
+        "short_name": "Sevilla FC",
+        "tla": "SEV",
+        "venue": "Estadio Ramón Sánchez Pizjuán"
+    }
+]
