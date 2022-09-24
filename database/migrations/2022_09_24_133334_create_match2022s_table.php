@@ -13,14 +13,15 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('team2022s', function (Blueprint $table) {
+        Schema::create('match2022s', function (Blueprint $table) {
             $table->id();
-            $table->integer('league_id');
-            $table->string('name');
-            $table->string('short_name');
-            $table->string('tla');
-            $table->string('venue');
+            $table->string("status");
+            $table->string("utc_date");
+            $table->string("matchday");
+            $table->foreignId("hometeam_id")->constrained('team2022s');
+            $table->foreignId("awayteam_id")->constrained('team2022s');
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 
@@ -31,6 +32,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('team2022s');
+        Schema::dropIfExists('match2022s');
     }
 };
