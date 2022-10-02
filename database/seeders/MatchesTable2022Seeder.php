@@ -6,7 +6,7 @@ use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use App\Models\Match2022;
 
-class MatchesTable2022Seeder extends Seeder
+class MatchesTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -22,7 +22,7 @@ class MatchesTable2022Seeder extends Seeder
         
         $count = 0;
         foreach($matches as $match) {
-            Match2022::create($match);
+            Game::create($match);
             
             $count++;
         }

@@ -10,6 +10,9 @@ import jaLocale from '@fullcalendar/core/locales/ja';
 
 const Calendar = (props) => {
     
+    const { games } = props;
+    console.log(props);
+
     return (
         <Authenticated auth={props.auth} header={
                 <h2 className="font-semibold text-xl text-gray-800 leading-tight">
@@ -19,6 +22,11 @@ const Calendar = (props) => {
             
             <div className="p-12">
                 <h1>Calendar</h1>
+                
+                { games.map((game) =>(
+                    game.matchday == 7 && 
+                    <p>{ game.hometeam_id.name }</p>
+                )) }
                 <div>
                     <div>
                       <FullCalendar 
