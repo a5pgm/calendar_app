@@ -13,15 +13,10 @@ return new class extends Migration
      */
     public function up()
     {
-        Schema::create('match2022s', function (Blueprint $table) {
+        Schema::create('seasons', function (Blueprint $table) {
             $table->id();
-            $table->string("status");
-            $table->string("utc_date");
-            $table->string("matchday");
-            $table->foreignId("hometeam_id")->constrained('team2022s');
-            $table->foreignId("awayteam_id")->constrained('team2022s');
+            $table->string('year');
             $table->timestamps();
-            $table->softDeletes();
         });
     }
 
@@ -32,6 +27,6 @@ return new class extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('match2022s');
+        Schema::dropIfExists('seasons');
     }
 };

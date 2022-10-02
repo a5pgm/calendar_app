@@ -3,6 +3,7 @@
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
+use App\Http\Controllers\Match2022Controller;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,9 +17,7 @@ use Inertia\Inertia;
 */
 
 Route::group(['middlleware' => ['auth']], function() {
-    Route::get("/", function() {
-        return Inertia::render('Calendar');
-    });
+    Route::get("/",[Match2022Controller::class,"getMatch2022"]);
 });
 
 

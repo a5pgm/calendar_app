@@ -25,8 +25,8 @@ for n in range(count):
     # title = home + " vs " + away
     # start = j[m]["utcDate"]
     data_set.append({"id"         : id ,        "status"      : status,
-                    "utc_date"    :utc_date,    "matchday"    : matchday,
-                    "hometeam_id" :hometeam_id, "awayteam_id" : awayteam_id
+                    "utc_date"    :utc_date,    "match_day"    : matchday,
+                    "home_team_id" :hometeam_id, "away_team_id" : awayteam_id
     })
 
         
