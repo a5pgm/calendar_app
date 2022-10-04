@@ -3,40 +3,51 @@ import json
 
 connection = http.client.HTTPConnection('api.football-data.org')
 headers = { 'X-Auth-Token': '57726296ccf440b899ef218bea2b5a9a' }
-connection.request('GET', '/v2/competitions/PD/matches', None, headers )
+connection.request('GET', '/v2/competitions/PD/matches?season=2022', None, headers )
 response = json.loads(connection.getresponse().read().decode())
 
 
 # print (response["matches"]["awayTeam"])j
+json_open = open('../../database/data/games.json','r')
+data_set = json.load(json_open)
 
 count = response["count"]
 matches = response["matches"]
 
-print(matches[1])
-data_set = []
+# data_set = []
 
 for n in range(count):
+    flg = 0
     id = matches[n]["id"]
     status = matches[n]["status"]
     utc_date = matches[n]["utcDate"]
+    utc_date = utc_date.replace("T"," ")
+    utc_date = utc_date.replace("Z","")
     matchday = matches[n]["matchday"]
     hometeam_id = matches[n]["homeTeam"]["id"]
     awayteam_id = matches[n]["awayTeam"]["id"]
-    # title = home + " vs " + away
-    # start = j[m]["utcDate"]
-    data_set.append({"id"         : id ,        "status"      : status,
-                    "utc_date"    :utc_date,    "match_day"    : matchday,
-                    "home_team_id" :hometeam_id, "away_team_id" : awayteam_id
-    })
+    season_id   = matches[n]["season"]["id"]
+
+    for data in (data_set):
+        if(data["id"] == id ):
+            flg = 1
+
+    if(flg == 0):
+        data_set.append({"id"         : id ,        "status"      : status,
+                        "utc_date"    :utc_date,    "match_day"    : matchday,
+                        "home_team_id" :hometeam_id, "away_team_id" : awayteam_id,
+                        "season_id" :season_id
+        })
+        print(id);
 
         
         
 # # ここからがjson形式で書き出す文
-with open('../../database/data/2022_matches.json','w') as f:
+with open('../../database/data/games.json','w') as f:
     json.dump(data_set,f,ensure_ascii=False,indent = 4)
         
-for data in data_set:
-    print("{}".format(json.dumps(data,indent=4)))
+# for data in data_set:
+#     print("{}".format(json.dumps(data_set[1],indent=4)))
     
     
 

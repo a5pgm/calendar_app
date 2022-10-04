@@ -15,7 +15,7 @@ return new class extends Migration
     {
         Schema::create('comments', function (Blueprint $table) {
             $table->string('title');
-            $table->string('body');
+            $table->text('body');
             $table->foreignId('user_id')->constrained('users');
             $table->foreignId('game_id')->constrained('games');
             $table->integer('evaluation');

@@ -11,6 +11,7 @@ import jaLocale from '@fullcalendar/core/locales/ja';
 const Calendar = (props) => {
     
     const { games } = props;
+    const { teams } = props;
     console.log(props);
 
     return (
@@ -24,8 +25,8 @@ const Calendar = (props) => {
                 <h1>Calendar</h1>
                 
                 { games.map((game) =>(
-                    game.matchday == 7 && 
-                    <p>{ game.hometeam_id.name }</p>
+                    game.match_day == 7 && game.home_team.name == "Real Madrid CF" &&
+                    <p>{ game.home_team.name } vs { game.away_team.name }</p>
                 )) }
                 <div>
                     <div>
