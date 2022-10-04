@@ -4,9 +4,9 @@ namespace Database\Seeders;
 
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
-use App\Models\Match2022;
+use App\Models\Game;
 
-class MatchesTableSeeder extends Seeder
+class GamesTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -17,7 +17,7 @@ class MatchesTableSeeder extends Seeder
     {
         $this->command->info("試合の作成を開始");
         
-        $json = file_get_contents(__DIR__ . '/../data/2022_matches.json');
+        $json = file_get_contents(__DIR__ . '/../data/games.json');
         $matches = json_decode($json,true);
         
         $count = 0;
