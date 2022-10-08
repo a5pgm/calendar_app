@@ -11,8 +11,8 @@ import jaLocale from '@fullcalendar/core/locales/ja';
 const Calendar = (props) => {
     
     const { games } = props;
-    const { teams } = props;
     console.log(props);
+    
 
     return (
         <Authenticated auth={props.auth} header={
@@ -23,11 +23,14 @@ const Calendar = (props) => {
             
             <div className="p-12">
                 <h1>Calendar</h1>
-                
-                { games.map((game) =>(
-                    game.match_day == 7 && game.home_team.name == "Real Madrid CF" &&
-                    <p>{ game.home_team.name } vs { game.away_team.name }</p>
-                )) }
+                    {/*{ 
+                        games.map((game) =>(
+                            game.match_day == 7 && game.home_team.name == "Real Madrid CF" &&
+                                <p>{ game.home_team.name } vs { game.away_team.name }</p>
+                        )) 
+                    
+                    }*/}
+                    {games[1].title}
                 <div>
                     <div>
                       <FullCalendar 
@@ -38,11 +41,10 @@ const Calendar = (props) => {
                       center: 'title',
                       right: 'dayGridMonth,timeGridWeek listWeek',
                       }}
-                      events={[
-                         {title:'eventを', start: '2022-09-14'},
-                         {title:'こんな感じで追加できます', start: '2022-09-15', end: '2022-09-17'},
-                         {title:"match",start:"2022-09-13T15:00:00Z"}
-                      ]}
+                      events = { games }
+                      eventClick ={eventClick}
+                      
+
                       />
                     </div>
                 </div>
@@ -50,7 +52,31 @@ const Calendar = (props) => {
             
         </Authenticated>
         );
+
 }
 
 export default Calendar;
 
+function eventClick(info,props) {
+    // const { matches } = props;
+    
+    // alert({games});
+    // alert('Event: ' + games[info.event.id].match_day);
+    // let matchday;
+    // for(let step = 0;step <= games.length;step++) {
+    //     if(games[step].id == info.event.id){
+    //         matchday = games[step].match_day;
+    //     }
+    // }
+    
+    // alert('Event: ' + "a");
+    // window.open(info.event.id,'_blank');
+
+    document.link.href = info.event.id;
+}
+
+
+// const eventClick = (props,info) => {
+//     const { games } = props;
+//     alert('Event: ' + info.event.id);
+// }
