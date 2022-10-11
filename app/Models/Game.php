@@ -22,4 +22,8 @@ class Game extends Model
         return $this ->belongsTo(Season::class);
     }
     
+    public function score() {
+        return $this -> belongsTo(Score::class);
+    }
+    
 }

@@ -6,6 +6,7 @@ use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use App\Models\Team;
 use App\Models\Game;
+use App\Models\Score;
 
 class TableSeeder extends Seeder
 {
@@ -21,22 +22,15 @@ class TableSeeder extends Seeder
             [
                 "id" => 2224,
                 "name" => "Primera Division",
-                'created_at' => date('Y-m-d H:i:s'),
-                'updated_at' => date('Y-m-d H:i:s'),
-                'deleted_at' => null,
             ]]);
         \DB::table('seasons')->insert([
             [
                 "id" => 1504,
                 "year" => "22/23",
-                'created_at' => date('Y-m-d H:i:s'),
-                'updated_at' => date('Y-m-d H:i:s'),
             ],
             [
                 "id" => 380,
                 "year" => "21/22",
-                'created_at' => date('Y-m-d H:i:s'),
-                'updated_at' => date('Y-m-d H:i:s'),  
             ]
             ]);
         $this->command->info("チームの作成を開始");
@@ -66,6 +60,20 @@ class TableSeeder extends Seeder
         }
         
         $this->command->info("試合を{$count}件、作成しました。");
+        
+        $this->command->info("スコアの作成を開始");
+        $json = file_get_contents(__DIR__ . '/../data/scores.json');
+        $scores = json_decode($json,true);
+        
+        $count = 0;
+        foreach($scores as $score) {
+            Score::create($score);
+            
+            $count++;
+        }
+        
+        $this->command->info("スコアを{$count}件、作成しました。");
+        
         
     }
 }

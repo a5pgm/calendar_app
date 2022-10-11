@@ -5,7 +5,7 @@ import Authenticated from "@/Layouts/AuthenticatedLayout";
 
 const showGame = (props) => {
     
-    const { game } = props;
+    const { game,score } = props;
     console.log(props);
     
     return (
@@ -19,7 +19,10 @@ const showGame = (props) => {
                 <h1>show</h1>
                     
                 <div>
-                    <p> {game.status}  </p>
+                    <p> {game.home_team.tla} vs {game.away_team.tla}  </p>
+                    <p> {game.season.year} </p>
+                    <p> {score.winner} </p>
+                    
                     {/*{ 
                         games.map((game) =>(
                             game.match_day == 7 && game.home_team.name == "Real Madrid CF" &&

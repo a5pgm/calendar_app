@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Inertia\Inertia;
 use App\Models\Game;
 use App\Models\Team;
+use App\Models\Score;
 
 
 class GameController extends Controller
@@ -14,7 +15,7 @@ class GameController extends Controller
     
     public function getGame(Game $game, Team $team) {
         
-        $games = Game::with("home_team","away_team","season")->get();
+        $games = Game::with("home_team","away_team","season",'score')->get();
 
         $schedules_list = [];
         foreach($games as $game)
@@ -40,8 +41,9 @@ class GameController extends Controller
         
     }
     
-    public function showGame(Game $game) {
-        return Inertia::render('showGame',["game" => $game->load('home_team','away_team','season') ]);
+    public function showGame(Game $game, Score $score) {
+        $score = Score::find($game["id"]);
+        return Inertia::render('showGame',["game" => $game->load('home_team','away_team','season'),"score"=> $score ]);
         // return Inertia::render('showGame',["game" => $game->load('season') ]);
         // return Inertia::render('showGame');
         // return redirect('/');
