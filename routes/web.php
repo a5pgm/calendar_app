@@ -18,6 +18,8 @@ use App\Http\Controllers\GameController;
 
 Route::group(['middlleware' => ['auth']], function() {
     Route::get("/",[GameController::class,"getGame"]);
+    Route::get("/show/{game}",[GameController::class,"showGame"]);
+    
 });
 
 

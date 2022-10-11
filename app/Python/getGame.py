@@ -34,26 +34,21 @@ for n in range(count):
     awayteam_id = matches[n]["awayTeam"]["id"]
     season_id   = matches[n]["season"]["id"]
     
-    for data in (data_set):
-        if(data["id"] == id ):
-            flg = 1
+    data_set.append({"id"         : id ,        "status"      : status,
+                    "utc_date"    :utc_date,    "match_day"    : matchday,
+                    "home_team_id" :hometeam_id, "away_team_id" : awayteam_id,
+                    "season_id" :season_id
+    })
 
-    if(flg == 0):
-        data_set.append({"id"         : id ,        "status"      : status,
-                        "utc_date"    :utc_date,    "match_day"    : matchday,
-                        "home_team_id" :hometeam_id, "away_team_id" : awayteam_id,
-                        "season_id" :season_id
-        })
-        # print(id);
 
         
         
 # # ここからがjson形式で書き出す文
-with open('../../database/data/games.json','w') as f:
+with open('database/data/games.json','w') as f:
     json.dump(data_set,f,ensure_ascii=False,indent = 4)
         
 # for data in data_set:
-#     print("{}".format(json.dumps(data_set[1],indent=4)))
+#     print("{}".format(json.dumps(data,indent=4)))
     
     
 
