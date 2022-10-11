@@ -39,4 +39,13 @@ class GameController extends Controller
         return Inertia::render('Calendar',["games" => $schedules_list, "matches" => $games]);
         
     }
+    
+    public function showGame(Game $game) {
+        return Inertia::render('showGame',["game" => $game->load('home_team','away_team','season') ]);
+        // return Inertia::render('showGame',["game" => $game->load('season') ]);
+        // return Inertia::render('showGame');
+        // return redirect('/');
+    }
+    
+    
 }
