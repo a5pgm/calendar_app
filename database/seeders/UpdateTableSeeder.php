@@ -5,8 +5,9 @@ namespace Database\Seeders;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 use App\Models\Game;
+use App\Models\Score;
 
-class TableUpdateSeeder extends Seeder
+class UpdateTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -45,5 +46,36 @@ class TableUpdateSeeder extends Seeder
         }
         
         $this->command->info("試合を{$count}件、更新しました。");
+        
+        
+        $this->command->info("スコアの更新を開始");
+        
+        $pythonPath = "app/Python/";
+        $command = "/usr/bin/python3 " . $pythonPath . "getScore.py";
+        // $command = "pwd";
+        exec($command , $outputs);
+
+        
+        
+        $json = file_get_contents(__DIR__ . '/../data/scores.json');
+        $scores = json_decode($json,true);
+        
+        $count = 0;
+        foreach($scores as $score) {
+            $m = Score::find($score["id"]);
+            
+            $m->winner = $score["winner"];
+            $m->full_home = $score["full_home"];
+            $m->full_away = $score["full_away"];
+            $m->half_home = $score["half_home"];
+            $m->half_away = $score["half_away"];
+            
+            $m -> save();
+            $count++;
+        }
+        
+        $this->command->info("スコアを{$count}件、更新しました。");
+        
+        
     }
 }

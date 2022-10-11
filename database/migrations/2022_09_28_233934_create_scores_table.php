@@ -16,11 +16,11 @@ return new class extends Migration
         Schema::create('scores', function (Blueprint $table) {
             $table->id();
             $table->foreignId('game_id')->constrained('games');
-            $table->string('winner');
-            $table->integer('full_home');
-            $table->integer('full_away');
-            $table->integer('half_home');
-            $table->integer('half_away');
+            $table->string('winner')->nullable(true);
+            $table->integer('full_home')->nullable(true);
+            $table->integer('full_away')->nullable(true);
+            $table->integer('half_home')->nullable(true);
+            $table->integer('half_away')->nullable(true);
             $table->timestamps();
             $table->softDeletes();
         });
