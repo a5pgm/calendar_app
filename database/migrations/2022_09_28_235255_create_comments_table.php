@@ -18,6 +18,7 @@ return new class extends Migration
             $table->text('body');
             $table->foreignId('user_id')->constrained('users');
             $table->foreignId('game_id')->constrained('games');
+            $table->integer('open');
             $table->integer('evaluation');
             $table->timestamps();
             $table->softDeletes();
