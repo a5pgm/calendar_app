@@ -8,6 +8,7 @@ use App\Models\Game;
 use App\Models\Team;
 use App\Models\Score;
 use App\Models\Comment;
+use App\Http\Requests\CommentRequest;
 
 
 class GameController extends Controller
@@ -45,13 +46,13 @@ class GameController extends Controller
     public function showGame(Game $game, Score $score,Comment $comment) {
         $score = Score::find($game["id"]);
         $comment = $comment->where('game_id',$game->id)->get();
-        return Inertia::render('showGame',["game" => $game->load('home_team','away_team','season'),"score"=> $score,"comments" => $comment]);
+        return Inertia::render('showGame',["game" => $game->load('home_team','away_team','season'),"score"=> $score,"comments" => $comment->load('game','user')]);
         // return Inertia::render('showGame',["game" => $game->load('season') ]);
         // return Inertia::render('showGame');
         // return redirect('/');
     }
     
-    public function storeComment(Request $request, Comment $comment){
+    public function storeComment(CommentRequest $request, Comment $comment){
         $input = $request->all();
         $comment -> fill($input)->save();
         return redirect("/show/" . $comment->game_id);
