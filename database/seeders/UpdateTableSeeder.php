@@ -19,13 +19,13 @@ class UpdateTableSeeder extends Seeder
         $this->command->info("試合の更新を開始");
         
         $pythonPath = "app/Python/";
-        $command = "/usr/bin/python3 " . $pythonPath . "getGame.py";
+        $command = "/usr/bin/python3 " . $pythonPath . "updateGame.py";
         // $command = "pwd";
         exec($command , $outputs);
 
         
         
-        $json = file_get_contents(__DIR__ . '/../data/games.json');
+        $json = file_get_contents(__DIR__ . '/../data/update_games.json');
         $matches = json_decode($json,true);
         
         $count = 0;
@@ -39,7 +39,7 @@ class UpdateTableSeeder extends Seeder
             $m->away_team_id = $match["away_team_id"];
             $m->season_id = $match["season_id"];
             // $m->created_at = $match["created_at"];
-            $m->updated_at = date('Y-m-d H:i:s');
+            // $m->updated_at = date('Y-m-d H:i:s');
             
             $m -> save();
             $count++;
@@ -51,13 +51,13 @@ class UpdateTableSeeder extends Seeder
         $this->command->info("スコアの更新を開始");
         
         $pythonPath = "app/Python/";
-        $command = "/usr/bin/python3 " . $pythonPath . "getScore.py";
+        $command = "/usr/bin/python3 " . $pythonPath . "updateScore.py";
         // $command = "pwd";
         exec($command , $outputs);
 
         
         
-        $json = file_get_contents(__DIR__ . '/../data/scores.json');
+        $json = file_get_contents(__DIR__ . '/../data/update_scores.json');
         $scores = json_decode($json,true);
         
         $count = 0;

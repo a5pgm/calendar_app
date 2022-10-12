@@ -26,4 +26,8 @@ class Game extends Model
         return $this -> belongsTo(Score::class);
     }
     
+    public function comments() {
+        return $this -> hasMany(Comment::class);
+    }
+    
 }

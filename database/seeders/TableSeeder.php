@@ -34,6 +34,10 @@ class TableSeeder extends Seeder
             ]
             ]);
         $this->command->info("チームの作成を開始");
+        $pythonPath = "app/Python/";
+        $command = "/usr/bin/python3 " . $pythonPath . "getGame.py";
+        // $command = "pwd";
+        exec($command , $outputs);
         
         $json = file_get_contents(__DIR__ . '/../data/teams.json');
         $teams = json_decode($json,true);
@@ -62,6 +66,12 @@ class TableSeeder extends Seeder
         $this->command->info("試合を{$count}件、作成しました。");
         
         $this->command->info("スコアの作成を開始");
+        
+        $pythonPath = "app/Python/";
+        $command = "/usr/bin/python3 " . $pythonPath . "getScore.py";
+        // $command = "pwd";
+        exec($command , $outputs);
+        
         $json = file_get_contents(__DIR__ . '/../data/scores.json');
         $scores = json_decode($json,true);
         
