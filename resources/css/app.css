@@ -55,3 +55,24 @@ button{
   background: #fff;
   border-radius: 0.5rem;
 }
+
+@media all and (min-width: 500px) {
+  .wrapper {
+    display: flex;
+  }
+}
+
+.showScore{
+  background-color: white;
+  width: 20%;
+  position: fixed;
+  right: 0;
+}
+
+.showComment{
+  position: absolute;
+  background-color: black;
+  color: white;
+  overflow: auto;
+  width: 80%;
+}
