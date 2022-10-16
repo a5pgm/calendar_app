@@ -36,9 +36,5 @@
         "react-model": "^4.2.1",
         "react-split": "^2.0.14"
     },
-    "engines": {
-        "node": "15.x",
-        "npm": "7.x"
-    },
     
 }
