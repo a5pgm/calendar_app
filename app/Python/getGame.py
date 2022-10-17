@@ -23,8 +23,10 @@ for n in range(count):
     id = matches[n]["id"]
     status = matches[n]["status"]
     utc_date = matches[n]["utcDate"] #データの取得
-    utc_date = str(pd.Timestamp(utc_date, tz="Asia/Tokyo")) #日本時間に直す
-    utc_date = utc_date.replace(utc_date[19:26],"") #+以降を削除
+    utc_date = utc_date.replace("T"," ");
+    utc_date = utc_date.replace("Z","");
+    # utc_date = str(pd.Timestamp(utc_date, tz="Asia/Tokyo")) #日本時間に直す
+    # utc_date = utc_date.replace(utc_date[19:26],"") #+以降を削除
     matchday = matches[n]["matchday"]
     hometeam_id = matches[n]["homeTeam"]["id"]
     awayteam_id = matches[n]["awayTeam"]["id"]
@@ -47,8 +49,10 @@ for n in range(count):
     id = matches[n]["id"]
     status = matches[n]["status"]
     utc_date = matches[n]["utcDate"] #データの取得
-    utc_date = str(pd.Timestamp(utc_date, tz="Asia/Tokyo")) #日本時間に直す
-    utc_date = utc_date.replace(utc_date[19:26],"") #+以降を削除
+    utc_date = utc_date.replace("T"," ");
+    utc_date = utc_date.replace("Z","");
+    # utc_date = str(pd.Timestamp(utc_date, tz="Asia/Tokyo")) #日本時間に直す
+    # utc_date = utc_date.replace(utc_date[19:26],"") #+以降を削除
     matchday = matches[n]["matchday"]
     hometeam_id = matches[n]["homeTeam"]["id"]
     awayteam_id = matches[n]["awayTeam"]["id"]
