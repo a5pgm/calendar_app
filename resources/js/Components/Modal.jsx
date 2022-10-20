@@ -10,10 +10,12 @@ const style = {
   top: '50%',
   left: '50%',
   transform: 'translate(-50%, -50%)',
-  width: 400,
-  bgcolor: 'background.paper',
-  border: '2px solid #000',
-  boxShadow: 24,
+  width: 600,
+  // height: 600,
+  bgcolor: '#262626',
+  color: '#F2F2F2',
+  border: '4px solid #262626',
+  boxShadow: 30,
   p: 4,
 };
 
@@ -42,32 +44,38 @@ const Modal1 = (props) => {
                 >
 
                 <Box sx ={style}>
-                <table border = "1">
-                <tr>
-                  <th>  </th>
-                  <th>ホーム</th>
-                  <th> </th>
-                  <th>アウェイ</th>
-                </tr>
-                <tr>
-                  <th>  </th>
-                  <th> {clickedMatch.home_team.name} </th>
-                  <th> </th>
-                  <th> {clickedMatch.away_team.name} </th>
-                </tr>
-                <tr>
-                  <th>ハーフタイム</th>
-                  <th>{clickedScore.half_home}</th>
-                  <th> - </th>
-                  <th>{clickedScore.half_away}</th>
-                </tr>
-                <tr>
-                  <th>フルタイム</th>
-                  <th>{clickedScore.full_home}</th>
-                  <th> - </th>
-                  <th>{clickedScore.full_away}</th>
-                </tr>
-                  </table>
+                <table border = "2" class = 'scoreTable'>
+                  <tr>
+                    <th>第{clickedMatch.match_day}節</th>
+                    <th>ホーム</th>
+                    <th> </th>
+                    <th>アウェイ</th>
+                  </tr>
+                  <tr>
+                    <th>  </th>
+                    <th> {clickedMatch.home_team.name} </th>
+                    <th> </th>
+                    <th> {clickedMatch.away_team.name} </th>
+                  </tr>
+                  <tr>
+                    <th>前半</th>
+                    <th>{clickedScore.half_home}</th>
+                    <th>  -  </th>
+                    <th>{clickedScore.half_away}</th>
+                  </tr>
+                  <tr>
+                    <th>後半</th>
+                    <th>{clickedScore.full_home - clickedScore.half_home}</th>
+                    <th>  -  </th>
+                    <th>{clickedScore.full_away - clickedScore.half_away}</th>
+                  </tr>
+                  <tr>
+                    <th>試合終了</th>
+                    <th>{ clickedScore.full_home }</th>
+                    <th>  -  </th>
+                    <th>{ clickedScore.full_away }</th>
+                  </tr>
+                </table>
                 <a href ={`show/${props.clickedEventId}`} target={`_blank`} rel={`noopener noreferrer`}>感想を書き込む</a>
                 </Box>
                 </Modal>

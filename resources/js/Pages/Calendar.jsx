@@ -24,22 +24,6 @@ const Calendar = (props) => {
         <Authenticated auth={props.auth}
             /*header={ <h2 className="font-semibold text-xl text-gray-800 leading-tight"> Calendar </h2>}*/ >
         <div className = 'bg-default-white text-default-black'>
-                <h1>Calendar</h1>
-                <div class = 'default-white'>
-                <p>default-white</p>
-                </div>
-                <div class = "default-black">
-                default-black
-                </div>
-                <div class = "light-green">
-                light-green
-                </div>
-                <div class = "default-green">
-                default-green
-                </div>
-                <div class = "dark-green">
-                dark-green
-                </div>
                     {/*{ 
                         games.map((game) =>(
                             game.match_day == 7 && game.home_team.name == "Real Madrid CF" &&
@@ -48,19 +32,26 @@ const Calendar = (props) => {
                     
                     eventClick ={eventClick}
                     }*/}
-                <div>
+                <div class = 'calendarTable'>
                       <FullCalendar 
                       plugins={[dayGridPlugin,timeGridPlugin, listPlugin]} initialView="dayGridMonth"
                       locales={[jaLocale]} locale='ja'
                       headerToolbar={{
-                      left: 'prev,next today',
-                      center: 'title',
-                      right: 'dayGridMonth,timeGridWeek listWeek',
+                      left: 'prevYear,prev',
+                      center: 'title,today',
+                    //   right: 'dayGridMonth,timeGridWeek listWeek',
+                      right: 'next,nextYear'
                       }}
-                      themaStyle = 'bootstrap5'
+                      buttonText = {{
+                        prevYear: '1年前',
+                        nextYear: '1年後',
+                        prev: '先月',
+                        next: '次月'
+                      }}
+                      eventDisplay = 'list-item'
+                    //   aspectRatio = '2.50'
                       events = { games }
                       eventClick = { clickInfo => { setClickedEventId(clickInfo.event.id), setShow(true)} }
-                      className = "bg-default-green"
                       />
                       <Modal show={show} setShow={setShow} matches={matches} clickedEventId = {clickedEventId} scores = {scores}/>
                 </div>

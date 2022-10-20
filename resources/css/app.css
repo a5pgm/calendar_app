@@ -54,3 +54,33 @@ button{
 .dark-green{ 
   color: #487367;
 }
+
+/*table {*/
+/*  background-color: #45BF9D;*/
+/*  color: #F2F2F2;*/
+/*  border: solid 2px black;*/
+/*  border-collapse: collapse;*/
+/*}*/
+/*table th, table td {*/
+/*    border: solid 2px black;*/
+/*}*/
+
+.scoreTable {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin:auto;
+  width: 80%;
+  background-color: #45BF9D;
+}
+
+table.scoreTable th{
+    
+}
+
+.calendarTable {
+  background-color: #F2F2F2;
+  color: #45BF9D;
+}
