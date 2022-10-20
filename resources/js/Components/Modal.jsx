@@ -21,8 +21,17 @@ const Modal1 = (props) => {
     
   const handleShow = () => props.setShow(true);
   const handleClose = () => props.setShow(false);
-  const {matches } = props;
+  const {matches,scores } = props;
+  var clickedMatch;
+  var clickedScore;
     if (props.show){
+      for(let i = 0; i < matches.length; i++){
+        if(props.clickedEventId == matches[i].id){
+          clickedMatch = matches[i];
+          clickedScore = scores[i];
+          console.log(clickedMatch);
+        }
+      }
         console.log("four",props.clickedEventId);
         return (
                 <Modal
@@ -31,11 +40,35 @@ const Modal1 = (props) => {
                   aria-labelledby="modal-modal-title"
                   aria-describedby="modal-modal-description"
                 >
+
                 <Box sx ={style}>
-                    <p>これがモーダルウィンドウです。</p>
-                    <p>{ matches[1].home_team_id } </p>
-                    {props.clickedEventId}
-                    <a href ={`show/${props.clickedEventId}`} target={`_blank`} rel={`noopener noreferrer`}>詳しく見る</a>
+                <table border = "1">
+                <tr>
+                  <th>  </th>
+                  <th>ホーム</th>
+                  <th> </th>
+                  <th>アウェイ</th>
+                </tr>
+                <tr>
+                  <th>  </th>
+                  <th> {clickedMatch.home_team.name} </th>
+                  <th> </th>
+                  <th> {clickedMatch.away_team.name} </th>
+                </tr>
+                <tr>
+                  <th>ハーフタイム</th>
+                  <th>{clickedScore.half_home}</th>
+                  <th> - </th>
+                  <th>{clickedScore.half_away}</th>
+                </tr>
+                <tr>
+                  <th>フルタイム</th>
+                  <th>{clickedScore.full_home}</th>
+                  <th> - </th>
+                  <th>{clickedScore.full_away}</th>
+                </tr>
+                  </table>
+                <a href ={`show/${props.clickedEventId}`} target={`_blank`} rel={`noopener noreferrer`}>感想を書き込む</a>
                 </Box>
                 </Modal>
 

@@ -31,14 +31,15 @@ export default function Login({ status, canResetPassword }) {
     };
 
     return (
+
         <GuestLayout>
             <Head title="Log in" />
 
-            {status && <div className="mb-4 font-medium text-sm text-green-600">{status}</div>}
+            {status && <div className="mb-4 font-medium text-sm text-red-600">{status}</div>}
 
             <form onSubmit={submit}>
                 <div>
-                    <InputLabel forInput="email" value="Email" />
+                    <InputLabel forInput="email" value="Email" className = "text-default-white"/>
 
                     <TextInput
                         type="text"
@@ -54,7 +55,7 @@ export default function Login({ status, canResetPassword }) {
                 </div>
 
                 <div className="mt-4">
-                    <InputLabel forInput="password" value="Password" />
+                    <InputLabel forInput="password" value="Password" className = "text-default-white"/>
 
                     <TextInput
                         type="password"
@@ -72,7 +73,7 @@ export default function Login({ status, canResetPassword }) {
                     <label className="flex items-center">
                         <Checkbox name="remember" value={data.remember} handleChange={onHandleChange} />
 
-                        <span className="ml-2 text-sm text-gray-600">Remember me</span>
+                        <span className="ml-2 text-sm text-default-white">Remember me</span>
                     </label>
                 </div>
 
@@ -80,17 +81,18 @@ export default function Login({ status, canResetPassword }) {
                     {canResetPassword && (
                         <Link
                             href={route('password.request')}
-                            className="underline text-sm text-gray-600 hover:text-gray-900"
+                            className="underline text-sm text-default-white hover:text-gray-900"
                         >
                             Forgot your password?
                         </Link>
                     )}
 
-                    <PrimaryButton className="ml-4" processing={processing}>
+                    <PrimaryButton className="ml-4 bg-default-black text-default-white" processing={processing}>
                         Log in
                     </PrimaryButton>
                 </div>
             </form>
         </GuestLayout>
+
     );
 }

@@ -722,155 +722,155 @@
     {
         "id": 419207,
         "game_id": 419207,
-        "winner": null,
-        "full_home": null,
-        "full_away": null,
-        "half_home": null,
-        "half_away": null
+        "winner": "DRAW",
+        "full_home": 0,
+        "full_away": 0,
+        "half_home": 0,
+        "half_away": 0
     },
     {
         "id": 419206,
         "game_id": 419206,
-        "winner": null,
-        "full_home": null,
-        "full_away": null,
-        "half_home": null,
-        "half_away": null
+        "winner": "DRAW",
+        "full_home": 1,
+        "full_away": 1,
+        "half_home": 0,
+        "half_away": 0
     },
     {
         "id": 419208,
         "game_id": 419208,
-        "winner": null,
-        "full_home": null,
-        "full_away": null,
-        "half_home": null,
-        "half_away": null
+        "winner": "DRAW",
+        "full_home": 2,
+        "full_away": 2,
+        "half_home": 2,
+        "half_away": 1
     },
     {
         "id": 419211,
         "game_id": 419211,
-        "winner": null,
-        "full_home": null,
-        "full_away": null,
-        "half_home": null,
-        "half_away": null
+        "winner": "AWAY_TEAM",
+        "full_home": 0,
+        "full_away": 1,
+        "half_home": 0,
+        "half_away": 0
     },
     {
         "id": 419213,
         "game_id": 419213,
-        "winner": null,
-        "full_home": null,
-        "full_away": null,
-        "half_home": null,
-        "half_away": null
+        "winner": "AWAY_TEAM",
+        "full_home": 0,
+        "full_away": 1,
+        "half_home": 0,
+        "half_away": 0
     },
     {
         "id": 419212,
         "game_id": 419212,
-        "winner": null,
-        "full_home": null,
-        "full_away": null,
-        "half_home": null,
-        "half_away": null
+        "winner": "AWAY_TEAM",
+        "full_home": 1,
+        "full_away": 2,
+        "half_home": 1,
+        "half_away": 1
     },
     {
         "id": 419209,
         "game_id": 419209,
-        "winner": null,
-        "full_home": null,
-        "full_away": null,
-        "half_home": null,
-        "half_away": null
+        "winner": "HOME_TEAM",
+        "full_home": 3,
+        "full_away": 1,
+        "half_home": 2,
+        "half_away": 0
     },
     {
         "id": 419210,
         "game_id": 419210,
-        "winner": null,
-        "full_home": null,
-        "full_away": null,
-        "half_home": null,
-        "half_away": null
+        "winner": "HOME_TEAM",
+        "full_home": 1,
+        "full_away": 0,
+        "half_home": 0,
+        "half_away": 0
     },
     {
         "id": 419204,
         "game_id": 419204,
-        "winner": null,
-        "full_home": null,
-        "full_away": null,
-        "half_home": null,
-        "half_away": null
+        "winner": "HOME_TEAM",
+        "full_home": 3,
+        "full_away": 1,
+        "half_home": 1,
+        "half_away": 0
     },
     {
         "id": 419205,
         "game_id": 419205,
-        "winner": null,
-        "full_home": null,
-        "full_away": null,
-        "half_home": null,
-        "half_away": null
+        "winner": "HOME_TEAM",
+        "full_home": 2,
+        "full_away": 0,
+        "half_home": 1,
+        "half_away": 0
     },
     {
         "id": 419200,
         "game_id": 419200,
-        "winner": null,
-        "full_home": null,
-        "full_away": null,
-        "half_home": null,
-        "half_away": null
+        "winner": "DRAW",
+        "full_home": 1,
+        "full_away": 1,
+        "half_home": 0,
+        "half_away": 1
     },
     {
         "id": 419198,
         "game_id": 419198,
-        "winner": null,
-        "full_home": null,
-        "full_away": null,
-        "half_home": null,
-        "half_away": null
+        "winner": "DRAW",
+        "full_home": 2,
+        "full_away": 2,
+        "half_home": 1,
+        "half_away": 1
     },
     {
         "id": 419203,
         "game_id": 419203,
-        "winner": null,
-        "full_home": null,
-        "full_away": null,
-        "half_home": null,
-        "half_away": null
+        "winner": "DRAW",
+        "full_home": 1,
+        "full_away": 1,
+        "half_home": 1,
+        "half_away": 0
     },
     {
         "id": 419196,
         "game_id": 419196,
-        "winner": null,
-        "full_home": null,
-        "full_away": null,
-        "half_home": null,
-        "half_away": null
+        "winner": "HOME_TEAM",
+        "full_home": 4,
+        "full_away": 1,
+        "half_home": 1,
+        "half_away": 1
     },
     {
         "id": 419197,
         "game_id": 419197,
-        "winner": null,
-        "full_home": null,
-        "full_away": null,
-        "half_home": null,
-        "half_away": null
+        "winner": "DRAW",
+        "full_home": 0,
+        "full_away": 0,
+        "half_home": 0,
+        "half_away": 0
     },
     {
         "id": 419195,
         "game_id": 419195,
-        "winner": null,
-        "full_home": null,
-        "full_away": null,
-        "half_home": null,
-        "half_away": null
+        "winner": "HOME_TEAM",
+        "full_home": 1,
+        "full_away": 0,
+        "half_home": 1,
+        "half_away": 0
     },
     {
         "id": 419201,
         "game_id": 419201,
-        "winner": null,
-        "full_home": null,
-        "full_away": null,
-        "half_home": null,
-        "half_away": null
+        "winner": "AWAY_TEAM",
+        "full_home": 0,
+        "full_away": 3,
+        "half_home": 0,
+        "half_away": 1
     },
     {
         "id": 419199,
