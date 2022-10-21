@@ -8,6 +8,7 @@ const showGame = (props) => {
 
     const { game,score,comments } = props;
     const {data, setData, post} = useForm({
+        id: "",
         title: "",
         body: "",
         user_id: props.auth.user.id,
@@ -38,7 +39,8 @@ const showGame = (props) => {
                                     <h2>title:{comment.title}</h2>
                                     <h3>body:{comment.body}</h3>
                                     <p>evaluation:{comment.evaluation}</p>
-                                    <p> </p>
+                                    <a href ={`show/comment/${comment.id}`} target={`_blank`} rel={`noopener noreferrer`} className = "px-5 py-2 border-2 border-black hover:text-white hover:bg-black duration-200 active:scale-95">
+                                    このコメントの詳細を見る</a>
                                     <p> </p>
                                 </div>
     

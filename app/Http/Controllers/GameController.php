@@ -64,8 +64,8 @@ class GameController extends Controller
         
     }
     
-    public function showComment() {
-        
+    public function showComment(Comment $comment) {
+        return Inertisa::render('showComment', ['comment' => $comment]);
     }
     
     
