@@ -19,7 +19,7 @@ module.exports = {
                 'default-black': "#262626",
                 'light-green': "#4ED9A6",
                 'default-green': "#45BF9D", 
-                'dark-green': "#F29BC4",
+                'dark-green': "#487367",
 
             },
         },
