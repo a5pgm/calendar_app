@@ -57,7 +57,7 @@ const Calendar = (props) => {
                       }
                       contentHeight="75vh"
                     //   aspectRatio = '2.50'
-                      dayMaxEvents={1}
+                    //   dayMaxEvents={3}
                       events = { games }
                       eventClick = { clickInfo => { setClickedEventId(clickInfo.event.id), setShow(true)} }
                     //   eventClassNames = 'text-default-green'

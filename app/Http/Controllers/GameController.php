@@ -59,13 +59,13 @@ class GameController extends Controller
     public function storeComment(CommentRequest $request, Comment $comment){
         $input = $request->all();
         $comment -> fill($input)->save();
-        return redirect("/show/" . $comment->game_id);
+        return redirect("/show/game/" . $comment->game_id);
         // return redirect ("/");
         
     }
     
     public function showComment(Comment $comment) {
-        return Inertisa::render('showComment', ['comment' => $comment]);
+        return Inertia::render('showComment', ['comment' => $comment -> load('game','user')]);
     }
     
     

@@ -19,7 +19,7 @@ use App\Http\Controllers\GameController;
 Route::group(['middleware' => ['auth']], function() {
     Route::get("/",[GameController::class,"getGame"])->name("games.index");
     Route::get("/show/game/{game}",[GameController::class,"showGame"]);
-    Route::get("/show/comment{comment}",[GameController::class,"showComment"]);
+    Route::get("/show/comment/{comment}",[GameController::class,"showComment"]);
     Route::post("/comments",[GameController::class,"storeComment"]);
     Route::get("/create/{game}",[GameController::class,"createComment"]);
     // Route::get('/setting', function () {

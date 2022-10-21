@@ -25,8 +25,7 @@ const showGame = (props) => {
 
     return (
         <Authenticated auth={props.auth} >
-        <h1>show</h1>
-            <div className = "flex gap-2 ">
+            <div className = "flex gap-2 bg-default-white">
             { /* <div class="wrapper"> */}
                 {/*<div class = "showScore"> */}
                 
@@ -34,13 +33,18 @@ const showGame = (props) => {
                 <div  className = "w-3/4" >
                     { comments.map((comment) =>(
                              comment.open == 0 &&
-                                <div className = "bg-gray-200 m-4 p-5 rounded " >
-                                    <h1>user:{comment.user.name}</h1>
-                                    <h2>title:{comment.title}</h2>
-                                    <h3>body:{comment.body}</h3>
+                                <div className = "bg-default-green m-4 p-5 rounded text-default-white border-black" >
+                                    <div>
+                                        <p>
+                                            <h1>{comment.user.name}</h1>
+                                            <h2>title:{comment.title}</h2> 
+                                        </p>
+                                    </div>
+
+                                    <h3 className = 'truncate' >body:{comment.body}</h3>
                                     <p>evaluation:{comment.evaluation}</p>
-                                    <a href ={`show/comment/${comment.id}`} target={`_blank`} rel={`noopener noreferrer`} className = "px-5 py-2 border-2 border-black hover:text-white hover:bg-black duration-200 active:scale-95">
-                                    このコメントの詳細を見る</a>
+                                    <a href ={`/show/comment/${comment.id}`} className = "px-5 py-2 border-2 border-black hover:text-white hover:bg-black duration-200 active:scale-95">
+                                    この感想の全文を見る</a>
                                     <p> </p>
                                 </div>
     
@@ -84,7 +88,7 @@ const showGame = (props) => {
                                     <span className="text-red-600">{props.errors.evaluation}</span>
                                 </div>
                                 <button type="submit" className="p-1 bg-red-300 hover:bg-green-400 rounded-md">send</button>
-                                <button class="px-5 py-2 text-white bg-green-400 border-b-4 border-green-600 font-bold hover:bg-opacity-90 hover:border-opacity-90 active:border-opacity-10 active:scale-95 rounded shadow-md">button</button>
+                                <button type = 'submit' class="px-5 py-2 text-white bg-green-400 border-b-4 border-green-600 font-bold hover:bg-opacity-90 hover:border-opacity-90 active:border-opacity-10 active:scale-95 rounded shadow-md">button</button>
 
                         </form>
                     </div>
