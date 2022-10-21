@@ -15,7 +15,11 @@ class GameController extends Controller
 {
     //
     
-    public function getGame(Game $game, Team $team) {
+    // public function __construct() {
+    //     $this->middleware('auth',['only' => ['storeComment']]);
+    // }
+    
+    public function getGame(Game $game, Team $team,Score $score) {
         
         $games = Game::with("home_team","away_team","season",'score')->get();
 
@@ -23,9 +27,9 @@ class GameController extends Controller
         foreach($games as $game)
         {
            $data = [
-                "color" => 'red',
-                "textColor" => 'green',
-                "backgroundColor" => 'yellow',
+                "color" => '#4ED9A6',
+                "textColor" => '#4ED9A6',
+                "backgroundColor" => '#262626',
                 // "display" => "background",
                 "id" => $game -> id,
                 "title" => ($game->home_team->tla. " vs ". $game->away_team->tla),
@@ -39,7 +43,7 @@ class GameController extends Controller
         // ];
         // array_push($schedules_list,$settings);
         // dd($schedules_list);
-        return Inertia::render('Calendar',["games" => $schedules_list, "matches" => $games]);
+        return Inertia::render('Calendar',["games" => $schedules_list, "matches" => $games,"scores" => $score->get()]);
         
     }
     
@@ -55,9 +59,13 @@ class GameController extends Controller
     public function storeComment(CommentRequest $request, Comment $comment){
         $input = $request->all();
         $comment -> fill($input)->save();
-        return redirect("/show/" . $comment->game_id);
+        return redirect("/show/game/" . $comment->game_id);
         // return redirect ("/");
         
+    }
+    
+    public function showComment(Comment $comment) {
+        return Inertia::render('showComment', ['comment' => $comment -> load('game','user')]);
     }
     
     

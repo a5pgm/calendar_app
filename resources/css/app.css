@@ -10,50 +10,13 @@ h2 {
 h3 {
   @apply text-lg;
 }
-a {
-  @apply text-blue-600 underline;
-}
+/*a {*/
+/*  @apply text-blue-600 underline;*/
+/*}*/
 
-#overlay{
-/*　画面全体を覆う設定　*/
-  position:fixed;
-  top:0;
-  left:10px;
-  width:100%;
-  height:50%;
-  background-color:rgba(0,0,0,0.5);
-
-  /*　画面の中央に要素を表示させる設定　*/
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-}
-
-#content{
-  z-index:2;
-  width:50%;
-  padding: 1em;
-  background:#fff;
-}
 
 button{
   color: red;
-}
-
-.popup-menu-container {
-  position: relative;
-}
-
-.popup-menu {
-  position: absolute;
-  z-index: 2;
-
-  width: 10rem;
-  margin-top: 0.5rem;
-  padding: 1rem;
-  background: #fff;
-  border-radius: 0.5rem;
 }
 
 @media all and (min-width: 500px) {
@@ -75,4 +38,74 @@ button{
   color: white;
   overflow: auto;
   width: 80%;
+}
+.default-white{
+ color: #F2F2F2;
+}
+.default-black{
+ color: #262626;
+}
+.light-green{
+ color: #4ED9A6;
+}
+.default-green{
+ color: #45BF9D;
+}
+.dark-green{ 
+  color: #487367;
+}
+
+/*table {*/
+/*  background-color: #45BF9D;*/
+/*  color: #F2F2F2;*/
+/*  border: solid 2px black;*/
+/*  border-collapse: collapse;*/
+/*}*/
+/*table th, table td {*/
+/*    border: solid 2px black;*/
+/*}*/
+
+.scoreTable {
+  /*position: absolute;*/
+  /*top: 0;*/
+  /*right: 0;*/
+  /*bottom: 0;*/
+  /*left: 0;*/
+  /*margin:auto;*/
+  /*top: 0%;*/
+  /*left: 0%;*/
+  margin-left: 10%;
+  width: 80%;
+  background-color: #45BF9D;
+}
+
+table.scoreTable th{
+    
+}
+
+.calendarTable {
+  background-color: #F2F2F2;
+  color: #45BF9D;
+}
+a {
+
+}
+a.calendarclass{
+  text-align: center;
+  color: #45BF9D;
+  text-decoration: none;
+}
+table.daycell td{
+  color: #45BF9D;
+  text-decoration: none;
+}
+a.ShowClass {
+  color: #F2F2F2;
+  background-color: #262626;
+  text-decoration: none;
+}
+a.ShowClass :hover{
+  color: #F2F2F2;
+  background-color: #487367;
+  text-decoration: none;
 }

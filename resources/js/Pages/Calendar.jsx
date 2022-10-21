@@ -13,21 +13,17 @@ const Calendar = (props) => {
 
     const [show, setShow] = useState(false);
     const [clickedEventId, setClickedEventId] = useState(0); 
-    const { games,matches } = props;
-    // console.log(props);
+    const { games,matches,scores } = props;
+    console.log(props);
     const eventClick = (props) => {
         window.open("show/" + props.event.id,"_blank");
         // window.location.href = "show/" + props.event.id;
     }
     return (
-        <Authenticated auth={props.auth} header={
-                <h2 className="font-semibold text-xl text-gray-800 leading-tight">
-                    Calendar
-                </h2>
-            }>
-            
-            <div className="p-12">
-                <h1>Calendar</h1>
+
+        <Authenticated auth={props.auth}
+            /*header={ <h2 className="font-semibold text-xl text-gray-800 leading-tight"> Calendar </h2>}*/ >
+        <div className = 'bg-default-white text-default-black'>
                     {/*{ 
                         games.map((game) =>(
                             game.match_day == 7 && game.home_team.name == "Real Madrid CF" &&
@@ -36,29 +32,45 @@ const Calendar = (props) => {
                     
                     eventClick ={eventClick}
                     }*/}
-                <div>
-                    <div>
+                <div className = 'px-10 pb-5'>
                       <FullCalendar 
                       plugins={[dayGridPlugin,timeGridPlugin, listPlugin]} initialView="dayGridMonth"
                       locales={[jaLocale]} locale='ja'
                       headerToolbar={{
-                      left: 'prev,next today',
-                      center: 'title',
-                      right: 'dayGridMonth,timeGridWeek listWeek',
+                      left: 'prevYear,prev',
+                      center: 'title,today',
+                    //   right: 'dayGridMonth,timeGridWeek listWeek',
+                      right: 'next,nextYear'
                       }}
+                      buttonText = {{
+                        prevYear: '1年前',
+                        nextYear: '1年後',
+                        prev: '先月',
+                        next: '次月'
+                      }}
+                      eventTimeFormat = {{
+                          hour: 'numeric',
+                          minute: '2-digit'
+                      }}
+                      eventDisplay = {
+                      'list-item'
+                      }
+                      contentHeight="75vh"
+                    //   aspectRatio = '2.50'
+                    //   dayMaxEvents={3}
                       events = { games }
-                      dayMaxEvents = {true}
-                    //   eventClick = {Modal => { setShow(true) } }
-                    eventClick = { clickInfo => { setClickedEventId(clickInfo.event.id), setShow(true)} }
-                    //   eventClick = {Modal}
-                    //   eventClick2 = {eventClick}
-                    // eventClick = { eventClick }
+                      eventClick = { clickInfo => { setClickedEventId(clickInfo.event.id), setShow(true)} }
+                    //   eventClassNames = 'text-default-green'
+                    //   dayCellClassNames = 'daycell'
+                      eventTextColor = "#262626"
+                      eventBackgroundColor = "black"
+                      eventBorderColor = "#889c9b"
+
                       />
-                      <Modal show={show} setShow={setShow} matches={matches} clickedEventId = {clickedEventId}/>
-                    </div>
+                      <Modal show={show} setShow={setShow} matches={matches} clickedEventId = {clickedEventId} scores = {scores}/>
                 </div>
-            </div>
             
+        </div>    
         </Authenticated>
         );
 

@@ -8,6 +8,7 @@ const showGame = (props) => {
 
     const { game,score,comments } = props;
     const {data, setData, post} = useForm({
+        id: "",
         title: "",
         body: "",
         user_id: props.auth.user.id,
@@ -24,9 +25,34 @@ const showGame = (props) => {
 
     return (
         <Authenticated auth={props.auth} >
-        <h1>show</h1>
-            <div class="wrapper">
-                <div class = "showScore">
+            <div className = "flex gap-2 bg-default-white">
+            { /* <div class="wrapper"> */}
+                {/*<div class = "showScore"> */}
+                
+                                {/*<div class = "showComment"> */}
+                <div  className = "w-3/4" >
+                    { comments.map((comment) =>(
+                             comment.open == 0 &&
+                                <div className = "bg-default-green m-4 p-5 rounded text-default-white border-black" >
+                                    <div>
+                                        <p>
+                                            <h1>{comment.user.name}</h1>
+                                            <h2>title:{comment.title}</h2> 
+                                        </p>
+                                    </div>
+
+                                    <h3 className = 'truncate' >body:{comment.body}</h3>
+                                    <p>evaluation:{comment.evaluation}</p>
+                                    <a href ={`/show/comment/${comment.id}`} className = "px-5 py-2 border-2 border-black hover:text-white hover:bg-black duration-200 active:scale-95">
+                                    この感想の全文を見る</a>
+                                    <p> </p>
+                                </div>
+    
+                        )) }
+
+                </div>
+                
+                <div className = "bg-gray-200 rounded shadow-xl p-5 w-1/4 ">
                     <div>
                         <ul>
                             <li><p> {game.home_team.tla} vs {game.away_team.tla}  </p></li>
@@ -50,7 +76,7 @@ const showGame = (props) => {
                                     <span className="text-red-600">{props.errors.body}</span>
                                 </div>
         
-                                <div >
+                                <div>
                                     <h2>公開しますか?</h2>
                                     <label><input type="radio" value={0} name="open?" onChange={e => setData("open", e.target.value)} checked={data.open==0}/>公開する</label>
                                     <label><input type="radio" value={1} name="open?" onChange={e => setData("open", e.target.value)} checked={data.open==1}/>公開しない</label>
@@ -62,24 +88,13 @@ const showGame = (props) => {
                                     <span className="text-red-600">{props.errors.evaluation}</span>
                                 </div>
                                 <button type="submit" className="p-1 bg-red-300 hover:bg-green-400 rounded-md">send</button>
+                                <button type = 'submit' class="px-5 py-2 text-white bg-green-400 border-b-4 border-green-600 font-bold hover:bg-opacity-90 hover:border-opacity-90 active:border-opacity-10 active:scale-95 rounded shadow-md">button</button>
+
                         </form>
                     </div>
                 </div>
-                <div class = "showComment">
-                    { comments.map((comment) =>(
-                             comment.open == 0 &&
-                                <div>
-                                    <h1>user:{comment.user.name}</h1>
-                                    <h2>title:{comment.title}</h2>
-                                    <h3>body:{comment.body}</h3>
-                                    <p>evaluation:{comment.evaluation}</p>
-                                    <p> </p>
-                                    <p> </p>
-                                </div>
-    
-                        )) }
+                
 
-                </div>
             </div>
         </Authenticated>
     );
