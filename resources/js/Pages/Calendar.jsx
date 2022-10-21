@@ -32,7 +32,7 @@ const Calendar = (props) => {
                     
                     eventClick ={eventClick}
                     }*/}
-                <div class = 'calendarTable'>
+                <div className = 'px-10 pb-5'>
                       <FullCalendar 
                       plugins={[dayGridPlugin,timeGridPlugin, listPlugin]} initialView="dayGridMonth"
                       locales={[jaLocale]} locale='ja'
@@ -48,10 +48,24 @@ const Calendar = (props) => {
                         prev: '先月',
                         next: '次月'
                       }}
-                      eventDisplay = 'list-item'
+                      eventTimeFormat = {{
+                          hour: 'numeric',
+                          minute: '2-digit'
+                      }}
+                      eventDisplay = {
+                      'list-item'
+                      }
+                      contentHeight="75vh"
                     //   aspectRatio = '2.50'
+                      dayMaxEvents={1}
                       events = { games }
                       eventClick = { clickInfo => { setClickedEventId(clickInfo.event.id), setShow(true)} }
+                    //   eventClassNames = 'text-default-green'
+                    //   dayCellClassNames = 'daycell'
+                      eventTextColor = "#262626"
+                      eventBackgroundColor = "black"
+                      eventBorderColor = "#889c9b"
+
                       />
                       <Modal show={show} setShow={setShow} matches={matches} clickedEventId = {clickedEventId} scores = {scores}/>
                 </div>

@@ -12,9 +12,9 @@ const style = {
   transform: 'translate(-50%, -50%)',
   width: 600,
   // height: 600,
-  bgcolor: '#262626',
+  bgcolor: '#F2F2F2',
   color: '#F2F2F2',
-  border: '4px solid #262626',
+  border: '2px solid #45BF9D',
   boxShadow: 30,
   p: 4,
 };
@@ -76,7 +76,9 @@ const Modal1 = (props) => {
                     <th>{ clickedScore.full_away }</th>
                   </tr>
                 </table>
-                <a href ={`show/${props.clickedEventId}`} target={`_blank`} rel={`noopener noreferrer`}>感想を書き込む</a>
+                <li>
+                  <a href ={`show/game/${props.clickedEventId}`} target={`_blank`} rel={`noopener noreferrer`} className = "px-5 py-2 border-2 border-black hover:text-white hover:bg-black duration-200 active:scale-95">感想を書き込む</a>
+                </li>
                 </Box>
                 </Modal>
 
@@ -88,14 +90,3 @@ const Modal1 = (props) => {
 }
 
 export default Modal1;
-
-                // <div id = "overlay">
-                //     <div id ="content">
-                //         <p>これがモーダルウィンドウです。</p>
-                //         <p>{ props.matches[1].home_team_id } </p>
-                //         <button onClick={() => props.setShow(false)}>close</button>
-                //         <Button onClick={handleOpen}>Open modal</Button>
-                // <div>{props.clikedEventId}</div>
-
-                //     </div>
-                // </div>
