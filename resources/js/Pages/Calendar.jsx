@@ -24,6 +24,8 @@ const Calendar = (props) => {
         <Authenticated auth={props.auth}
             /*header={ <h2 className="font-semibold text-xl text-gray-800 leading-tight"> Calendar </h2>}*/ >
         <div className = 'bg-default-white text-default-black'>
+        <a href ={`updateDate`} className = "px-5 py-2 border-2 border-black hover:text-white hover:bg-black duration-200 active:scale-95">
+                                  データのアップデート</a>
                     {/*{ 
                         games.map((game) =>(
                             game.match_day == 7 && game.home_team.name == "Real Madrid CF" &&
