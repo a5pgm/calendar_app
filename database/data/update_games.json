@@ -802,7 +802,7 @@
     },
     {
         "id": 419205,
-        "status": "SCHEDULED",
+        "status": "FINISHED",
         "utc_date": "2022-10-18 04:00:00",
         "match_day": 9,
         "home_team_id": 94,
@@ -811,7 +811,7 @@
     },
     {
         "id": 419200,
-        "status": "SCHEDULED",
+        "status": "FINISHED",
         "utc_date": "2022-10-19 02:00:00",
         "match_day": 10,
         "home_team_id": 559,
@@ -820,7 +820,7 @@
     },
     {
         "id": 419198,
-        "status": "SCHEDULED",
+        "status": "FINISHED",
         "utc_date": "2022-10-19 03:00:00",
         "match_day": 10,
         "home_team_id": 82,
@@ -829,7 +829,7 @@
     },
     {
         "id": 419203,
-        "status": "SCHEDULED",
+        "status": "FINISHED",
         "utc_date": "2022-10-19 04:00:00",
         "match_day": 10,
         "home_team_id": 78,
@@ -838,7 +838,7 @@
     },
     {
         "id": 419196,
-        "status": "SCHEDULED",
+        "status": "FINISHED",
         "utc_date": "2022-10-20 02:00:00",
         "match_day": 10,
         "home_team_id": 250,
@@ -847,7 +847,7 @@
     },
     {
         "id": 419197,
-        "status": "SCHEDULED",
+        "status": "FINISHED",
         "utc_date": "2022-10-20 02:00:00",
         "match_day": 10,
         "home_team_id": 264,
@@ -856,7 +856,7 @@
     },
     {
         "id": 419195,
-        "status": "SCHEDULED",
+        "status": "FINISHED",
         "utc_date": "2022-10-20 03:00:00",
         "match_day": 10,
         "home_team_id": 92,
@@ -865,7 +865,7 @@
     },
     {
         "id": 419201,
-        "status": "SCHEDULED",
+        "status": "FINISHED",
         "utc_date": "2022-10-20 04:00:00",
         "match_day": 10,
         "home_team_id": 285,
@@ -874,7 +874,7 @@
     },
     {
         "id": 419199,
-        "status": "SCHEDULED",
+        "status": "FINISHED",
         "utc_date": "2022-10-21 02:00:00",
         "match_day": 10,
         "home_team_id": 267,
@@ -883,7 +883,7 @@
     },
     {
         "id": 419194,
-        "status": "SCHEDULED",
+        "status": "FINISHED",
         "utc_date": "2022-10-21 03:00:00",
         "match_day": 10,
         "home_team_id": 79,
@@ -892,7 +892,7 @@
     },
     {
         "id": 419202,
-        "status": "SCHEDULED",
+        "status": "FINISHED",
         "utc_date": "2022-10-21 04:00:00",
         "match_day": 10,
         "home_team_id": 81,
@@ -901,7 +901,7 @@
     },
     {
         "id": 419186,
-        "status": "SCHEDULED",
+        "status": "FINISHED",
         "utc_date": "2022-10-22 21:00:00",
         "match_day": 11,
         "home_team_id": 87,
@@ -910,7 +910,7 @@
     },
     {
         "id": 419185,
-        "status": "SCHEDULED",
+        "status": "FINISHED",
         "utc_date": "2022-10-22 23:15:00",
         "match_day": 11,
         "home_team_id": 250,
@@ -919,7 +919,7 @@
     },
     {
         "id": 419187,
-        "status": "SCHEDULED",
+        "status": "FINISHED",
         "utc_date": "2022-10-23 01:30:00",
         "match_day": 11,
         "home_team_id": 95,
@@ -928,7 +928,7 @@
     },
     {
         "id": 419192,
-        "status": "SCHEDULED",
+        "status": "FINISHED",
         "utc_date": "2022-10-23 04:00:00",
         "match_day": 11,
         "home_team_id": 86,
@@ -937,7 +937,7 @@
     },
     {
         "id": 419188,
-        "status": "SCHEDULED",
+        "status": "FINISHED",
         "utc_date": "2022-10-23 21:00:00",
         "match_day": 11,
         "home_team_id": 80,
@@ -946,7 +946,7 @@
     },
     {
         "id": 419189,
-        "status": "SCHEDULED",
+        "status": "FINISHED",
         "utc_date": "2022-10-23 23:15:00",
         "match_day": 11,
         "home_team_id": 90,
@@ -955,7 +955,7 @@
     },
     {
         "id": 419184,
-        "status": "SCHEDULED",
+        "status": "FINISHED",
         "utc_date": "2022-10-24 01:30:00",
         "match_day": 11,
         "home_team_id": 94,
@@ -964,7 +964,7 @@
     },
     {
         "id": 419191,
-        "status": "SCHEDULED",
+        "status": "FINISHED",
         "utc_date": "2022-10-24 01:30:00",
         "match_day": 11,
         "home_team_id": 298,
@@ -973,7 +973,7 @@
     },
     {
         "id": 419190,
-        "status": "SCHEDULED",
+        "status": "FINISHED",
         "utc_date": "2022-10-24 04:00:00",
         "match_day": 11,
         "home_team_id": 81,
@@ -982,7 +982,7 @@
     },
     {
         "id": 419193,
-        "status": "SCHEDULED",
+        "status": "FINISHED",
         "utc_date": "2022-10-25 04:00:00",
         "match_day": 11,
         "home_team_id": 558,
