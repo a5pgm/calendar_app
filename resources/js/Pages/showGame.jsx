@@ -3,9 +3,9 @@ import { Inertia } from "@inertiajs/inertia";
 import { Link, useForm } from '@inertiajs/inertia-react';
 import Authenticated from "@/Layouts/AuthenticatedLayout";
 import Split from "react-split";
+import moment from "moment";
 
 const showGame = (props) => {
-
     const { game,score,comments } = props;
     const {data, setData, post} = useForm({
         id: "",
@@ -14,7 +14,7 @@ const showGame = (props) => {
         user_id: props.auth.user.id,
         game_id: game.id,
         open: 1,
-        evaluation: ""
+        evaluation: "",
     })
 
     const handleSendComments = (e) => {
@@ -30,22 +30,25 @@ const showGame = (props) => {
                 {/*<div class = "showScore"> */}
                 
                                 {/*<div class = "showComment"> */}
-                <div  className = "w-3/4" >
+                <div  className = "w-3/4 " >
                     { comments.map((comment) =>(
-                             comment.open == 0 &&
-                                <div className = "bg-default-green m-4 p-5 rounded text-default-white border-black" >
-                                    <div>
-                                        <p>
-                                            <h1>{comment.user.name}</h1>
-                                            <h2>title:{comment.title}</h2> 
-                                        </p>
+                              ( (comment.open == 0) || (props.auth.user.id == comment.user_id) )&&  
+                                <div className = "flex bg-default-white m-4 p-5 rounded text-default-black border-2 border-default-green" >
+                                    <div className = "w-4/5 bg-default-green text-default-white rounded border-2 border-default-black">
+                                        <h1>{comment.user.name}</h1>
+                                        <h2>title:{comment.title}</h2> 
+                                                
+                                        <h3 className = 'truncate' >body:{comment.body}</h3>
+                                        <p>evaluation:{comment.evaluation}</p>
+                                        <p>作成日：{moment(comment.created_at).format('YYYY-MM-DD hh:mm') } </p>
                                     </div>
-
-                                    <h3 className = 'truncate' >body:{comment.body}</h3>
-                                    <p>evaluation:{comment.evaluation}</p>
-                                    <a href ={`/show/comment/${comment.id}`} className = "px-5 py-2 border-2 border-black hover:text-white hover:bg-black duration-200 active:scale-95">
-                                    この感想の全文を見る</a>
-                                    <p> </p>
+                                    <div className = "flex flex-end mt-auto">
+                                        <a href ={`/show/comment/${comment.id}`} 
+                                        className = "justify-end ml-5 text-default-white bg-default-green border-b-4 border-dark-green 
+                                        font-bold hover:bg-light-green active:border-dark-green active:
+                                        scale-95 rounded shadow-md">
+                                        この感想の全文を見る</a>     
+                                    </div>
                                 </div>
     
                         )) }
@@ -87,8 +90,7 @@ const showGame = (props) => {
                                     <input type="number" prattern="[0-9]*" placeholder="50" onChange={(e) => setData("evaluation", e.target.value)}/>
                                     <span className="text-red-600">{props.errors.evaluation}</span>
                                 </div>
-                                <button type="submit" className="p-1 bg-red-300 hover:bg-green-400 rounded-md">send</button>
-                                <button type = 'submit' class="px-5 py-2 text-white bg-green-400 border-b-4 border-green-600 font-bold hover:bg-opacity-90 hover:border-opacity-90 active:border-opacity-10 active:scale-95 rounded shadow-md">button</button>
+                                <button type ="submit" className="px-5 py-2 text-white bg-green-400 border-b-4 border-green-600 font-bold hover:bg-opacity-90 hover:border-opacity-90 active:border-opacity-10 active:scale-95 rounded shadow-md">button</button>
 
                         </form>
                     </div>

@@ -59,7 +59,10 @@ class GameController extends Controller
     
     public function storeComment(CommentRequest $request, Comment $comment){
         $input = $request->all();
-        $comment -> fill($input)->save();
+        $now = date('Y-m-d H:i:s');
+        $comment -> fill($input);
+        $comment -> created_at = $now;
+        $comment -> save();
         return redirect("/show/game/" . $comment->game_id);
         // return redirect ("/");
         

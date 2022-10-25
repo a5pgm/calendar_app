@@ -76,7 +76,7 @@ const Modal1 = (props) => {
                 </table>
                 <li>
                   <a href ={`show/game/${props.clickedEventId}`} target={`_blank`} rel={`noopener noreferrer`} 
-                  className = "absolute bottom-o right-0 mt-4 mr-5 item-center justify-end text-default-white bg-default-green border-b-4 border-dark-green font-bold hover:bg-light-green active:border-dark-green active:scale-95 rounded shadow-md">
+                  className = "absolute bottom-4 right-0 mt-4 mr-5 item-center justify-end text-default-white bg-default-green border-b-4 border-dark-green font-bold hover:bg-light-green active:border-dark-green active:scale-95 rounded shadow-md">
                   感想を書き込む
                   </a>
                 </li>
