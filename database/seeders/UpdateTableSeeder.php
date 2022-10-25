@@ -16,16 +16,15 @@ class UpdateTableSeeder extends Seeder
      */
     public function run()
     {
-        $this->command->info("試合の更新を開始");
+        // $this->command->info("試合の更新を開始");
         
-        $pythonPath = "app/Python/";
+        $pythonPath = "/home/ec2-user/environment/calendar_app/app/Python/";
         $command = "/usr/bin/python3 " . $pythonPath . "updateGame.py";
-        // $command = "pwd";
         exec($command , $outputs);
 
         
         
-        $json = file_get_contents(__DIR__ . '/../data/update_games.json');
+        $json = file_get_contents('/home/ec2-user/environment/calendar_app/database/data/update_games.json');
         $matches = json_decode($json,true);
         
         $count = 0;
@@ -45,19 +44,19 @@ class UpdateTableSeeder extends Seeder
             $count++;
         }
         
-        $this->command->info("試合を{$count}件、更新しました。");
+        // $this->command->info("試合を{$count}件、更新しました。");
         
         
-        $this->command->info("スコアの更新を開始");
+        // $this->command->info("スコアの更新を開始");
         
-        $pythonPath = "app/Python/";
+        $pythonPath = "/home/ec2-user/environment/calendar_app/app/Python/";
         $command = "/usr/bin/python3 " . $pythonPath . "updateScore.py";
         // $command = "pwd";
         exec($command , $outputs);
 
         
         
-        $json = file_get_contents(__DIR__ . '/../data/update_scores.json');
+        $json = file_get_contents('/home/ec2-user/environment/calendar_app/database/data/update_scores.json');
         $scores = json_decode($json,true);
         
         $count = 0;
@@ -74,7 +73,7 @@ class UpdateTableSeeder extends Seeder
             $count++;
         }
         
-        $this->command->info("スコアを{$count}件、更新しました。");
+        // $this->command->info("スコアを{$count}件、更新しました。");
         
         
     }

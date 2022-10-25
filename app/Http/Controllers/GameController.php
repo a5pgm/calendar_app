@@ -9,6 +9,7 @@ use App\Models\Team;
 use App\Models\Score;
 use App\Models\Comment;
 use App\Http\Requests\CommentRequest;
+use Database\Seeders\UpdateTableSeeder;
 
 
 class GameController extends Controller
@@ -66,6 +67,12 @@ class GameController extends Controller
     
     public function showComment(Comment $comment) {
         return Inertia::render('showComment', ['comment' => $comment -> load('game','user')]);
+    }
+    
+    public function updateData() {
+        $seeder = new UpdateTableSeeder;
+        $seeder -> run();
+        return redirect("/");
     }
     
     

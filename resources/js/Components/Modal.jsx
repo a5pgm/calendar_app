@@ -31,10 +31,8 @@ const Modal1 = (props) => {
         if(props.clickedEventId == matches[i].id){
           clickedMatch = matches[i];
           clickedScore = scores[i];
-          console.log(clickedMatch);
         }
       }
-        console.log("four",props.clickedEventId);
         return (
                 <Modal
                   open={props.show}
