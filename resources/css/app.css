@@ -65,7 +65,7 @@ button{
 /*    border: solid 2px black;*/
 /*}*/
 
-.scoreTable {
+/*.scoreTable {*/
   /*position: absolute;*/
   /*top: 0;*/
   /*right: 0;*/
@@ -74,38 +74,30 @@ button{
   /*margin:auto;*/
   /*top: 0%;*/
   /*left: 0%;*/
-  margin-left: 10%;
-  width: 80%;
-  background-color: #45BF9D;
-}
-
-table.scoreTable th{
-    
-}
-
-.calendarTable {
-  background-color: #F2F2F2;
-  color: #45BF9D;
-}
-a {
-
-}
-a.calendarclass{
-  text-align: center;
-  color: #45BF9D;
-  text-decoration: none;
-}
-table.daycell td{
-  color: #45BF9D;
-  text-decoration: none;
-}
-a.ShowClass {
-  color: #F2F2F2;
-  background-color: #262626;
-  text-decoration: none;
-}
-a.ShowClass :hover{
-  color: #F2F2F2;
-  background-color: #487367;
-  text-decoration: none;
-}
+/*  margin-left: 10%;*/
+/*  width: 80%;*/
+/*  background-color: #45BF9D;*/
+/*}*/
+/*.calendarTable {*/
+/*  background-color: #F2F2F2;*/
+/*  color: #45BF9D;*/
+/*}*/
+/*a.calendarclass{*/
+/*  text-align: center;*/
+/*  color: #45BF9D;*/
+/*  text-decoration: none;*/
+/*}*/
+/*table.daycell td{*/
+/*  color: #45BF9D;*/
+/*  text-decoration: none;*/
+/*}*/
+/*a.ShowClass {*/
+/*  color: #F2F2F2;*/
+/*  background-color: #262626;*/
+/*  text-decoration: none;*/
+/*}*/
+/*a.ShowClass :hover{*/
+/*  color: #F2F2F2;*/
+/*  background-color: #487367;*/
+/*  text-decoration: none;*/
+/*}*/
