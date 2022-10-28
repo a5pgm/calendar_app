@@ -22,13 +22,7 @@ pexpect==4.8.0
 pickleshare==0.7.5
 prompt-toolkit==3.0.31
 ptyprocess==0.7.0
-Pygments==2.13.0
-pylint==2.4.4
-pylint-django==2.3.0
-pylint-flask==0.6
-pylint-plugin-utils==0.7
 
-pytz==2022.2.1
 simplejson==3.2.0
 six==1.16.0
 stevedore==3.5.0
