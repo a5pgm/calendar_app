@@ -18,7 +18,7 @@ class UpdateTableSeeder extends Seeder
     {
         // $this->command->info("試合の更新を開始");
         
-        $pythonPath = __DIR__ . "../../app/Python/";
+        $pythonPath = __DIR__ . "/../../app/Python/";
         $command = "/usr/bin/python3 " . $pythonPath . "updateGame.py";
         exec($command , $outputs);
         
