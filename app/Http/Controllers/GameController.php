@@ -59,7 +59,10 @@ class GameController extends Controller
     
     public function storeComment(CommentRequest $request, Comment $comment){
         $input = $request->all();
-        $comment -> fill($input)->save();
+        $now = date('Y-m-d H:i:s');
+        $comment -> fill($input);
+        $comment -> created_at = $now;
+        $comment -> save();
         return redirect("/show/game/" . $comment->game_id);
         // return redirect ("/");
         
@@ -73,6 +76,22 @@ class GameController extends Controller
         $seeder = new UpdateTableSeeder;
         $seeder -> run();
         return redirect("/");
+    }
+    
+    public function editComment(Comment $comment){
+        return Inertia::render('editComment',["comment" => $comment]);
+    }
+    
+    public function updateComment(CommentRequest $request, Comment $comment){
+        $input = $request->all();
+        $comment->fill($input)->save();
+        return redirect("/show/comment/" . $comment->id);
+    }
+    
+    public function deleteComment(Comment $comment){
+        $game_id = $comment->game_id;
+        $comment->delete();
+        return redirect("/show/game/" . $game_id);
     }
     
     
