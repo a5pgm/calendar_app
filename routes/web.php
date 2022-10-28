@@ -23,6 +23,9 @@ Route::group(['middleware' => ['auth']], function() {
     Route::post("/comments",[GameController::class,"storeComment"]);
     Route::get("/create/{game}",[GameController::class,"createComment"]);
     Route::get("/updateDate",[GameController::class,"updateData"]);
+    Route::get("/show/comment/{comment}/edit",[GameController::class,"editComment"]);
+    Route::put("/comment/{comment}",[GameController::class,'updateComment']);
+    Route::delete("/comment/{comment}",[GameController::class,'deleteComment']);
     // Route::get('/setting', function () {
     //     return Inertia::render('Welcome', [
     //         'canLogin' => Route::has('login'),

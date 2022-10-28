@@ -78,5 +78,21 @@ class GameController extends Controller
         return redirect("/");
     }
     
+    public function editComment(Comment $comment){
+        return Inertia::render('editComment',["comment" => $comment]);
+    }
+    
+    public function updateComment(CommentRequest $request, Comment $comment){
+        $input = $request->all();
+        $comment->fill($input)->save();
+        return redirect("/show/comment/" . $comment->id);
+    }
+    
+    public function deleteComment(Comment $comment){
+        $game_id = $comment->game_id;
+        $comment->delete();
+        return redirect("/show/game/" . $game_id);
+    }
+    
     
 }

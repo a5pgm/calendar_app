@@ -5,7 +5,10 @@ import Authenticated from "@/Layouts/AuthenticatedLayout";
 import Split from "react-split";
 import moment from "moment";
 
+import Paginate from "@/Components/Paginate";
+
 const showGame = (props) => {
+    
     const { game,score,comments } = props;
     const {data, setData, post} = useForm({
         id: "",
@@ -44,9 +47,9 @@ const showGame = (props) => {
                                     </div>
                                     <div className = "flex flex-end mt-auto">
                                         <a href ={`/show/comment/${comment.id}`} 
-                                        className = "justify-end ml-5 text-default-white bg-default-green border-b-4 border-dark-green 
-                                        font-bold hover:bg-light-green active:border-dark-green active:
-                                        scale-95 rounded shadow-md">
+                                        className = "justify-end px-3 py-2 ml-3 text-default-white bg-default-black border-b-4 border-dark-green 
+                                        font-bold hover:bg-light-green active:border-dark-green 
+                                        active:scale-95 rounded shadow-md w-fit h-fit">
                                         この感想を見る</a>     
                                     </div>
                                 </div>
@@ -95,29 +98,29 @@ const showGame = (props) => {
                             <p>感想を書き込もう！</p>
                             <form onSubmit={handleSendComments} className = 'text-default-black'>
                                     <div className ='flex justify-end'>
-                                        <h2> タイトル：</h2>
+                                        <h2 className = 'text-default-white'> タイトル：</h2>
                                         <input type="text" placeholder="タイトル" onChange={(e) => setData("title", e.target.value)} />
                                         <span className="text-red-600">{props.errors.title}</span>
                                     </div>
             
                                     <div className ='flex justify-end'>
-                                        <h2>感想：</h2>
+                                        <h2 className = 'text-default-white'>感想：</h2>
                                         <textarea placeholder="試合の感想を自由に書こう" onChange={(e) => setData("body", e.target.value)} cols = "60" rows = "15" maxlenght = "4000" className = 'resize-none'></textarea>
                                         <span className="text-red-600">{props.errors.body}</span>
                                     </div>
             
                                     <div className ='flex justify-end'>
-                                        <h2>公開しますか?</h2>
+                                        <h2 className = 'text-default-white'>公開しますか?</h2>
                                         <label><input type="radio" value={0} name="open?" onChange={e => setData("open", e.target.value)} checked={data.open==0}/>公開する</label>
                                         <label><input type="radio" value={1} name="open?" onChange={e => setData("open", e.target.value)} checked={data.open==1}/>公開しない</label>
                                         <span className="text-red-600">{props.errors.open}</span>
                                     </div>
                                     <div className ='flex justify-end'>
-                                        <h2>評価点(100点満点)：</h2>
+                                        <h2 className = 'text-default-white'>評価点(100点満点)：</h2>
                                         <input type="number" prattern="[0-9]*" placeholder="50" onChange={(e) => setData("evaluation", e.target.value)} className = 'w-20'/>
                                         <span className="text-red-600">{props.errors.evaluation}</span>
                                     </div>
-                                    <button type ="submit" className="px-5 py-2 text-white bg-green-400 border-b-4 border-green-600 font-bold hover:bg-opacity-90 hover:border-opacity-90 active:border-opacity-10 active:scale-95 rounded shadow-md">button</button>
+                                    <button type ="submit" className="px-5 py-2 bg-default-black text-default-white border-b-4 border-dark-green font-bold hover:bg-light-green active:border-dark-green active:scale-95 rounded shadow-md flex justify-end">コメントする</button>
     
                             </form>
                         </div>
