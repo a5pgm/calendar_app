@@ -3,7 +3,7 @@ import json
 
 connection = http.client.HTTPConnection('api.football-data.org')
 headers = { 'X-Auth-Token': '57726296ccf440b899ef218bea2b5a9a' }
-connection.request('GET', '/v2/competitions/PD/teams?season=2020', None, headers )
+connection.request('GET', '/v2/competitions/PD/teams', None, headers )
 response = json.loads(connection.getresponse().read().decode())
 
 
