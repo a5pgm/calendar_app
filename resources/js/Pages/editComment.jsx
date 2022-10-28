@@ -29,7 +29,6 @@ const editComment = (props) => {
             <div className = 'rounded text-default-white bg-default-green text-base border-2 border-default-black drop-shadow-xl p-5 m-3 ' >
                 <p>コメント編集フォーム</p>
                 <form onSubmit={handlePutComments} className = 'text-default-black'>
-                        @csrf
                         <div className ='flex justify-end'>
                             <h2 className = 'text-default-white'> タイトル：</h2>
                             <input type="text" placeholder="タイトル" value = {data.title} onChange={(e) => setData("title", e.target.value)} />
