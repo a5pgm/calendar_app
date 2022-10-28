@@ -35,7 +35,7 @@ class TableSeeder extends Seeder
             ]);
         $this->command->info("チームの作成を開始");
         $pythonPath = "app/Python/";
-        $command = "/usr/bin/python3 " . $pythonPath . "getGame.py";
+        $command = "/usr/bin/python3 " . $pythonPath . "getTeam.py";
         // $command = "pwd";
         exec($command , $outputs);
         
