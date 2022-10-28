@@ -53,6 +53,11 @@ class TableSeeder extends Seeder
         // 試合の追加
         $this->command->info("試合の作成を開始");
         
+        $pythonPath = "app/Python/";
+        $command = "/usr/bin/python3 " . $pythonPath . "getGame.py";
+        // $command = "pwd";
+        exec($command , $outputs);
+        
         $json = file_get_contents(__DIR__ . '/../data/games.json');
         $matches = json_decode($json,true);
         
