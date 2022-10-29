@@ -9,25 +9,12 @@
 
 ## アプリの概要
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+このアプリでは、サッカーの各試合に紐づけてコメント、感想を自由に残せるアプリになっています。試合日程をカレンダーに表示し、それを選択することで試合結果が表示され、コメントを書き込むページに遷移することが出来ます。コメントには、タイトルをつけることができ、試合に対する評価点も残すことが出来ます。これらのコメントは、他の人に公開するかしないかを選択することができるようにしています。これにより、他の人には見られたくないけど感想を残しておきたいという人と、是非他の人にも見てもらいたいという人の両方の人が使いやすいようになっています。
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 作成背景
 
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+私は、サッカーが観戦が好きで、最近は時間を作れていないですが、時間があれば好きなチームの試合を見ていました。その中で、他のアプリなどで他者の試合に対する感想や意見などをよく目にしていました。
 
 ## Laravel Sponsors
 
