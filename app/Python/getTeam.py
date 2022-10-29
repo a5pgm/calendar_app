@@ -8,7 +8,7 @@ response = json.loads(connection.getresponse().read().decode())
 
 
 # print (response["matches"]["awayTeam"])j
-json_open = open('../../database/data/teams.json','r')
+json_open = open('database/data/teams.json','r')
 data_set = json.load(json_open)
 
 
@@ -39,7 +39,7 @@ for n in range(count):
     
     
 # ここからがjson形式で書き出す文
-with open('../../database/data/teams.json','w') as f:
+with open('database/data/teams.json','w') as f:
     json.dump(data_set,f,ensure_ascii=False,indent = 4)
         
 # for data in data_set:

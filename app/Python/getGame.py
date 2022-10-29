@@ -64,7 +64,7 @@ for n in range(count):
         
         
 # # ここからがjson形式で書き出す文
-with open('../../database/data/games.json','w') as f:
+with open('database/data/games.json','w') as f:
     json.dump(data_set,f,ensure_ascii=False,indent = 4)
         
 # for data in data_set:
