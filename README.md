@@ -19,7 +19,7 @@
 ## テストアカウント
 - ユーザーネーム: test
  
-- メールアドレス: test@gmail.com
+- メールアドレス: test@test
  
 - パスワード: testtesst 
 
