@@ -14,40 +14,19 @@
 
 ## 作成背景
 
-私は、サッカーが観戦が好きで、最近は時間を作れていないですが、時間があれば好きなチームの試合を見ていました。その中で、他のアプリなどで他者の試合に対する感想や意見などをよく目にしていました。
+私は、サッカーが観戦が好きで、時間があれば好きなチームの試合を見ていました。その中で、他のアプリなどで他者の試合に対する感想や意見などをよく目にしていました。そこで、もっと各試合に関して紐づけてコメントを書くことが出来れば、自分の中でのメモとしてもより充実したものになる上、他の人から見た時も、どの試合に対してのコメントなのかがわかりやすく、よりコメントを読みやすくなれると思いました。コメントの公開、非公開を選べるようにしたことで、他の人には読まれたくないという人にも使いやすいも担っていると思います。また、一つのアプリ内で、試合結果も見れるので、試合結果だけ確認したり、ついでにコメントを見るなどして使用していただければ、より楽しくサッカー観戦ができるのではないかなと思いました。
 
-## Laravel Sponsors
+## テストアカウント
+ ユーザーネーム: test
+ メールアドレス: test@gmail.com
+ パスワード: testtesst 
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+### 使用技術
 
-### Premium Partners
+## 使用言語・OS
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+## 機能一覧
 
-## Contributing
+## 特に力を入れた点
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## 環境構築の手順
