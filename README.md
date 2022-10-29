@@ -33,7 +33,11 @@
 
 ## 環境構築の手順
 git clone https://github.com/a5pgm/calendar_app.git
+
 composer require laravel/breeze --dev
+
 php artisan breeze:install react 
+
 npm install && npm run build
+
 php artisan serve --port=8080
