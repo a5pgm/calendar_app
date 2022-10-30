@@ -33,7 +33,7 @@ const Modal1 = (props) => {
         }
       }
       for(let i = 0; i < scores.length; i++){
-        if(clickedEventId == games[i].id){
+        if(clickedEventId == scores[i].id){
             clickedScore = scores[i];
         }
       }
