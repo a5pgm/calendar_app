@@ -47,7 +47,7 @@ const Modal1 = (props) => {
                 >
 
                 <Box sx ={style}>
-                  <table border = "2" className = "m-auto w-4/5 bg-default-green">
+                  <table border = "2" className = "m-auto w-4/5 min-w-fit bg-default-green">
                     <tr>
                       <th>第{clickedMatch.match_day}節</th>
                       <th>ホーム</th>
@@ -73,7 +73,9 @@ const Modal1 = (props) => {
                       <th>{clickedScore.full_away - clickedScore.half_away}</th>
                     </tr>
                     <tr>
-                      <th>試合終了</th>
+                      {clickedMatch.status == "FINISHED" && <th>試合終了 </th> }
+                      {clickedMatch.status == "SCHEDULED" && <th>試合開始前 </th> }
+                      {clickedMatch.status == "IN_PLAY" && <th>試合中 </th> }
                       <th>{ clickedScore.full_home }</th>
                       <th>  -  </th>
                       <th>{ clickedScore.full_away }</th>
