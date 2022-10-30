@@ -23,17 +23,21 @@ const Modal1 = (props) => {
     
   const handleShow = () => props.setShow(true);
   const handleClose = () => props.setShow(false);
-  const {games,scores } = props;
+  const {games,scores,clickedEventId } = props;
   var clickedMatch;
   var clickedScore;
     if (props.show){
-      console.log(props.clickedEventId);
       for(let i = 0; i < games.length; i++){
-        if(props.clickedEventId == games[i].id){
+        if(clickedEventId == games[i].id){
           clickedMatch = games[i];
-          clickedScore = scores[i];
         }
       }
+      for(let i = 0; i < scores.length; i++){
+        if(clickedEventId == games[i].id){
+            clickedScore = scores[i];
+        }
+      }
+
         return (
                 <Modal
                   open={props.show}

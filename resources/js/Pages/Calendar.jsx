@@ -17,7 +17,6 @@ const Calendar = (props) => {
     console.log(props);
     const eventClick = (props) => {
         window.open("show/" + props.event.id,"_blank");
-        console.log(props.event.id);
         // window.location.href = "show/" + props.event.id;
     }
     return (
