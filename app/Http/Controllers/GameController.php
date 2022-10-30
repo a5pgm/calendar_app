@@ -44,7 +44,7 @@ class GameController extends Controller
         // ];
         // array_push($schedules_list,$settings);
         // dd($schedules_list);
-        return Inertia::render('Calendar',["games" => $schedules_list, "matches" => $games,"scores" => $score->get()]);
+        return Inertia::render('Calendar',["games" => $schedules_list, "matches" => $games,"scores" => $score->get() ] );
         
     }
     
@@ -52,9 +52,6 @@ class GameController extends Controller
         $score = Score::find($game["id"]);
         $comment = $comment->where('game_id',$game->id)->get();
         return Inertia::render('showGame',["game" => $game->load('home_team','away_team','season'),"score"=> $score,"comments" => $comment->load('game','user')]);
-        // return Inertia::render('showGame',["game" => $game->load('season') ]);
-        // return Inertia::render('showGame');
-        // return redirect('/');
     }
     
     public function storeComment(CommentRequest $request, Comment $comment){
@@ -64,7 +61,6 @@ class GameController extends Controller
         $comment -> created_at = $now;
         $comment -> save();
         return redirect("/show/game/" . $comment->game_id);
-        // return redirect ("/");
         
     }
     
