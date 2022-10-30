@@ -1001,20 +1001,20 @@
     {
         "id": 419180,
         "game_id": 419180,
-        "winner": null,
-        "full_home": null,
-        "full_away": null,
-        "half_home": null,
-        "half_away": null
+        "winner": "HOME_TEAM",
+        "full_home": 3,
+        "full_away": 1,
+        "half_home": 0,
+        "half_away": 1
     },
     {
         "id": 419179,
         "game_id": 419179,
-        "winner": null,
-        "full_home": null,
-        "full_away": null,
-        "half_home": null,
-        "half_away": null
+        "winner": "HOME_TEAM",
+        "full_home": 1,
+        "full_away": 0,
+        "half_home": 1,
+        "half_away": 0
     },
     {
         "id": 419175,

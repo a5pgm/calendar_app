@@ -1000,7 +1000,7 @@
     },
     {
         "id": 419180,
-        "status": "SCHEDULED",
+        "status": "FINISHED",
         "utc_date": "2022-10-29 21:00:00",
         "match_day": 12,
         "home_team_id": 267,
@@ -1009,7 +1009,7 @@
     },
     {
         "id": 419179,
-        "status": "SCHEDULED",
+        "status": "IN_PLAY",
         "utc_date": "2022-10-29 23:15:00",
         "match_day": 12,
         "home_team_id": 264,

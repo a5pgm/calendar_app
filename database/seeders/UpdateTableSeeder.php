@@ -25,7 +25,7 @@ class UpdateTableSeeder extends Seeder
         // $command1 = "pwd";
         // exec($command1,$outpts);
         // $this->command->info($outputs[1]);
-        // $this->command->info(__DIR__);
+        // $this->command->info( __DIR__ );
         
         $json = file_get_contents(__DIR__ . '/../data/update_games.json');
         $matches = json_decode($json,true);

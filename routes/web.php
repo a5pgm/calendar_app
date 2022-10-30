@@ -22,7 +22,7 @@ Route::group(['middleware' => ['auth']], function() {
     Route::get("/show/comment/{comment}",[GameController::class,"showComment"]);
     Route::post("/comments",[GameController::class,"storeComment"]);
     Route::get("/create/{game}",[GameController::class,"createComment"]);
-    Route::get("/updateDate",[GameController::class,"updateData"]);
+    Route::get("/updateData",[GameController::class,"updateData"]);
     Route::get("/show/comment/{comment}/edit",[GameController::class,"editComment"]);
     Route::put("/comment/{comment}",[GameController::class,'updateComment']);
     Route::delete("/comment/{comment}",[GameController::class,'deleteComment']);

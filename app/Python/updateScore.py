@@ -3,7 +3,7 @@ import json
 
 connection = http.client.HTTPConnection('api.football-data.org')
 headers = { 'X-Auth-Token': '57726296ccf440b899ef218bea2b5a9a' }
-connection.request('GET', '/v2/competitions/PD/matches?season', None, headers )
+connection.request('GET', '/v2/competitions/PD/matches', None, headers )
 response = json.loads(connection.getresponse().read().decode())
 
 
@@ -31,7 +31,7 @@ for n in range(count):
                     "half_away" :half_away
     })
 
-with open('database/data/update_scores.json','w') as f:
+with open('../database/data/update_scores.json','w') as f:
     json.dump(data_set,f,ensure_ascii=False,indent = 4)
         
 # for data in data_set:
