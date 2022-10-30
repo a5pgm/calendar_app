@@ -134,7 +134,9 @@ const showGame = (props) => {
                                 <th>{score.full_away - score.half_away}</th>
                               </tr>
                               <tr>
-                                <th>試合終了</th>
+                                {game.status == "FINISHED" && <th>試合終了 </th> }
+                                {game.status == "SCHEDULED" && <th>試合開始前 </th> }
+                                {game.status == "IN_PLAY" && <th>試合中 </th> }
                                 <th>{ score.full_home }</th>
                                 <th>  -  </th>
                                 <th>{ score.full_away }</th>
