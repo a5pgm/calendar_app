@@ -13,10 +13,11 @@ const Calendar = (props) => {
 
     const [show, setShow] = useState(false);
     const [clickedEventId, setClickedEventId] = useState(0); 
-    const { games,matches,scores} = props;
+    const { events,games,scores} = props;
     console.log(props);
     const eventClick = (props) => {
         window.open("show/" + props.event.id,"_blank");
+        console.log(props.event.id);
         // window.location.href = "show/" + props.event.id;
     }
     return (
@@ -60,7 +61,7 @@ const Calendar = (props) => {
                       contentHeight="75vh"
                     //   aspectRatio = '2.50'
                     //   dayMaxEvents={3}
-                      events = { games }
+                      events = { events }
                       eventClick = { clickInfo => { setClickedEventId(clickInfo.event.id), setShow(true)} }
                     //   eventClassNames = 'text-default-green'
                     //   dayCellClassNames = 'daycell'
@@ -69,7 +70,7 @@ const Calendar = (props) => {
                       eventBorderColor = "#889c9b"
 
                       />
-                      <Modal show={show} setShow={setShow} matches={matches} clickedEventId = {clickedEventId} scores = {scores}/>
+                      <Modal show={show} setShow={setShow} games={games} clickedEventId = {clickedEventId} scores = {scores}/>
                 </div>
             
         </div>    

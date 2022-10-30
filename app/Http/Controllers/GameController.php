@@ -44,7 +44,7 @@ class GameController extends Controller
         // ];
         // array_push($schedules_list,$settings);
         // dd($schedules_list);
-        return Inertia::render('Calendar',["games" => $schedules_list, "matches" => $games,"scores" => $score->get() ] );
+        return Inertia::render('Calendar',["events" => $schedules_list, "games" => $games,"scores" => $score->get() ] );
         
     }
     
