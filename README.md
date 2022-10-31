@@ -23,9 +23,15 @@
  
 - パスワード: testtesst 
 
-### 使用技術
+## 使用技術
+php - laravel 9.31.0
+
+javascript - react 
 
 ## 使用言語・OS
+php - 8.0.23
+
+python 3.7.10
 
 ## 機能一覧
 
