@@ -23,13 +23,13 @@
  
 - パスワード: testtesst 
 
-## 使用技術
-php - laravel 9.31.0
 
-javascript - react 
+## 使用言語・フレームワーク
+php - 8.0.23 
 
-## 使用言語・OS
-php - 8.0.23
+laravel - 9.31.0
+
+javascript - react
 
 python 3.7.10
 
@@ -44,7 +44,7 @@ python 3.7.10
 
 "composer install" を実行をする。
 
-"npm install && npm run build" を実行する。
+"npm install && npm run dev" を実行する。
 
 "calendar_app" ディレクトリ直下にある ".env.example" をコピーし、".env"を作成する。
 
