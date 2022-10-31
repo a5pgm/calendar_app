@@ -8,7 +8,7 @@ import moment from "moment";
 const showGame = (props) => {
     
     const { game,score,comments } = props;
-    const {data, setData, post} = useForm({
+    const {data, setData, post, reset} = useForm({
         id: "",
         title: "",
         body: "",
@@ -21,6 +21,11 @@ const showGame = (props) => {
     const [myCount,setMyCount] = useState(0);
     const [otherCount,setOtherCount] = useState(0);
     
+    const myAdd = () => {
+        setMyCount(myCount + 1);
+        
+    } 
+    
     const myIncrement = () => setMyCount((prevmyCount) => prevmyCount + 1);
     const myDecrement = () => setMyCount((prevmyCount) => prevmyCount - 1);
     
@@ -29,7 +34,9 @@ const showGame = (props) => {
 
     const handleSendComments = (e) => {
         e.preventDefault();
-        post("/comments");
+        post("/comments",{
+            onSuccess: () => reset()
+        });
     };
     
     const handleDeleteComment = (id) => {
@@ -54,7 +61,7 @@ const showGame = (props) => {
                                             <p>評価：{comment.evaluation} 点</p>
                                             <p>作成日時：{moment(comment.created_at).format('YYYY-MM-DD hh:mm') } </p>
                                             { (comment.open == 0)? <p>公開されています</p> : <p>公開されていません</p> }
-
+                                            {myAdd}
                                         </div>
                                         <div className = "flex-col justify-end mt-3 mx-auto ">
                                             <div>
@@ -156,13 +163,13 @@ const showGame = (props) => {
                             <form onSubmit={handleSendComments} className = 'text-default-black'>
                                     <div className ='flex justify-end'>
                                         <h2 className = 'text-default-white'> タイトル：</h2>
-                                        <input type="text" placeholder="タイトル" onChange={(e) => setData("title", e.target.value)} />
+                                        <input type="text" placeholder="タイトル" value = {data.title} onChange={(e) => setData("title", e.target.value)} />
                                         <span className="text-red-600">{props.errors.title}</span>
                                     </div>
             
                                     <div className ='flex justify-end'>
                                         <h2 className = 'text-default-white'>感想：</h2>
-                                        <textarea placeholder="試合の感想を自由に書こう" onChange={(e) => setData("body", e.target.value)} cols = "60" rows = "15" maxlenght = "4000" className = 'resize-none'></textarea>
+                                        <textarea placeholder="試合の感想を自由に書こう" value = {data.body} onChange={(e) => setData("body", e.target.value)} cols = "60" rows = "15" maxlenght = "4000" className = 'resize-none'></textarea>
                                         <span className="text-red-600">{props.errors.body}</span>
                                     </div>
             
@@ -174,7 +181,7 @@ const showGame = (props) => {
                                     </div>
                                     <div className ='flex justify-end'>
                                         <h2 className = 'text-default-white'>評価点(100点満点)：</h2>
-                                        <input type="number" prattern="[0-9]*" placeholder="50" onChange={(e) => setData("evaluation", e.target.value)} className = 'w-20'/>
+                                        <input type="number" prattern="[0-9]*" placeholder="50" value = {data.evaluation} onChange={(e) => setData("evaluation", e.target.value)} className = 'w-20'/>
                                         <span className="text-red-600">{props.errors.evaluation}</span>
                                     </div>
                                     <button type ="submit" className="px-5 py-2 bg-default-black text-default-white border-b-4 border-dark-green font-bold hover:bg-light-green active:border-dark-green active:scale-95 rounded shadow-md flex justify-end">コメントする</button>

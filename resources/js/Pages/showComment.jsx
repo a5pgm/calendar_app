@@ -24,6 +24,13 @@ const showGame = (props) => {
                 <div> 評価点：{comment.evaluation}</div>
                 {
                     ( (props.auth.user.id == comment.user_id) &&
+                    <div>
+                        { (comment.open == 0)? <p>このコメントは公開されています</p> : <p>このコメントは公開されていません</p> }
+                    </div>
+                    )
+                }
+                {
+                    ( (props.auth.user.id == comment.user_id) &&
                         <div className = "flex justify-end">
                             <a href ={`/show/comment/${comment.id}/edit`} 
                             className = "px-3 py-2 ml-3 mt-3 text-default-white bg-default-black border-b-4 border-dark-green 
@@ -36,14 +43,17 @@ const showGame = (props) => {
                             active:scale-95 rounded shadow-md w-fit h-fit">
                             削除する</button>
                         </div>
+                        
                     )
                 }
             </div>
         </div>
-        <Link href={`/show/game/${comment.game_id}`} 
-        className = 'px-3 py-2 mt-10 ml-44 text-default-white bg-default-black border-b-4 border-dark-green 
-                    font-bold hover:bg-light-green active:border-dark-green 
-                    active:scale-95 rounded shadow-md w-fit h-fit'>戻る</Link>
+        <div>
+            <a href={`/show/game/${comment.game_id}`} 
+            className = 'px-3 py-2 mt-10 ml-32 text-default-white bg-default-black border-b-4 border-dark-green 
+                        font-bold hover:bg-light-green active:border-dark-green 
+                        active:scale-95 rounded shadow-md w-fit h-fit'>戻る</a>
+        </div>
         
         </Authenticated>
     );
