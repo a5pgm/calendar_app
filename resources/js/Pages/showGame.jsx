@@ -5,8 +5,6 @@ import Authenticated from "@/Layouts/AuthenticatedLayout";
 import Split from "react-split";
 import moment from "moment";
 
-import Paginate from "@/Components/Paginate";
-
 const showGame = (props) => {
     
     const { game,score,comments } = props;
@@ -19,6 +17,15 @@ const showGame = (props) => {
         open: 1,
         evaluation: "",
     });
+    
+    const [myCount,setMyCount] = useState(0);
+    const [otherCount,setOtherCount] = useState(0);
+    
+    const myIncrement = () => setMyCount((prevmyCount) => prevmyCount + 1);
+    const myDecrement = () => setMyCount((prevmyCount) => prevmyCount - 1);
+    
+    const otherIncrement = () => setOtherCount((prevotherCount) => prevotherCount + 1);
+    const otherDecrement = () => setOtherCount((prevotherCount) => prevotherCount - 1);
 
     const handleSendComments = (e) => {
         e.preventDefault();
@@ -31,14 +38,9 @@ const showGame = (props) => {
         });
     };
     console.log(props);
-
     return (
         <Authenticated auth={props.auth} >
             <div className = "flex gap-2 bg-default-white">
-            { /* <div class="wrapper"> */}
-                {/*<div class = "showScore"> */}
-                
-                                {/*<div class = "showComment"> */}
                 <div  className = "w-1/2 " >
                     <div className = "flex-col bg-default-white m-4 p-5 rounded text-default-black border-2 border-default-green" >
                         <div className = 'bg-default-black text-default-white rounded p-3 w-fit'> <h2> あなたのコメント </h2> </div>
@@ -52,6 +54,7 @@ const showGame = (props) => {
                                             <p>評価：{comment.evaluation} 点</p>
                                             <p>作成日時：{moment(comment.created_at).format('YYYY-MM-DD hh:mm') } </p>
                                             { (comment.open == 0)? <p>公開されています</p> : <p>公開されていません</p> }
+
                                         </div>
                                         <div className = "flex-col justify-end mt-3 mx-auto ">
                                             <div>
@@ -77,7 +80,9 @@ const showGame = (props) => {
                                             </div>
                                         </div>
                                     </div>
+
                         )) }
+                        { (myCount == 0) && <div> まだコメントはありません </div> }
                     </div>
                     
                     <div className = "flex-col bg-default-white m-4 p-5 rounded text-default-black border-2 border-default-green" >
@@ -91,6 +96,7 @@ const showGame = (props) => {
                                             <h3 className = 'truncate' >感想：{comment.body}</h3>
                                             <p>評価：{comment.evaluation} 点</p>
                                             <p>作成日時：{moment(comment.created_at).format('YYYY-MM-DD hh:mm') } </p>
+                                            <div>{ otherIncrement() }</div>
                                         </div>
                                         <div className = "flex flex-end mt-auto mx-auto ">
 
@@ -102,6 +108,7 @@ const showGame = (props) => {
                                         </div>
                                     </div>
                         )) }
+                        { (otherCount == 0) && <div> まだコメントはありません </div> }
                     </div>
                 </div>
                 
