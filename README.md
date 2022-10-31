@@ -32,15 +32,25 @@
 ## 特に力を入れた点
 
 ## 環境構築の手順
-git clone https://github.com/a5pgm/calendar_app.git
+"git clone https://github.com/a5pgm/calendar_app.git" を実行する。
 
-cd calendar_app
+"cd calendar_app" を実行をする。
 
-composer install
+"composer install" を実行をする。
 
-npm install && npm run build
+"npm install && npm run build" を実行する。
 
-php artisan serve --port=8080
+"calendar_app" ディレクトリ直下にある ".env.example" をコピーし、".env"を作成する。
+
+".env"で、DBとの連携をする。(デフォルトの設定では、mysqlになっている。) ("DB_DATABASE", "DB_USERNAME", "DB_PASSWORD"の部分を記述する。)
+
+"php artisan key:generate"を実行する。
+
+"php aritsan migrate" を実行する。
+
+"php artisan db:seed --class TableSeeder" を実行する。 
+
+php artisan serve --port=8080 を実行してアプリを起動する。
 
 ## Contributing
 Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
