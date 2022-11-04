@@ -46,7 +46,7 @@ const showGame = (props) => {
     };
     console.log(props);
     return (
-        <Authenticated auth={props.auth} >
+        <Authenticated auth={props.auth}>
             <div className = "flex gap-2 bg-default-white">
                 <div  className = "w-1/2" >
                     <div className = "flex-col bg-default-white m-4 p-5 rounded text-default-black border-2 border-default-green" >
@@ -61,7 +61,7 @@ const showGame = (props) => {
                                             <p>評価：{comment.evaluation} 点</p>
                                             <p>作成日時：{moment(comment.created_at).format('YYYY-MM-DD hh:mm') } </p>
                                             { (comment.open == 0)? <p>公開されています</p> : <p>公開されていません</p> }
-                                            {myAdd}
+                                            {/* {myAdd} */}
                                         </div>
                                         <div className = "flex-col justify-end mt-3 mx-auto ">
                                             <div>
@@ -89,7 +89,7 @@ const showGame = (props) => {
                                     </div>
 
                         )) }
-                        { (myCount == 0) && <div> まだコメントはありません </div> }
+                        {/* { (myCount == 0) && <div> まだコメントはありません </div> } */}
                     </div>
                     
                     <div className = "flex-col bg-default-white m-4 p-5 rounded text-default-black border-2 border-default-green" >
@@ -115,7 +115,7 @@ const showGame = (props) => {
                                         </div>
                                     </div>
                         )) }
-                        { (otherCount == 0) && <div> まだコメントはありません </div> }
+                        {/* { (otherCount == 0) && <div> まだコメントはありません </div> } */}
                     </div>
                 </div>
                 
