@@ -31,7 +31,6 @@ laravel - 9.31.0
 
 javascript - react
 
-python 3.7.10
 
 ## 機能一覧
 
