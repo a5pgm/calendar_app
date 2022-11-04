@@ -4,8 +4,27 @@ namespace App\Services;
 
 use DateTimeImmutable;
 use DateTimeZone;
+use App\Models\Score;
 
 class ScoreUpdateService {
+
+    public static function updateScoreStatusData(){
+        $objDateTime = new DateTimeImmutable('now',new DateTimeZone('Asia/Tokyo'));
+        $filename = $objDateTime -> format('Y_m_d_H_i') . "_scores" . ".json";
+        $response = file_get_contents($filename);
+        $gameData = json_decode($response,true);
+
+        foreach($gameData as $key => $value){
+            $now_score_data = Score::find($value["id"]);
+            $now_score_data->full_home = $value["full_home"];
+            $now_score_data->full_away = $value["full_away"];
+            $now_score_data->half_home = $value["half_home"];
+            $now_score_data->half_away = $value["half_away"];
+            $now_score_data -> save();
+        }
+        logger("スコアデータの保存をしました。");
+
+    }
 
     public static function outputNewScoreStatusDataToJson(){
         // API通信開始
@@ -59,12 +78,14 @@ class ScoreUpdateService {
         foreach(glob($pattern) as $file){
             unlink($file);
 
-            echo $file . "を削除しました。\n";
+            logger($file . "を削除しました。");
         }
         //ファイル書き出し
         $objDateTime = new DateTimeImmutable('now',new DateTimeZone('Asia/Tokyo'));
         $outputFilename = $objDateTime -> format('Y_m_d_H_i') . "_scores" . ".json";
         file_put_contents( $outputFilename ,$data);
+        logger($outputFilename . "を作成しました。");
+
 /* 初期データの書き出し
         $outputFilename = "../../database/data/scores.json";
         file_put_contents( $outputFilename ,$data);
@@ -72,7 +93,3 @@ class ScoreUpdateService {
 */
     }
 }
-
-$obj = new ScoreUpdateService();
-
-$obj -> outputNewScoreStatusDataToJson();

@@ -16,18 +16,20 @@ class GameUpdateService {
         $gameData = json_decode($response,true);
 
         foreach($gameData as $key => $value){
-            // $now_game_data = DB::table('games')->where('id',$value["id"])->first();
-            $now_game_data = Game::where('id', $value['id']);
-            // echo $now_game_data;
+            $now_game_data = Game::find($value["id"]);
+            $now_game_data -> status = $value["status"];
+            $now_game_data -> utc_date = $value["utc_date"];
+            $now_game_data -> save();   
         }
-
-
+        logger("試合データの保存をしました。");
+        
     }
 
     public static function outputNewGameStatusDataToJson(){
         // API通信開始
         $data_set = [];
 
+/* 初期データ用
         $uri = 'http://api.football-data.org/v4/competitions/PD/matches?season=2021';
         $reqPrefs['http']['method'] = 'GET';
         $reqPrefs['http']['header'] = 'X-Auth-Token: 57726296ccf440b899ef218bea2b5a9a';
@@ -51,6 +53,7 @@ class GameUpdateService {
                                 "away_team_id" => $awayteam_id, "season_id" => $season_id]);
         }
 
+*/
         $uri = 'http://api.football-data.org/v4/competitions/PD/matches';
         $reqPrefs['http']['method'] = 'GET';
         $reqPrefs['http']['header'] = 'X-Auth-Token: 57726296ccf440b899ef218bea2b5a9a';
@@ -81,18 +84,16 @@ class GameUpdateService {
         foreach(glob($pattern) as $file){
             unlink($file);
 
-            echo $file . "を削除しました。\n";
+            logger( $file . "を削除しました。" );
         }
         //ファイル書き出し
-        // $objDateTime = new DateTimeImmutable('now',new DateTimeZone('Asia/Tokyo'));
-        // $outputFilename = $objDateTime -> format('Y_m_d_H_i') . "_games" . ".json";
-        // file_put_contents( $outputFilename ,$data);
+        $objDateTime = new DateTimeImmutable('now',new DateTimeZone('Asia/Tokyo'));
+        $outputFilename = $objDateTime -> format('Y_m_d_H_i') . "_games" . ".json";
+        file_put_contents( $outputFilename ,$data);
+        logger( $outputFilename . "を作成しました。" );
+/* 初期データの書き出し
         $outputFilename = "../../database/data/games.json";
         file_put_contents( $outputFilename ,$data);
+*/
     }
 }
-$obj = new GameUpdateService();
-
-$obj -> outputNewGameStatusDataToJson();
-
-// $obj -> updateGameStatusData();

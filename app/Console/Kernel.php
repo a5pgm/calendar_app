@@ -4,14 +4,16 @@ namespace App\Console;
 
 use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
-use App\Console\Commands\DateUpdate;
+use App\Console\Commands\GameDateUpdate;
+use App\Console\Commands\ScoreDataUpdate;
 
 
 
 class Kernel extends ConsoleKernel
 {
     protected $commands = [
-        Commands\DataUpdate::Class,
+        Commands\GameDataUpdate::Class,
+        Commands\ScoreDataUpdate::class,
     ];
 
     /**
@@ -22,7 +24,8 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        $schedule -> command('command:DataUpdate') -> everyMinute();
+        $schedule -> command('GameDataUpdate') -> everyMinute();
+        $schedule -> command('ScoreDataUpdate') -> everyMinute();
     }
 
     /**
