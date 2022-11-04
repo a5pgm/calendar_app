@@ -34,10 +34,10 @@ class TableSeeder extends Seeder
             ]
             ]);
         $this->command->info("チームの作成を開始");
-        $pythonPath = "app/Python/";
-        $command = "/usr/bin/python3 " . $pythonPath . "getTeam.py";
-        // $command = "pwd";
-        exec($command , $outputs);
+        // $pythonPath = "app/Python/";
+        // $command = "/usr/bin/python3 " . $pythonPath . "getTeam.py";
+        // // $command = "pwd";
+        // exec($command , $outputs);
         
         $json = file_get_contents(__DIR__ . '/../data/teams.json');
         $teams = json_decode($json,true);
@@ -53,10 +53,10 @@ class TableSeeder extends Seeder
         // 試合の追加
         $this->command->info("試合の作成を開始");
         
-        $pythonPath = "app/Python/";
-        $command = "/usr/bin/python3 " . $pythonPath . "getGame.py";
-        // $command = "pwd";
-        exec($command , $outputs);
+        // $pythonPath = "app/Python/";
+        // $command = "/usr/bin/python3 " . $pythonPath . "getGame.py";
+        // // $command = "pwd";
+        // exec($command , $outputs);
         
         $json = file_get_contents(__DIR__ . '/../data/games.json');
         $matches = json_decode($json,true);
@@ -72,10 +72,10 @@ class TableSeeder extends Seeder
         
         $this->command->info("スコアの作成を開始");
         
-        $pythonPath = "app/Python/";
-        $command = "/usr/bin/python3 " . $pythonPath . "getScore.py";
-        // $command = "pwd";
-        exec($command , $outputs);
+        // $pythonPath = "app/Python/";
+        // $command = "/usr/bin/python3 " . $pythonPath . "getScore.py";
+        // // $command = "pwd";
+        // exec($command , $outputs);
         
         $json = file_get_contents(__DIR__ . '/../data/scores.json');
         $scores = json_decode($json,true);

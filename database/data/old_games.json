@@ -1,0 +1,6842 @@
+[
+    {
+        "id": 419288,
+        "status": "FINISHED",
+        "utc_date": "2022-08-13 04:00:00",
+        "match_day": 1,
+        "home_team_id": 79,
+        "away_team_id": 559,
+        "season_id": 1504
+    },
+    {
+        "id": 419290,
+        "status": "FINISHED",
+        "utc_date": "2022-08-14 00:00:00",
+        "match_day": 1,
+        "home_team_id": 558,
+        "away_team_id": 80,
+        "season_id": 1504
+    },
+    {
+        "id": 419285,
+        "status": "FINISHED",
+        "utc_date": "2022-08-14 02:00:00",
+        "match_day": 1,
+        "home_team_id": 250,
+        "away_team_id": 94,
+        "season_id": 1504
+    },
+    {
+        "id": 419292,
+        "status": "FINISHED",
+        "utc_date": "2022-08-14 04:00:00",
+        "match_day": 1,
+        "home_team_id": 81,
+        "away_team_id": 87,
+        "season_id": 1504
+    },
+    {
+        "id": 419289,
+        "status": "FINISHED",
+        "utc_date": "2022-08-15 00:30:00",
+        "match_day": 1,
+        "home_team_id": 264,
+        "away_team_id": 92,
+        "season_id": 1504
+    },
+    {
+        "id": 419284,
+        "status": "FINISHED",
+        "utc_date": "2022-08-15 02:30:00",
+        "match_day": 1,
+        "home_team_id": 95,
+        "away_team_id": 298,
+        "season_id": 1504
+    },
+    {
+        "id": 419287,
+        "status": "FINISHED",
+        "utc_date": "2022-08-15 05:00:00",
+        "match_day": 1,
+        "home_team_id": 267,
+        "away_team_id": 86,
+        "season_id": 1504
+    },
+    {
+        "id": 419293,
+        "status": "FINISHED",
+        "utc_date": "2022-08-16 00:30:00",
+        "match_day": 1,
+        "home_team_id": 77,
+        "away_team_id": 89,
+        "season_id": 1504
+    },
+    {
+        "id": 419286,
+        "status": "FINISHED",
+        "utc_date": "2022-08-16 02:30:00",
+        "match_day": 1,
+        "home_team_id": 82,
+        "away_team_id": 78,
+        "season_id": 1504
+    },
+    {
+        "id": 419291,
+        "status": "FINISHED",
+        "utc_date": "2022-08-16 04:30:00",
+        "match_day": 1,
+        "home_team_id": 90,
+        "away_team_id": 285,
+        "season_id": 1504
+    },
+    {
+        "id": 419280,
+        "status": "FINISHED",
+        "utc_date": "2022-08-20 03:00:00",
+        "match_day": 2,
+        "home_team_id": 80,
+        "away_team_id": 87,
+        "season_id": 1504
+    },
+    {
+        "id": 419279,
+        "status": "FINISHED",
+        "utc_date": "2022-08-20 05:00:00",
+        "match_day": 2,
+        "home_team_id": 559,
+        "away_team_id": 250,
+        "season_id": 1504
+    },
+    {
+        "id": 419275,
+        "status": "FINISHED",
+        "utc_date": "2022-08-21 00:30:00",
+        "match_day": 2,
+        "home_team_id": 79,
+        "away_team_id": 264,
+        "season_id": 1504
+    },
+    {
+        "id": 419277,
+        "status": "FINISHED",
+        "utc_date": "2022-08-21 02:30:00",
+        "match_day": 2,
+        "home_team_id": 89,
+        "away_team_id": 90,
+        "season_id": 1504
+    },
+    {
+        "id": 419281,
+        "status": "FINISHED",
+        "utc_date": "2022-08-21 05:00:00",
+        "match_day": 2,
+        "home_team_id": 558,
+        "away_team_id": 86,
+        "season_id": 1504
+    },
+    {
+        "id": 419283,
+        "status": "FINISHED",
+        "utc_date": "2022-08-22 00:30:00",
+        "match_day": 2,
+        "home_team_id": 77,
+        "away_team_id": 95,
+        "season_id": 1504
+    },
+    {
+        "id": 419282,
+        "status": "FINISHED",
+        "utc_date": "2022-08-22 02:30:00",
+        "match_day": 2,
+        "home_team_id": 78,
+        "away_team_id": 94,
+        "season_id": 1504
+    },
+    {
+        "id": 419278,
+        "status": "FINISHED",
+        "utc_date": "2022-08-22 05:00:00",
+        "match_day": 2,
+        "home_team_id": 92,
+        "away_team_id": 81,
+        "season_id": 1504
+    },
+    {
+        "id": 419274,
+        "status": "FINISHED",
+        "utc_date": "2022-08-23 03:00:00",
+        "match_day": 2,
+        "home_team_id": 285,
+        "away_team_id": 267,
+        "season_id": 1504
+    },
+    {
+        "id": 419276,
+        "status": "FINISHED",
+        "utc_date": "2022-08-23 05:00:00",
+        "match_day": 2,
+        "home_team_id": 298,
+        "away_team_id": 82,
+        "season_id": 1504
+    },
+    {
+        "id": 419265,
+        "status": "FINISHED",
+        "utc_date": "2022-08-27 03:00:00",
+        "match_day": 3,
+        "home_team_id": 298,
+        "away_team_id": 558,
+        "season_id": 1504
+    },
+    {
+        "id": 419272,
+        "status": "FINISHED",
+        "utc_date": "2022-08-27 05:00:00",
+        "match_day": 3,
+        "home_team_id": 90,
+        "away_team_id": 79,
+        "season_id": 1504
+    },
+    {
+        "id": 419271,
+        "status": "FINISHED",
+        "utc_date": "2022-08-28 00:30:00",
+        "match_day": 3,
+        "home_team_id": 285,
+        "away_team_id": 92,
+        "season_id": 1504
+    },
+    {
+        "id": 419264,
+        "status": "FINISHED",
+        "utc_date": "2022-08-28 02:30:00",
+        "match_day": 3,
+        "home_team_id": 87,
+        "away_team_id": 89,
+        "season_id": 1504
+    },
+    {
+        "id": 419268,
+        "status": "FINISHED",
+        "utc_date": "2022-08-28 05:00:00",
+        "match_day": 3,
+        "home_team_id": 267,
+        "away_team_id": 559,
+        "season_id": 1504
+    },
+    {
+        "id": 419270,
+        "status": "FINISHED",
+        "utc_date": "2022-08-29 00:30:00",
+        "match_day": 3,
+        "home_team_id": 82,
+        "away_team_id": 94,
+        "season_id": 1504
+    },
+    {
+        "id": 419273,
+        "status": "FINISHED",
+        "utc_date": "2022-08-29 02:30:00",
+        "match_day": 3,
+        "home_team_id": 81,
+        "away_team_id": 250,
+        "season_id": 1504
+    },
+    {
+        "id": 419269,
+        "status": "FINISHED",
+        "utc_date": "2022-08-29 05:00:00",
+        "match_day": 3,
+        "home_team_id": 80,
+        "away_team_id": 86,
+        "season_id": 1504
+    },
+    {
+        "id": 419267,
+        "status": "FINISHED",
+        "utc_date": "2022-08-30 03:00:00",
+        "match_day": 3,
+        "home_team_id": 264,
+        "away_team_id": 77,
+        "season_id": 1504
+    },
+    {
+        "id": 419266,
+        "status": "FINISHED",
+        "utc_date": "2022-08-30 05:00:00",
+        "match_day": 3,
+        "home_team_id": 95,
+        "away_team_id": 78,
+        "season_id": 1504
+    },
+    {
+        "id": 419256,
+        "status": "FINISHED",
+        "utc_date": "2022-09-03 04:00:00",
+        "match_day": 4,
+        "home_team_id": 558,
+        "away_team_id": 264,
+        "season_id": 1504
+    },
+    {
+        "id": 419254,
+        "status": "FINISHED",
+        "utc_date": "2022-09-03 21:00:00",
+        "match_day": 4,
+        "home_team_id": 89,
+        "away_team_id": 298,
+        "season_id": 1504
+    },
+    {
+        "id": 419259,
+        "status": "FINISHED",
+        "utc_date": "2022-09-03 23:15:00",
+        "match_day": 4,
+        "home_team_id": 86,
+        "away_team_id": 90,
+        "season_id": 1504
+    },
+    {
+        "id": 419261,
+        "status": "FINISHED",
+        "utc_date": "2022-09-04 01:30:00",
+        "match_day": 4,
+        "home_team_id": 92,
+        "away_team_id": 78,
+        "season_id": 1504
+    },
+    {
+        "id": 419260,
+        "status": "FINISHED",
+        "utc_date": "2022-09-04 04:00:00",
+        "match_day": 4,
+        "home_team_id": 559,
+        "away_team_id": 81,
+        "season_id": 1504
+    },
+    {
+        "id": 419262,
+        "status": "FINISHED",
+        "utc_date": "2022-09-04 21:00:00",
+        "match_day": 4,
+        "home_team_id": 79,
+        "away_team_id": 87,
+        "season_id": 1504
+    },
+    {
+        "id": 419263,
+        "status": "FINISHED",
+        "utc_date": "2022-09-04 23:15:00",
+        "match_day": 4,
+        "home_team_id": 77,
+        "away_team_id": 80,
+        "season_id": 1504
+    },
+    {
+        "id": 419258,
+        "status": "FINISHED",
+        "utc_date": "2022-09-05 01:30:00",
+        "match_day": 4,
+        "home_team_id": 94,
+        "away_team_id": 285,
+        "season_id": 1504
+    },
+    {
+        "id": 419257,
+        "status": "FINISHED",
+        "utc_date": "2022-09-05 04:00:00",
+        "match_day": 4,
+        "home_team_id": 95,
+        "away_team_id": 82,
+        "season_id": 1504
+    },
+    {
+        "id": 419255,
+        "status": "FINISHED",
+        "utc_date": "2022-09-06 04:00:00",
+        "match_day": 4,
+        "home_team_id": 250,
+        "away_team_id": 267,
+        "season_id": 1504
+    },
+    {
+        "id": 419247,
+        "status": "FINISHED",
+        "utc_date": "2022-09-10 04:00:00",
+        "match_day": 5,
+        "home_team_id": 298,
+        "away_team_id": 250,
+        "season_id": 1504
+    },
+    {
+        "id": 419249,
+        "status": "FINISHED",
+        "utc_date": "2022-09-10 21:00:00",
+        "match_day": 5,
+        "home_team_id": 87,
+        "away_team_id": 95,
+        "season_id": 1504
+    },
+    {
+        "id": 419250,
+        "status": "FINISHED",
+        "utc_date": "2022-09-10 23:15:00",
+        "match_day": 5,
+        "home_team_id": 80,
+        "away_team_id": 559,
+        "season_id": 1504
+    },
+    {
+        "id": 419245,
+        "status": "FINISHED",
+        "utc_date": "2022-09-11 01:30:00",
+        "match_day": 5,
+        "home_team_id": 264,
+        "away_team_id": 81,
+        "season_id": 1504
+    },
+    {
+        "id": 419253,
+        "status": "FINISHED",
+        "utc_date": "2022-09-11 04:00:00",
+        "match_day": 5,
+        "home_team_id": 78,
+        "away_team_id": 558,
+        "season_id": 1504
+    },
+    {
+        "id": 419244,
+        "status": "FINISHED",
+        "utc_date": "2022-09-11 21:00:00",
+        "match_day": 5,
+        "home_team_id": 86,
+        "away_team_id": 89,
+        "season_id": 1504
+    },
+    {
+        "id": 419246,
+        "status": "FINISHED",
+        "utc_date": "2022-09-11 23:15:00",
+        "match_day": 5,
+        "home_team_id": 285,
+        "away_team_id": 77,
+        "season_id": 1504
+    },
+    {
+        "id": 419251,
+        "status": "FINISHED",
+        "utc_date": "2022-09-12 01:30:00",
+        "match_day": 5,
+        "home_team_id": 82,
+        "away_team_id": 92,
+        "season_id": 1504
+    },
+    {
+        "id": 419252,
+        "status": "FINISHED",
+        "utc_date": "2022-09-12 04:00:00",
+        "match_day": 5,
+        "home_team_id": 90,
+        "away_team_id": 94,
+        "season_id": 1504
+    },
+    {
+        "id": 419248,
+        "status": "FINISHED",
+        "utc_date": "2022-09-13 04:00:00",
+        "match_day": 5,
+        "home_team_id": 267,
+        "away_team_id": 79,
+        "season_id": 1504
+    },
+    {
+        "id": 419238,
+        "status": "FINISHED",
+        "utc_date": "2022-09-17 04:00:00",
+        "match_day": 6,
+        "home_team_id": 250,
+        "away_team_id": 264,
+        "season_id": 1504
+    },
+    {
+        "id": 419235,
+        "status": "FINISHED",
+        "utc_date": "2022-09-17 21:00:00",
+        "match_day": 6,
+        "home_team_id": 89,
+        "away_team_id": 267,
+        "season_id": 1504
+    },
+    {
+        "id": 419242,
+        "status": "FINISHED",
+        "utc_date": "2022-09-17 23:15:00",
+        "match_day": 6,
+        "home_team_id": 81,
+        "away_team_id": 285,
+        "season_id": 1504
+    },
+    {
+        "id": 419240,
+        "status": "FINISHED",
+        "utc_date": "2022-09-18 01:30:00",
+        "match_day": 6,
+        "home_team_id": 95,
+        "away_team_id": 558,
+        "season_id": 1504
+    },
+    {
+        "id": 419243,
+        "status": "FINISHED",
+        "utc_date": "2022-09-18 04:00:00",
+        "match_day": 6,
+        "home_team_id": 77,
+        "away_team_id": 87,
+        "season_id": 1504
+    },
+    {
+        "id": 419239,
+        "status": "FINISHED",
+        "utc_date": "2022-09-18 21:00:00",
+        "match_day": 6,
+        "home_team_id": 79,
+        "away_team_id": 82,
+        "season_id": 1504
+    },
+    {
+        "id": 419236,
+        "status": "FINISHED",
+        "utc_date": "2022-09-18 23:15:00",
+        "match_day": 6,
+        "home_team_id": 94,
+        "away_team_id": 559,
+        "season_id": 1504
+    },
+    {
+        "id": 419237,
+        "status": "FINISHED",
+        "utc_date": "2022-09-19 01:30:00",
+        "match_day": 6,
+        "home_team_id": 92,
+        "away_team_id": 80,
+        "season_id": 1504
+    },
+    {
+        "id": 419241,
+        "status": "FINISHED",
+        "utc_date": "2022-09-19 01:30:00",
+        "match_day": 6,
+        "home_team_id": 90,
+        "away_team_id": 298,
+        "season_id": 1504
+    },
+    {
+        "id": 419234,
+        "status": "FINISHED",
+        "utc_date": "2022-09-19 04:00:00",
+        "match_day": 6,
+        "home_team_id": 78,
+        "away_team_id": 86,
+        "season_id": 1504
+    },
+    {
+        "id": 419224,
+        "status": "FINISHED",
+        "utc_date": "2022-10-01 04:00:00",
+        "match_day": 7,
+        "home_team_id": 77,
+        "away_team_id": 267,
+        "season_id": 1504
+    },
+    {
+        "id": 419232,
+        "status": "FINISHED",
+        "utc_date": "2022-10-01 21:00:00",
+        "match_day": 7,
+        "home_team_id": 264,
+        "away_team_id": 94,
+        "season_id": 1504
+    },
+    {
+        "id": 419233,
+        "status": "FINISHED",
+        "utc_date": "2022-10-01 23:15:00",
+        "match_day": 7,
+        "home_team_id": 82,
+        "away_team_id": 250,
+        "season_id": 1504
+    },
+    {
+        "id": 419229,
+        "status": "FINISHED",
+        "utc_date": "2022-10-02 01:30:00",
+        "match_day": 7,
+        "home_team_id": 559,
+        "away_team_id": 78,
+        "season_id": 1504
+    },
+    {
+        "id": 419228,
+        "status": "FINISHED",
+        "utc_date": "2022-10-02 04:00:00",
+        "match_day": 7,
+        "home_team_id": 89,
+        "away_team_id": 81,
+        "season_id": 1504
+    },
+    {
+        "id": 419231,
+        "status": "FINISHED",
+        "utc_date": "2022-10-02 21:00:00",
+        "match_day": 7,
+        "home_team_id": 80,
+        "away_team_id": 95,
+        "season_id": 1504
+    },
+    {
+        "id": 419227,
+        "status": "FINISHED",
+        "utc_date": "2022-10-02 23:15:00",
+        "match_day": 7,
+        "home_team_id": 558,
+        "away_team_id": 90,
+        "season_id": 1504
+    },
+    {
+        "id": 419230,
+        "status": "FINISHED",
+        "utc_date": "2022-10-03 01:30:00",
+        "match_day": 7,
+        "home_team_id": 298,
+        "away_team_id": 92,
+        "season_id": 1504
+    },
+    {
+        "id": 419225,
+        "status": "FINISHED",
+        "utc_date": "2022-10-03 04:00:00",
+        "match_day": 7,
+        "home_team_id": 86,
+        "away_team_id": 79,
+        "season_id": 1504
+    },
+    {
+        "id": 419226,
+        "status": "FINISHED",
+        "utc_date": "2022-10-04 04:00:00",
+        "match_day": 7,
+        "home_team_id": 87,
+        "away_team_id": 285,
+        "season_id": 1504
+    },
+    {
+        "id": 419218,
+        "status": "FINISHED",
+        "utc_date": "2022-10-08 04:00:00",
+        "match_day": 8,
+        "home_team_id": 79,
+        "away_team_id": 95,
+        "season_id": 1504
+    },
+    {
+        "id": 419216,
+        "status": "FINISHED",
+        "utc_date": "2022-10-08 21:00:00",
+        "match_day": 8,
+        "home_team_id": 267,
+        "away_team_id": 87,
+        "season_id": 1504
+    },
+    {
+        "id": 419223,
+        "status": "FINISHED",
+        "utc_date": "2022-10-08 23:15:00",
+        "match_day": 8,
+        "home_team_id": 78,
+        "away_team_id": 298,
+        "season_id": 1504
+    },
+    {
+        "id": 419215,
+        "status": "FINISHED",
+        "utc_date": "2022-10-09 01:30:00",
+        "match_day": 8,
+        "home_team_id": 559,
+        "away_team_id": 77,
+        "season_id": 1504
+    },
+    {
+        "id": 419220,
+        "status": "FINISHED",
+        "utc_date": "2022-10-09 04:00:00",
+        "match_day": 8,
+        "home_team_id": 82,
+        "away_team_id": 86,
+        "season_id": 1504
+    },
+    {
+        "id": 419214,
+        "status": "FINISHED",
+        "utc_date": "2022-10-09 21:00:00",
+        "match_day": 8,
+        "home_team_id": 250,
+        "away_team_id": 90,
+        "season_id": 1504
+    },
+    {
+        "id": 419219,
+        "status": "FINISHED",
+        "utc_date": "2022-10-09 23:15:00",
+        "match_day": 8,
+        "home_team_id": 264,
+        "away_team_id": 80,
+        "season_id": 1504
+    },
+    {
+        "id": 419217,
+        "status": "FINISHED",
+        "utc_date": "2022-10-10 01:30:00",
+        "match_day": 8,
+        "home_team_id": 92,
+        "away_team_id": 94,
+        "season_id": 1504
+    },
+    {
+        "id": 419222,
+        "status": "FINISHED",
+        "utc_date": "2022-10-10 04:00:00",
+        "match_day": 8,
+        "home_team_id": 81,
+        "away_team_id": 558,
+        "season_id": 1504
+    },
+    {
+        "id": 419221,
+        "status": "FINISHED",
+        "utc_date": "2022-10-11 04:30:00",
+        "match_day": 8,
+        "home_team_id": 285,
+        "away_team_id": 89,
+        "season_id": 1504
+    },
+    {
+        "id": 419207,
+        "status": "FINISHED",
+        "utc_date": "2022-10-15 04:00:00",
+        "match_day": 9,
+        "home_team_id": 87,
+        "away_team_id": 82,
+        "season_id": 1504
+    },
+    {
+        "id": 419206,
+        "status": "FINISHED",
+        "utc_date": "2022-10-15 21:00:00",
+        "match_day": 9,
+        "home_team_id": 298,
+        "away_team_id": 264,
+        "season_id": 1504
+    },
+    {
+        "id": 419208,
+        "status": "FINISHED",
+        "utc_date": "2022-10-15 23:15:00",
+        "match_day": 9,
+        "home_team_id": 95,
+        "away_team_id": 285,
+        "season_id": 1504
+    },
+    {
+        "id": 419211,
+        "status": "FINISHED",
+        "utc_date": "2022-10-16 01:30:00",
+        "match_day": 9,
+        "home_team_id": 89,
+        "away_team_id": 559,
+        "season_id": 1504
+    },
+    {
+        "id": 419213,
+        "status": "FINISHED",
+        "utc_date": "2022-10-16 04:00:00",
+        "match_day": 9,
+        "home_team_id": 77,
+        "away_team_id": 78,
+        "season_id": 1504
+    },
+    {
+        "id": 419212,
+        "status": "FINISHED",
+        "utc_date": "2022-10-16 21:00:00",
+        "match_day": 9,
+        "home_team_id": 558,
+        "away_team_id": 92,
+        "season_id": 1504
+    },
+    {
+        "id": 419209,
+        "status": "FINISHED",
+        "utc_date": "2022-10-16 23:15:00",
+        "match_day": 9,
+        "home_team_id": 86,
+        "away_team_id": 81,
+        "season_id": 1504
+    },
+    {
+        "id": 419210,
+        "status": "FINISHED",
+        "utc_date": "2022-10-17 01:30:00",
+        "match_day": 9,
+        "home_team_id": 80,
+        "away_team_id": 250,
+        "season_id": 1504
+    },
+    {
+        "id": 419204,
+        "status": "FINISHED",
+        "utc_date": "2022-10-17 04:00:00",
+        "match_day": 9,
+        "home_team_id": 90,
+        "away_team_id": 267,
+        "season_id": 1504
+    },
+    {
+        "id": 419205,
+        "status": "FINISHED",
+        "utc_date": "2022-10-18 04:00:00",
+        "match_day": 9,
+        "home_team_id": 94,
+        "away_team_id": 79,
+        "season_id": 1504
+    },
+    {
+        "id": 419200,
+        "status": "FINISHED",
+        "utc_date": "2022-10-19 02:00:00",
+        "match_day": 10,
+        "home_team_id": 559,
+        "away_team_id": 95,
+        "season_id": 1504
+    },
+    {
+        "id": 419198,
+        "status": "FINISHED",
+        "utc_date": "2022-10-19 03:00:00",
+        "match_day": 10,
+        "home_team_id": 82,
+        "away_team_id": 77,
+        "season_id": 1504
+    },
+    {
+        "id": 419203,
+        "status": "FINISHED",
+        "utc_date": "2022-10-19 04:00:00",
+        "match_day": 10,
+        "home_team_id": 78,
+        "away_team_id": 87,
+        "season_id": 1504
+    },
+    {
+        "id": 419196,
+        "status": "FINISHED",
+        "utc_date": "2022-10-20 02:00:00",
+        "match_day": 10,
+        "home_team_id": 250,
+        "away_team_id": 558,
+        "season_id": 1504
+    },
+    {
+        "id": 419197,
+        "status": "FINISHED",
+        "utc_date": "2022-10-20 02:00:00",
+        "match_day": 10,
+        "home_team_id": 264,
+        "away_team_id": 90,
+        "season_id": 1504
+    },
+    {
+        "id": 419195,
+        "status": "FINISHED",
+        "utc_date": "2022-10-20 03:00:00",
+        "match_day": 10,
+        "home_team_id": 92,
+        "away_team_id": 89,
+        "season_id": 1504
+    },
+    {
+        "id": 419201,
+        "status": "FINISHED",
+        "utc_date": "2022-10-20 04:00:00",
+        "match_day": 10,
+        "home_team_id": 285,
+        "away_team_id": 86,
+        "season_id": 1504
+    },
+    {
+        "id": 419199,
+        "status": "FINISHED",
+        "utc_date": "2022-10-21 02:00:00",
+        "match_day": 10,
+        "home_team_id": 267,
+        "away_team_id": 298,
+        "season_id": 1504
+    },
+    {
+        "id": 419194,
+        "status": "FINISHED",
+        "utc_date": "2022-10-21 03:00:00",
+        "match_day": 10,
+        "home_team_id": 79,
+        "away_team_id": 80,
+        "season_id": 1504
+    },
+    {
+        "id": 419202,
+        "status": "FINISHED",
+        "utc_date": "2022-10-21 04:00:00",
+        "match_day": 10,
+        "home_team_id": 81,
+        "away_team_id": 94,
+        "season_id": 1504
+    },
+    {
+        "id": 419186,
+        "status": "FINISHED",
+        "utc_date": "2022-10-22 21:00:00",
+        "match_day": 11,
+        "home_team_id": 87,
+        "away_team_id": 264,
+        "season_id": 1504
+    },
+    {
+        "id": 419185,
+        "status": "FINISHED",
+        "utc_date": "2022-10-22 23:15:00",
+        "match_day": 11,
+        "home_team_id": 250,
+        "away_team_id": 92,
+        "season_id": 1504
+    },
+    {
+        "id": 419187,
+        "status": "FINISHED",
+        "utc_date": "2022-10-23 01:30:00",
+        "match_day": 11,
+        "home_team_id": 95,
+        "away_team_id": 89,
+        "season_id": 1504
+    },
+    {
+        "id": 419192,
+        "status": "FINISHED",
+        "utc_date": "2022-10-23 04:00:00",
+        "match_day": 11,
+        "home_team_id": 86,
+        "away_team_id": 559,
+        "season_id": 1504
+    },
+    {
+        "id": 419188,
+        "status": "FINISHED",
+        "utc_date": "2022-10-23 21:00:00",
+        "match_day": 11,
+        "home_team_id": 80,
+        "away_team_id": 285,
+        "season_id": 1504
+    },
+    {
+        "id": 419189,
+        "status": "FINISHED",
+        "utc_date": "2022-10-23 23:15:00",
+        "match_day": 11,
+        "home_team_id": 90,
+        "away_team_id": 78,
+        "season_id": 1504
+    },
+    {
+        "id": 419184,
+        "status": "FINISHED",
+        "utc_date": "2022-10-24 01:30:00",
+        "match_day": 11,
+        "home_team_id": 94,
+        "away_team_id": 267,
+        "season_id": 1504
+    },
+    {
+        "id": 419191,
+        "status": "FINISHED",
+        "utc_date": "2022-10-24 01:30:00",
+        "match_day": 11,
+        "home_team_id": 298,
+        "away_team_id": 79,
+        "season_id": 1504
+    },
+    {
+        "id": 419190,
+        "status": "FINISHED",
+        "utc_date": "2022-10-24 04:00:00",
+        "match_day": 11,
+        "home_team_id": 81,
+        "away_team_id": 77,
+        "season_id": 1504
+    },
+    {
+        "id": 419193,
+        "status": "FINISHED",
+        "utc_date": "2022-10-25 04:00:00",
+        "match_day": 11,
+        "home_team_id": 558,
+        "away_team_id": 82,
+        "season_id": 1504
+    },
+    {
+        "id": 419176,
+        "status": "FINISHED",
+        "utc_date": "2022-10-29 04:00:00",
+        "match_day": 12,
+        "home_team_id": 89,
+        "away_team_id": 80,
+        "season_id": 1504
+    },
+    {
+        "id": 419180,
+        "status": "FINISHED",
+        "utc_date": "2022-10-29 21:00:00",
+        "match_day": 12,
+        "home_team_id": 267,
+        "away_team_id": 558,
+        "season_id": 1504
+    },
+    {
+        "id": 419179,
+        "status": "IN_PLAY",
+        "utc_date": "2022-10-29 23:15:00",
+        "match_day": 12,
+        "home_team_id": 264,
+        "away_team_id": 78,
+        "season_id": 1504
+    },
+    {
+        "id": 419175,
+        "status": "SCHEDULED",
+        "utc_date": "2022-10-30 01:30:00",
+        "match_day": 12,
+        "home_team_id": 559,
+        "away_team_id": 87,
+        "season_id": 1504
+    },
+    {
+        "id": 419178,
+        "status": "SCHEDULED",
+        "utc_date": "2022-10-30 04:00:00",
+        "match_day": 12,
+        "home_team_id": 95,
+        "away_team_id": 81,
+        "season_id": 1504
+    },
+    {
+        "id": 419181,
+        "status": "SCHEDULED",
+        "utc_date": "2022-10-30 22:00:00",
+        "match_day": 12,
+        "home_team_id": 79,
+        "away_team_id": 250,
+        "season_id": 1504
+    },
+    {
+        "id": 419174,
+        "status": "SCHEDULED",
+        "utc_date": "2022-10-31 00:15:00",
+        "match_day": 12,
+        "home_team_id": 86,
+        "away_team_id": 298,
+        "season_id": 1504
+    },
+    {
+        "id": 419183,
+        "status": "SCHEDULED",
+        "utc_date": "2022-10-31 02:30:00",
+        "match_day": 12,
+        "home_team_id": 77,
+        "away_team_id": 94,
+        "season_id": 1504
+    },
+    {
+        "id": 419177,
+        "status": "SCHEDULED",
+        "utc_date": "2022-10-31 05:00:00",
+        "match_day": 12,
+        "home_team_id": 92,
+        "away_team_id": 90,
+        "season_id": 1504
+    },
+    {
+        "id": 419182,
+        "status": "SCHEDULED",
+        "utc_date": "2022-11-01 05:00:00",
+        "match_day": 12,
+        "home_team_id": 285,
+        "away_team_id": 82,
+        "season_id": 1504
+    },
+    {
+        "id": 419168,
+        "status": "SCHEDULED",
+        "utc_date": "2022-11-05 05:00:00",
+        "match_day": 13,
+        "home_team_id": 298,
+        "away_team_id": 77,
+        "season_id": 1504
+    },
+    {
+        "id": 419165,
+        "status": "SCHEDULED",
+        "utc_date": "2022-11-05 22:00:00",
+        "match_day": 13,
+        "home_team_id": 82,
+        "away_team_id": 264,
+        "season_id": 1504
+    },
+    {
+        "id": 419167,
+        "status": "SCHEDULED",
+        "utc_date": "2022-11-06 00:15:00",
+        "match_day": 13,
+        "home_team_id": 250,
+        "away_team_id": 285,
+        "season_id": 1504
+    },
+    {
+        "id": 419171,
+        "status": "SCHEDULED",
+        "utc_date": "2022-11-06 02:30:00",
+        "match_day": 13,
+        "home_team_id": 558,
+        "away_team_id": 79,
+        "season_id": 1504
+    },
+    {
+        "id": 419164,
+        "status": "SCHEDULED",
+        "utc_date": "2022-11-06 05:00:00",
+        "match_day": 13,
+        "home_team_id": 81,
+        "away_team_id": 267,
+        "season_id": 1504
+    },
+    {
+        "id": 419173,
+        "status": "SCHEDULED",
+        "utc_date": "2022-11-06 22:00:00",
+        "match_day": 13,
+        "home_team_id": 78,
+        "away_team_id": 80,
+        "season_id": 1504
+    },
+    {
+        "id": 419170,
+        "status": "SCHEDULED",
+        "utc_date": "2022-11-07 00:15:00",
+        "match_day": 13,
+        "home_team_id": 92,
+        "away_team_id": 95,
+        "season_id": 1504
+    },
+    {
+        "id": 419166,
+        "status": "SCHEDULED",
+        "utc_date": "2022-11-07 02:30:00",
+        "match_day": 13,
+        "home_team_id": 94,
+        "away_team_id": 89,
+        "season_id": 1504
+    },
+    {
+        "id": 419172,
+        "status": "SCHEDULED",
+        "utc_date": "2022-11-07 05:00:00",
+        "match_day": 13,
+        "home_team_id": 90,
+        "away_team_id": 559,
+        "season_id": 1504
+    },
+    {
+        "id": 419169,
+        "status": "SCHEDULED",
+        "utc_date": "2022-11-08 05:00:00",
+        "match_day": 13,
+        "home_team_id": 87,
+        "away_team_id": 86,
+        "season_id": 1504
+    },
+    {
+        "id": 419162,
+        "status": "SCHEDULED",
+        "utc_date": "2022-11-09 03:00:00",
+        "match_day": 14,
+        "home_team_id": 285,
+        "away_team_id": 298,
+        "season_id": 1504
+    },
+    {
+        "id": 419163,
+        "status": "SCHEDULED",
+        "utc_date": "2022-11-09 04:00:00",
+        "match_day": 14,
+        "home_team_id": 77,
+        "away_team_id": 250,
+        "season_id": 1504
+    },
+    {
+        "id": 419158,
+        "status": "SCHEDULED",
+        "utc_date": "2022-11-09 05:30:00",
+        "match_day": 14,
+        "home_team_id": 79,
+        "away_team_id": 81,
+        "season_id": 1504
+    },
+    {
+        "id": 419154,
+        "status": "SCHEDULED",
+        "utc_date": "2022-11-10 03:00:00",
+        "match_day": 14,
+        "home_team_id": 559,
+        "away_team_id": 92,
+        "season_id": 1504
+    },
+    {
+        "id": 419160,
+        "status": "SCHEDULED",
+        "utc_date": "2022-11-10 03:00:00",
+        "match_day": 14,
+        "home_team_id": 267,
+        "away_team_id": 82,
+        "season_id": 1504
+    },
+    {
+        "id": 419161,
+        "status": "SCHEDULED",
+        "utc_date": "2022-11-10 04:00:00",
+        "match_day": 14,
+        "home_team_id": 80,
+        "away_team_id": 94,
+        "season_id": 1504
+    },
+    {
+        "id": 419159,
+        "status": "SCHEDULED",
+        "utc_date": "2022-11-10 05:30:00",
+        "match_day": 14,
+        "home_team_id": 89,
+        "away_team_id": 78,
+        "season_id": 1504
+    },
+    {
+        "id": 419156,
+        "status": "SCHEDULED",
+        "utc_date": "2022-11-11 03:00:00",
+        "match_day": 14,
+        "home_team_id": 87,
+        "away_team_id": 558,
+        "season_id": 1504
+    },
+    {
+        "id": 419157,
+        "status": "SCHEDULED",
+        "utc_date": "2022-11-11 04:00:00",
+        "match_day": 14,
+        "home_team_id": 95,
+        "away_team_id": 90,
+        "season_id": 1504
+    },
+    {
+        "id": 419155,
+        "status": "SCHEDULED",
+        "utc_date": "2022-11-11 05:30:00",
+        "match_day": 14,
+        "home_team_id": 86,
+        "away_team_id": 264,
+        "season_id": 1504
+    },
+    {
+        "id": 419144,
+        "status": "SCHEDULED",
+        "utc_date": "2022-12-31 23:00:00",
+        "match_day": 15,
+        "home_team_id": 264,
+        "away_team_id": 267,
+        "season_id": 1504
+    },
+    {
+        "id": 419145,
+        "status": "SCHEDULED",
+        "utc_date": "2022-12-31 23:00:00",
+        "match_day": 15,
+        "home_team_id": 94,
+        "away_team_id": 95,
+        "season_id": 1504
+    },
+    {
+        "id": 419146,
+        "status": "SCHEDULED",
+        "utc_date": "2022-12-31 23:00:00",
+        "match_day": 15,
+        "home_team_id": 250,
+        "away_team_id": 86,
+        "season_id": 1504
+    },
+    {
+        "id": 419147,
+        "status": "SCHEDULED",
+        "utc_date": "2022-12-31 23:00:00",
+        "match_day": 15,
+        "home_team_id": 92,
+        "away_team_id": 79,
+        "season_id": 1504
+    },
+    {
+        "id": 419148,
+        "status": "SCHEDULED",
+        "utc_date": "2022-12-31 23:00:00",
+        "match_day": 15,
+        "home_team_id": 90,
+        "away_team_id": 77,
+        "season_id": 1504
+    },
+    {
+        "id": 419149,
+        "status": "SCHEDULED",
+        "utc_date": "2022-12-31 23:00:00",
+        "match_day": 15,
+        "home_team_id": 298,
+        "away_team_id": 87,
+        "season_id": 1504
+    },
+    {
+        "id": 419150,
+        "status": "SCHEDULED",
+        "utc_date": "2022-12-31 23:00:00",
+        "match_day": 15,
+        "home_team_id": 82,
+        "away_team_id": 89,
+        "season_id": 1504
+    },
+    {
+        "id": 419151,
+        "status": "SCHEDULED",
+        "utc_date": "2022-12-31 23:00:00",
+        "match_day": 15,
+        "home_team_id": 558,
+        "away_team_id": 559,
+        "season_id": 1504
+    },
+    {
+        "id": 419152,
+        "status": "SCHEDULED",
+        "utc_date": "2022-12-31 23:00:00",
+        "match_day": 15,
+        "home_team_id": 81,
+        "away_team_id": 80,
+        "season_id": 1504
+    },
+    {
+        "id": 419153,
+        "status": "SCHEDULED",
+        "utc_date": "2022-12-31 23:00:00",
+        "match_day": 15,
+        "home_team_id": 78,
+        "away_team_id": 285,
+        "season_id": 1504
+    },
+    {
+        "id": 419134,
+        "status": "SCHEDULED",
+        "utc_date": "2023-01-08 23:00:00",
+        "match_day": 16,
+        "home_team_id": 94,
+        "away_team_id": 86,
+        "season_id": 1504
+    },
+    {
+        "id": 419135,
+        "status": "SCHEDULED",
+        "utc_date": "2023-01-08 23:00:00",
+        "match_day": 16,
+        "home_team_id": 95,
+        "away_team_id": 264,
+        "season_id": 1504
+    },
+    {
+        "id": 419136,
+        "status": "SCHEDULED",
+        "utc_date": "2023-01-08 23:00:00",
+        "match_day": 16,
+        "home_team_id": 559,
+        "away_team_id": 82,
+        "season_id": 1504
+    },
+    {
+        "id": 419137,
+        "status": "SCHEDULED",
+        "utc_date": "2023-01-08 23:00:00",
+        "match_day": 16,
+        "home_team_id": 285,
+        "away_team_id": 558,
+        "season_id": 1504
+    },
+    {
+        "id": 419138,
+        "status": "SCHEDULED",
+        "utc_date": "2023-01-08 23:00:00",
+        "match_day": 16,
+        "home_team_id": 87,
+        "away_team_id": 90,
+        "season_id": 1504
+    },
+    {
+        "id": 419139,
+        "status": "SCHEDULED",
+        "utc_date": "2023-01-08 23:00:00",
+        "match_day": 16,
+        "home_team_id": 267,
+        "away_team_id": 92,
+        "season_id": 1504
+    },
+    {
+        "id": 419140,
+        "status": "SCHEDULED",
+        "utc_date": "2023-01-08 23:00:00",
+        "match_day": 16,
+        "home_team_id": 80,
+        "away_team_id": 298,
+        "season_id": 1504
+    },
+    {
+        "id": 419141,
+        "status": "SCHEDULED",
+        "utc_date": "2023-01-08 23:00:00",
+        "match_day": 16,
+        "home_team_id": 89,
+        "away_team_id": 250,
+        "season_id": 1504
+    },
+    {
+        "id": 419142,
+        "status": "SCHEDULED",
+        "utc_date": "2023-01-08 23:00:00",
+        "match_day": 16,
+        "home_team_id": 78,
+        "away_team_id": 81,
+        "season_id": 1504
+    },
+    {
+        "id": 419143,
+        "status": "SCHEDULED",
+        "utc_date": "2023-01-08 23:00:00",
+        "match_day": 16,
+        "home_team_id": 77,
+        "away_team_id": 79,
+        "season_id": 1504
+    },
+    {
+        "id": 419124,
+        "status": "SCHEDULED",
+        "utc_date": "2023-01-15 23:00:00",
+        "match_day": 17,
+        "home_team_id": 250,
+        "away_team_id": 87,
+        "season_id": 1504
+    },
+    {
+        "id": 419125,
+        "status": "SCHEDULED",
+        "utc_date": "2023-01-15 23:00:00",
+        "match_day": 17,
+        "home_team_id": 82,
+        "away_team_id": 80,
+        "season_id": 1504
+    },
+    {
+        "id": 419126,
+        "status": "SCHEDULED",
+        "utc_date": "2023-01-15 23:00:00",
+        "match_day": 17,
+        "home_team_id": 79,
+        "away_team_id": 89,
+        "season_id": 1504
+    },
+    {
+        "id": 419127,
+        "status": "SCHEDULED",
+        "utc_date": "2023-01-15 23:00:00",
+        "match_day": 17,
+        "home_team_id": 90,
+        "away_team_id": 81,
+        "season_id": 1504
+    },
+    {
+        "id": 419128,
+        "status": "SCHEDULED",
+        "utc_date": "2023-01-15 23:00:00",
+        "match_day": 17,
+        "home_team_id": 92,
+        "away_team_id": 77,
+        "season_id": 1504
+    },
+    {
+        "id": 419129,
+        "status": "SCHEDULED",
+        "utc_date": "2023-01-15 23:00:00",
+        "match_day": 17,
+        "home_team_id": 298,
+        "away_team_id": 559,
+        "season_id": 1504
+    },
+    {
+        "id": 419130,
+        "status": "SCHEDULED",
+        "utc_date": "2023-01-15 23:00:00",
+        "match_day": 17,
+        "home_team_id": 267,
+        "away_team_id": 78,
+        "season_id": 1504
+    },
+    {
+        "id": 419131,
+        "status": "SCHEDULED",
+        "utc_date": "2023-01-15 23:00:00",
+        "match_day": 17,
+        "home_team_id": 86,
+        "away_team_id": 95,
+        "season_id": 1504
+    },
+    {
+        "id": 419132,
+        "status": "SCHEDULED",
+        "utc_date": "2023-01-15 23:00:00",
+        "match_day": 17,
+        "home_team_id": 264,
+        "away_team_id": 285,
+        "season_id": 1504
+    },
+    {
+        "id": 419133,
+        "status": "SCHEDULED",
+        "utc_date": "2023-01-15 23:00:00",
+        "match_day": 17,
+        "home_team_id": 558,
+        "away_team_id": 94,
+        "season_id": 1504
+    },
+    {
+        "id": 419114,
+        "status": "SCHEDULED",
+        "utc_date": "2023-01-22 23:00:00",
+        "match_day": 18,
+        "home_team_id": 94,
+        "away_team_id": 298,
+        "season_id": 1504
+    },
+    {
+        "id": 419115,
+        "status": "SCHEDULED",
+        "utc_date": "2023-01-22 23:00:00",
+        "match_day": 18,
+        "home_team_id": 95,
+        "away_team_id": 267,
+        "season_id": 1504
+    },
+    {
+        "id": 419116,
+        "status": "SCHEDULED",
+        "utc_date": "2023-01-22 23:00:00",
+        "match_day": 18,
+        "home_team_id": 559,
+        "away_team_id": 264,
+        "season_id": 1504
+    },
+    {
+        "id": 419117,
+        "status": "SCHEDULED",
+        "utc_date": "2023-01-22 23:00:00",
+        "match_day": 18,
+        "home_team_id": 89,
+        "away_team_id": 558,
+        "season_id": 1504
+    },
+    {
+        "id": 419118,
+        "status": "SCHEDULED",
+        "utc_date": "2023-01-22 23:00:00",
+        "match_day": 18,
+        "home_team_id": 80,
+        "away_team_id": 90,
+        "season_id": 1504
+    },
+    {
+        "id": 419119,
+        "status": "SCHEDULED",
+        "utc_date": "2023-01-22 23:00:00",
+        "match_day": 18,
+        "home_team_id": 87,
+        "away_team_id": 92,
+        "season_id": 1504
+    },
+    {
+        "id": 419120,
+        "status": "SCHEDULED",
+        "utc_date": "2023-01-22 23:00:00",
+        "match_day": 18,
+        "home_team_id": 285,
+        "away_team_id": 79,
+        "season_id": 1504
+    },
+    {
+        "id": 419121,
+        "status": "SCHEDULED",
+        "utc_date": "2023-01-22 23:00:00",
+        "match_day": 18,
+        "home_team_id": 81,
+        "away_team_id": 82,
+        "season_id": 1504
+    },
+    {
+        "id": 419122,
+        "status": "SCHEDULED",
+        "utc_date": "2023-01-22 23:00:00",
+        "match_day": 18,
+        "home_team_id": 78,
+        "away_team_id": 250,
+        "season_id": 1504
+    },
+    {
+        "id": 419123,
+        "status": "SCHEDULED",
+        "utc_date": "2023-01-22 23:00:00",
+        "match_day": 18,
+        "home_team_id": 77,
+        "away_team_id": 86,
+        "season_id": 1504
+    },
+    {
+        "id": 419104,
+        "status": "SCHEDULED",
+        "utc_date": "2023-01-29 23:00:00",
+        "match_day": 19,
+        "home_team_id": 94,
+        "away_team_id": 87,
+        "season_id": 1504
+    },
+    {
+        "id": 419105,
+        "status": "SCHEDULED",
+        "utc_date": "2023-01-29 23:00:00",
+        "match_day": 19,
+        "home_team_id": 250,
+        "away_team_id": 95,
+        "season_id": 1504
+    },
+    {
+        "id": 419106,
+        "status": "SCHEDULED",
+        "utc_date": "2023-01-29 23:00:00",
+        "match_day": 19,
+        "home_team_id": 559,
+        "away_team_id": 285,
+        "season_id": 1504
+    },
+    {
+        "id": 419107,
+        "status": "SCHEDULED",
+        "utc_date": "2023-01-29 23:00:00",
+        "match_day": 19,
+        "home_team_id": 82,
+        "away_team_id": 90,
+        "season_id": 1504
+    },
+    {
+        "id": 419108,
+        "status": "SCHEDULED",
+        "utc_date": "2023-01-29 23:00:00",
+        "match_day": 19,
+        "home_team_id": 298,
+        "away_team_id": 81,
+        "season_id": 1504
+    },
+    {
+        "id": 419109,
+        "status": "SCHEDULED",
+        "utc_date": "2023-01-29 23:00:00",
+        "match_day": 19,
+        "home_team_id": 79,
+        "away_team_id": 78,
+        "season_id": 1504
+    },
+    {
+        "id": 419110,
+        "status": "SCHEDULED",
+        "utc_date": "2023-01-29 23:00:00",
+        "match_day": 19,
+        "home_team_id": 558,
+        "away_team_id": 77,
+        "season_id": 1504
+    },
+    {
+        "id": 419111,
+        "status": "SCHEDULED",
+        "utc_date": "2023-01-29 23:00:00",
+        "match_day": 19,
+        "home_team_id": 267,
+        "away_team_id": 80,
+        "season_id": 1504
+    },
+    {
+        "id": 419112,
+        "status": "SCHEDULED",
+        "utc_date": "2023-01-29 23:00:00",
+        "match_day": 19,
+        "home_team_id": 86,
+        "away_team_id": 92,
+        "season_id": 1504
+    },
+    {
+        "id": 419113,
+        "status": "SCHEDULED",
+        "utc_date": "2023-01-29 23:00:00",
+        "match_day": 19,
+        "home_team_id": 264,
+        "away_team_id": 89,
+        "season_id": 1504
+    },
+    {
+        "id": 419094,
+        "status": "SCHEDULED",
+        "utc_date": "2023-02-05 23:00:00",
+        "match_day": 20,
+        "home_team_id": 87,
+        "away_team_id": 267,
+        "season_id": 1504
+    },
+    {
+        "id": 419095,
+        "status": "SCHEDULED",
+        "utc_date": "2023-02-05 23:00:00",
+        "match_day": 20,
+        "home_team_id": 298,
+        "away_team_id": 95,
+        "season_id": 1504
+    },
+    {
+        "id": 419096,
+        "status": "SCHEDULED",
+        "utc_date": "2023-02-05 23:00:00",
+        "match_day": 20,
+        "home_team_id": 92,
+        "away_team_id": 250,
+        "season_id": 1504
+    },
+    {
+        "id": 419097,
+        "status": "SCHEDULED",
+        "utc_date": "2023-02-05 23:00:00",
+        "match_day": 20,
+        "home_team_id": 80,
+        "away_team_id": 79,
+        "season_id": 1504
+    },
+    {
+        "id": 419098,
+        "status": "SCHEDULED",
+        "utc_date": "2023-02-05 23:00:00",
+        "match_day": 20,
+        "home_team_id": 89,
+        "away_team_id": 86,
+        "season_id": 1504
+    },
+    {
+        "id": 419099,
+        "status": "SCHEDULED",
+        "utc_date": "2023-02-05 23:00:00",
+        "match_day": 20,
+        "home_team_id": 285,
+        "away_team_id": 94,
+        "season_id": 1504
+    },
+    {
+        "id": 419100,
+        "status": "SCHEDULED",
+        "utc_date": "2023-02-05 23:00:00",
+        "match_day": 20,
+        "home_team_id": 90,
+        "away_team_id": 558,
+        "season_id": 1504
+    },
+    {
+        "id": 419101,
+        "status": "SCHEDULED",
+        "utc_date": "2023-02-05 23:00:00",
+        "match_day": 20,
+        "home_team_id": 81,
+        "away_team_id": 559,
+        "season_id": 1504
+    },
+    {
+        "id": 419102,
+        "status": "SCHEDULED",
+        "utc_date": "2023-02-05 23:00:00",
+        "match_day": 20,
+        "home_team_id": 78,
+        "away_team_id": 82,
+        "season_id": 1504
+    },
+    {
+        "id": 419103,
+        "status": "SCHEDULED",
+        "utc_date": "2023-02-05 23:00:00",
+        "match_day": 20,
+        "home_team_id": 77,
+        "away_team_id": 264,
+        "season_id": 1504
+    },
+    {
+        "id": 419084,
+        "status": "SCHEDULED",
+        "utc_date": "2023-02-12 23:00:00",
+        "match_day": 21,
+        "home_team_id": 250,
+        "away_team_id": 79,
+        "season_id": 1504
+    },
+    {
+        "id": 419085,
+        "status": "SCHEDULED",
+        "utc_date": "2023-02-12 23:00:00",
+        "match_day": 21,
+        "home_team_id": 559,
+        "away_team_id": 89,
+        "season_id": 1504
+    },
+    {
+        "id": 419086,
+        "status": "SCHEDULED",
+        "utc_date": "2023-02-12 23:00:00",
+        "match_day": 21,
+        "home_team_id": 86,
+        "away_team_id": 285,
+        "season_id": 1504
+    },
+    {
+        "id": 419087,
+        "status": "SCHEDULED",
+        "utc_date": "2023-02-12 23:00:00",
+        "match_day": 21,
+        "home_team_id": 94,
+        "away_team_id": 81,
+        "season_id": 1504
+    },
+    {
+        "id": 419088,
+        "status": "SCHEDULED",
+        "utc_date": "2023-02-12 23:00:00",
+        "match_day": 21,
+        "home_team_id": 558,
+        "away_team_id": 78,
+        "season_id": 1504
+    },
+    {
+        "id": 419089,
+        "status": "SCHEDULED",
+        "utc_date": "2023-02-12 23:00:00",
+        "match_day": 21,
+        "home_team_id": 95,
+        "away_team_id": 77,
+        "season_id": 1504
+    },
+    {
+        "id": 419090,
+        "status": "SCHEDULED",
+        "utc_date": "2023-02-12 23:00:00",
+        "match_day": 21,
+        "home_team_id": 267,
+        "away_team_id": 90,
+        "season_id": 1504
+    },
+    {
+        "id": 419091,
+        "status": "SCHEDULED",
+        "utc_date": "2023-02-12 23:00:00",
+        "match_day": 21,
+        "home_team_id": 80,
+        "away_team_id": 92,
+        "season_id": 1504
+    },
+    {
+        "id": 419092,
+        "status": "SCHEDULED",
+        "utc_date": "2023-02-12 23:00:00",
+        "match_day": 21,
+        "home_team_id": 264,
+        "away_team_id": 298,
+        "season_id": 1504
+    },
+    {
+        "id": 419093,
+        "status": "SCHEDULED",
+        "utc_date": "2023-02-12 23:00:00",
+        "match_day": 21,
+        "home_team_id": 82,
+        "away_team_id": 87,
+        "season_id": 1504
+    },
+    {
+        "id": 419074,
+        "status": "SCHEDULED",
+        "utc_date": "2023-02-19 23:00:00",
+        "match_day": 22,
+        "home_team_id": 298,
+        "away_team_id": 267,
+        "season_id": 1504
+    },
+    {
+        "id": 419075,
+        "status": "SCHEDULED",
+        "utc_date": "2023-02-19 23:00:00",
+        "match_day": 22,
+        "home_team_id": 92,
+        "away_team_id": 558,
+        "season_id": 1504
+    },
+    {
+        "id": 419076,
+        "status": "SCHEDULED",
+        "utc_date": "2023-02-19 23:00:00",
+        "match_day": 22,
+        "home_team_id": 78,
+        "away_team_id": 77,
+        "season_id": 1504
+    },
+    {
+        "id": 419077,
+        "status": "SCHEDULED",
+        "utc_date": "2023-02-19 23:00:00",
+        "match_day": 22,
+        "home_team_id": 87,
+        "away_team_id": 559,
+        "season_id": 1504
+    },
+    {
+        "id": 419078,
+        "status": "SCHEDULED",
+        "utc_date": "2023-02-19 23:00:00",
+        "match_day": 22,
+        "home_team_id": 79,
+        "away_team_id": 86,
+        "season_id": 1504
+    },
+    {
+        "id": 419079,
+        "status": "SCHEDULED",
+        "utc_date": "2023-02-19 23:00:00",
+        "match_day": 22,
+        "home_team_id": 82,
+        "away_team_id": 95,
+        "season_id": 1504
+    },
+    {
+        "id": 419080,
+        "status": "SCHEDULED",
+        "utc_date": "2023-02-19 23:00:00",
+        "match_day": 22,
+        "home_team_id": 89,
+        "away_team_id": 94,
+        "season_id": 1504
+    },
+    {
+        "id": 419081,
+        "status": "SCHEDULED",
+        "utc_date": "2023-02-19 23:00:00",
+        "match_day": 22,
+        "home_team_id": 285,
+        "away_team_id": 80,
+        "season_id": 1504
+    },
+    {
+        "id": 419082,
+        "status": "SCHEDULED",
+        "utc_date": "2023-02-19 23:00:00",
+        "match_day": 22,
+        "home_team_id": 90,
+        "away_team_id": 250,
+        "season_id": 1504
+    },
+    {
+        "id": 419083,
+        "status": "SCHEDULED",
+        "utc_date": "2023-02-19 23:00:00",
+        "match_day": 22,
+        "home_team_id": 81,
+        "away_team_id": 264,
+        "season_id": 1504
+    },
+    {
+        "id": 419072,
+        "status": "SCHEDULED",
+        "utc_date": "2023-02-26 23:00:00",
+        "match_day": 23,
+        "home_team_id": 95,
+        "away_team_id": 92,
+        "season_id": 1504
+    },
+    {
+        "id": 419073,
+        "status": "SCHEDULED",
+        "utc_date": "2023-02-26 23:00:00",
+        "match_day": 23,
+        "home_team_id": 559,
+        "away_team_id": 79,
+        "season_id": 1504
+    },
+    {
+        "id": 419064,
+        "status": "SCHEDULED",
+        "utc_date": "2023-02-26 23:00:00",
+        "match_day": 23,
+        "home_team_id": 94,
+        "away_team_id": 82,
+        "season_id": 1504
+    },
+    {
+        "id": 419065,
+        "status": "SCHEDULED",
+        "utc_date": "2023-02-26 23:00:00",
+        "match_day": 23,
+        "home_team_id": 285,
+        "away_team_id": 90,
+        "season_id": 1504
+    },
+    {
+        "id": 419066,
+        "status": "SCHEDULED",
+        "utc_date": "2023-02-26 23:00:00",
+        "match_day": 23,
+        "home_team_id": 86,
+        "away_team_id": 78,
+        "season_id": 1504
+    },
+    {
+        "id": 419067,
+        "status": "SCHEDULED",
+        "utc_date": "2023-02-26 23:00:00",
+        "match_day": 23,
+        "home_team_id": 267,
+        "away_team_id": 81,
+        "season_id": 1504
+    },
+    {
+        "id": 419068,
+        "status": "SCHEDULED",
+        "utc_date": "2023-02-26 23:00:00",
+        "match_day": 23,
+        "home_team_id": 80,
+        "away_team_id": 89,
+        "season_id": 1504
+    },
+    {
+        "id": 419069,
+        "status": "SCHEDULED",
+        "utc_date": "2023-02-26 23:00:00",
+        "match_day": 23,
+        "home_team_id": 264,
+        "away_team_id": 87,
+        "season_id": 1504
+    },
+    {
+        "id": 419070,
+        "status": "SCHEDULED",
+        "utc_date": "2023-02-26 23:00:00",
+        "match_day": 23,
+        "home_team_id": 558,
+        "away_team_id": 250,
+        "season_id": 1504
+    },
+    {
+        "id": 419071,
+        "status": "SCHEDULED",
+        "utc_date": "2023-02-26 23:00:00",
+        "match_day": 23,
+        "home_team_id": 77,
+        "away_team_id": 298,
+        "season_id": 1504
+    },
+    {
+        "id": 419054,
+        "status": "SCHEDULED",
+        "utc_date": "2023-03-05 23:00:00",
+        "match_day": 24,
+        "home_team_id": 250,
+        "away_team_id": 80,
+        "season_id": 1504
+    },
+    {
+        "id": 419055,
+        "status": "SCHEDULED",
+        "utc_date": "2023-03-05 23:00:00",
+        "match_day": 24,
+        "home_team_id": 92,
+        "away_team_id": 264,
+        "season_id": 1504
+    },
+    {
+        "id": 419056,
+        "status": "SCHEDULED",
+        "utc_date": "2023-03-05 23:00:00",
+        "match_day": 24,
+        "home_team_id": 89,
+        "away_team_id": 285,
+        "season_id": 1504
+    },
+    {
+        "id": 419057,
+        "status": "SCHEDULED",
+        "utc_date": "2023-03-05 23:00:00",
+        "match_day": 24,
+        "home_team_id": 79,
+        "away_team_id": 558,
+        "season_id": 1504
+    },
+    {
+        "id": 419058,
+        "status": "SCHEDULED",
+        "utc_date": "2023-03-05 23:00:00",
+        "match_day": 24,
+        "home_team_id": 87,
+        "away_team_id": 77,
+        "season_id": 1504
+    },
+    {
+        "id": 419059,
+        "status": "SCHEDULED",
+        "utc_date": "2023-03-05 23:00:00",
+        "match_day": 24,
+        "home_team_id": 267,
+        "away_team_id": 94,
+        "season_id": 1504
+    },
+    {
+        "id": 419060,
+        "status": "SCHEDULED",
+        "utc_date": "2023-03-05 23:00:00",
+        "match_day": 24,
+        "home_team_id": 82,
+        "away_team_id": 298,
+        "season_id": 1504
+    },
+    {
+        "id": 419061,
+        "status": "SCHEDULED",
+        "utc_date": "2023-03-05 23:00:00",
+        "match_day": 24,
+        "home_team_id": 90,
+        "away_team_id": 86,
+        "season_id": 1504
+    },
+    {
+        "id": 419062,
+        "status": "SCHEDULED",
+        "utc_date": "2023-03-05 23:00:00",
+        "match_day": 24,
+        "home_team_id": 81,
+        "away_team_id": 95,
+        "season_id": 1504
+    },
+    {
+        "id": 419063,
+        "status": "SCHEDULED",
+        "utc_date": "2023-03-05 23:00:00",
+        "match_day": 24,
+        "home_team_id": 78,
+        "away_team_id": 559,
+        "season_id": 1504
+    },
+    {
+        "id": 419044,
+        "status": "SCHEDULED",
+        "utc_date": "2023-03-12 23:00:00",
+        "match_day": 25,
+        "home_team_id": 559,
+        "away_team_id": 267,
+        "season_id": 1504
+    },
+    {
+        "id": 419045,
+        "status": "SCHEDULED",
+        "utc_date": "2023-03-12 23:00:00",
+        "match_day": 25,
+        "home_team_id": 95,
+        "away_team_id": 79,
+        "season_id": 1504
+    },
+    {
+        "id": 419046,
+        "status": "SCHEDULED",
+        "utc_date": "2023-03-12 23:00:00",
+        "match_day": 25,
+        "home_team_id": 86,
+        "away_team_id": 80,
+        "season_id": 1504
+    },
+    {
+        "id": 419047,
+        "status": "SCHEDULED",
+        "utc_date": "2023-03-12 23:00:00",
+        "match_day": 25,
+        "home_team_id": 94,
+        "away_team_id": 90,
+        "season_id": 1504
+    },
+    {
+        "id": 419048,
+        "status": "SCHEDULED",
+        "utc_date": "2023-03-12 23:00:00",
+        "match_day": 25,
+        "home_team_id": 298,
+        "away_team_id": 78,
+        "season_id": 1504
+    },
+    {
+        "id": 419049,
+        "status": "SCHEDULED",
+        "utc_date": "2023-03-12 23:00:00",
+        "match_day": 25,
+        "home_team_id": 264,
+        "away_team_id": 82,
+        "season_id": 1504
+    },
+    {
+        "id": 419050,
+        "status": "SCHEDULED",
+        "utc_date": "2023-03-12 23:00:00",
+        "match_day": 25,
+        "home_team_id": 89,
+        "away_team_id": 92,
+        "season_id": 1504
+    },
+    {
+        "id": 419051,
+        "status": "SCHEDULED",
+        "utc_date": "2023-03-12 23:00:00",
+        "match_day": 25,
+        "home_team_id": 285,
+        "away_team_id": 250,
+        "season_id": 1504
+    },
+    {
+        "id": 419052,
+        "status": "SCHEDULED",
+        "utc_date": "2023-03-12 23:00:00",
+        "match_day": 25,
+        "home_team_id": 558,
+        "away_team_id": 87,
+        "season_id": 1504
+    },
+    {
+        "id": 419053,
+        "status": "SCHEDULED",
+        "utc_date": "2023-03-12 23:00:00",
+        "match_day": 25,
+        "home_team_id": 77,
+        "away_team_id": 81,
+        "season_id": 1504
+    },
+    {
+        "id": 419034,
+        "status": "SCHEDULED",
+        "utc_date": "2023-03-19 23:00:00",
+        "match_day": 26,
+        "home_team_id": 87,
+        "away_team_id": 298,
+        "season_id": 1504
+    },
+    {
+        "id": 419035,
+        "status": "SCHEDULED",
+        "utc_date": "2023-03-19 23:00:00",
+        "match_day": 26,
+        "home_team_id": 92,
+        "away_team_id": 285,
+        "season_id": 1504
+    },
+    {
+        "id": 419036,
+        "status": "SCHEDULED",
+        "utc_date": "2023-03-19 23:00:00",
+        "match_day": 26,
+        "home_team_id": 80,
+        "away_team_id": 558,
+        "season_id": 1504
+    },
+    {
+        "id": 419037,
+        "status": "SCHEDULED",
+        "utc_date": "2023-03-19 23:00:00",
+        "match_day": 26,
+        "home_team_id": 250,
+        "away_team_id": 77,
+        "season_id": 1504
+    },
+    {
+        "id": 419038,
+        "status": "SCHEDULED",
+        "utc_date": "2023-03-19 23:00:00",
+        "match_day": 26,
+        "home_team_id": 267,
+        "away_team_id": 264,
+        "season_id": 1504
+    },
+    {
+        "id": 419039,
+        "status": "SCHEDULED",
+        "utc_date": "2023-03-19 23:00:00",
+        "match_day": 26,
+        "home_team_id": 79,
+        "away_team_id": 94,
+        "season_id": 1504
+    },
+    {
+        "id": 419040,
+        "status": "SCHEDULED",
+        "utc_date": "2023-03-19 23:00:00",
+        "match_day": 26,
+        "home_team_id": 82,
+        "away_team_id": 559,
+        "season_id": 1504
+    },
+    {
+        "id": 419041,
+        "status": "SCHEDULED",
+        "utc_date": "2023-03-19 23:00:00",
+        "match_day": 26,
+        "home_team_id": 90,
+        "away_team_id": 89,
+        "season_id": 1504
+    },
+    {
+        "id": 419042,
+        "status": "SCHEDULED",
+        "utc_date": "2023-03-19 23:00:00",
+        "match_day": 26,
+        "home_team_id": 81,
+        "away_team_id": 86,
+        "season_id": 1504
+    },
+    {
+        "id": 419043,
+        "status": "SCHEDULED",
+        "utc_date": "2023-03-19 23:00:00",
+        "match_day": 26,
+        "home_team_id": 78,
+        "away_team_id": 95,
+        "season_id": 1504
+    },
+    {
+        "id": 419024,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-02 22:00:00",
+        "match_day": 27,
+        "home_team_id": 558,
+        "away_team_id": 267,
+        "season_id": 1504
+    },
+    {
+        "id": 419025,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-02 22:00:00",
+        "match_day": 27,
+        "home_team_id": 95,
+        "away_team_id": 87,
+        "season_id": 1504
+    },
+    {
+        "id": 419026,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-02 22:00:00",
+        "match_day": 27,
+        "home_team_id": 94,
+        "away_team_id": 92,
+        "season_id": 1504
+    },
+    {
+        "id": 419027,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-02 22:00:00",
+        "match_day": 27,
+        "home_team_id": 298,
+        "away_team_id": 80,
+        "season_id": 1504
+    },
+    {
+        "id": 419028,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-02 22:00:00",
+        "match_day": 27,
+        "home_team_id": 285,
+        "away_team_id": 81,
+        "season_id": 1504
+    },
+    {
+        "id": 419029,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-02 22:00:00",
+        "match_day": 27,
+        "home_team_id": 86,
+        "away_team_id": 250,
+        "season_id": 1504
+    },
+    {
+        "id": 419030,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-02 22:00:00",
+        "match_day": 27,
+        "home_team_id": 264,
+        "away_team_id": 559,
+        "season_id": 1504
+    },
+    {
+        "id": 419031,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-02 22:00:00",
+        "match_day": 27,
+        "home_team_id": 89,
+        "away_team_id": 79,
+        "season_id": 1504
+    },
+    {
+        "id": 419032,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-02 22:00:00",
+        "match_day": 27,
+        "home_team_id": 78,
+        "away_team_id": 90,
+        "season_id": 1504
+    },
+    {
+        "id": 419033,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-02 22:00:00",
+        "match_day": 27,
+        "home_team_id": 77,
+        "away_team_id": 82,
+        "season_id": 1504
+    },
+    {
+        "id": 419014,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-09 22:00:00",
+        "match_day": 28,
+        "home_team_id": 92,
+        "away_team_id": 82,
+        "season_id": 1504
+    },
+    {
+        "id": 419015,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-09 22:00:00",
+        "match_day": 28,
+        "home_team_id": 250,
+        "away_team_id": 89,
+        "season_id": 1504
+    },
+    {
+        "id": 419016,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-09 22:00:00",
+        "match_day": 28,
+        "home_team_id": 79,
+        "away_team_id": 285,
+        "season_id": 1504
+    },
+    {
+        "id": 419017,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-09 22:00:00",
+        "match_day": 28,
+        "home_team_id": 559,
+        "away_team_id": 558,
+        "season_id": 1504
+    },
+    {
+        "id": 419018,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-09 22:00:00",
+        "match_day": 28,
+        "home_team_id": 87,
+        "away_team_id": 78,
+        "season_id": 1504
+    },
+    {
+        "id": 419019,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-09 22:00:00",
+        "match_day": 28,
+        "home_team_id": 80,
+        "away_team_id": 77,
+        "season_id": 1504
+    },
+    {
+        "id": 419020,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-09 22:00:00",
+        "match_day": 28,
+        "home_team_id": 267,
+        "away_team_id": 95,
+        "season_id": 1504
+    },
+    {
+        "id": 419021,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-09 22:00:00",
+        "match_day": 28,
+        "home_team_id": 86,
+        "away_team_id": 94,
+        "season_id": 1504
+    },
+    {
+        "id": 419022,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-09 22:00:00",
+        "match_day": 28,
+        "home_team_id": 90,
+        "away_team_id": 264,
+        "season_id": 1504
+    },
+    {
+        "id": 419023,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-09 22:00:00",
+        "match_day": 28,
+        "home_team_id": 81,
+        "away_team_id": 298,
+        "season_id": 1504
+    },
+    {
+        "id": 419004,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-16 22:00:00",
+        "match_day": 29,
+        "home_team_id": 78,
+        "away_team_id": 267,
+        "season_id": 1504
+    },
+    {
+        "id": 419005,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-16 22:00:00",
+        "match_day": 29,
+        "home_team_id": 95,
+        "away_team_id": 559,
+        "season_id": 1504
+    },
+    {
+        "id": 419006,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-16 22:00:00",
+        "match_day": 29,
+        "home_team_id": 87,
+        "away_team_id": 79,
+        "season_id": 1504
+    },
+    {
+        "id": 419007,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-16 22:00:00",
+        "match_day": 29,
+        "home_team_id": 298,
+        "away_team_id": 285,
+        "season_id": 1504
+    },
+    {
+        "id": 419008,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-16 22:00:00",
+        "match_day": 29,
+        "home_team_id": 82,
+        "away_team_id": 81,
+        "season_id": 1504
+    },
+    {
+        "id": 419009,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-16 22:00:00",
+        "match_day": 29,
+        "home_team_id": 94,
+        "away_team_id": 250,
+        "season_id": 1504
+    },
+    {
+        "id": 419010,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-16 22:00:00",
+        "match_day": 29,
+        "home_team_id": 264,
+        "away_team_id": 86,
+        "season_id": 1504
+    },
+    {
+        "id": 419011,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-16 22:00:00",
+        "match_day": 29,
+        "home_team_id": 558,
+        "away_team_id": 89,
+        "season_id": 1504
+    },
+    {
+        "id": 419012,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-16 22:00:00",
+        "match_day": 29,
+        "home_team_id": 90,
+        "away_team_id": 80,
+        "season_id": 1504
+    },
+    {
+        "id": 419013,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-16 22:00:00",
+        "match_day": 29,
+        "home_team_id": 77,
+        "away_team_id": 92,
+        "season_id": 1504
+    },
+    {
+        "id": 418994,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-23 22:00:00",
+        "match_day": 30,
+        "home_team_id": 250,
+        "away_team_id": 298,
+        "season_id": 1504
+    },
+    {
+        "id": 418995,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-23 22:00:00",
+        "match_day": 30,
+        "home_team_id": 92,
+        "away_team_id": 87,
+        "season_id": 1504
+    },
+    {
+        "id": 418996,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-23 22:00:00",
+        "match_day": 30,
+        "home_team_id": 80,
+        "away_team_id": 264,
+        "season_id": 1504
+    },
+    {
+        "id": 418997,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-23 22:00:00",
+        "match_day": 30,
+        "home_team_id": 89,
+        "away_team_id": 82,
+        "season_id": 1504
+    },
+    {
+        "id": 418998,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-23 22:00:00",
+        "match_day": 30,
+        "home_team_id": 86,
+        "away_team_id": 558,
+        "season_id": 1504
+    },
+    {
+        "id": 418999,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-23 22:00:00",
+        "match_day": 30,
+        "home_team_id": 79,
+        "away_team_id": 90,
+        "season_id": 1504
+    },
+    {
+        "id": 419000,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-23 22:00:00",
+        "match_day": 30,
+        "home_team_id": 81,
+        "away_team_id": 78,
+        "season_id": 1504
+    },
+    {
+        "id": 419001,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-23 22:00:00",
+        "match_day": 30,
+        "home_team_id": 267,
+        "away_team_id": 77,
+        "season_id": 1504
+    },
+    {
+        "id": 419002,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-23 22:00:00",
+        "match_day": 30,
+        "home_team_id": 559,
+        "away_team_id": 94,
+        "season_id": 1504
+    },
+    {
+        "id": 419003,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-23 22:00:00",
+        "match_day": 30,
+        "home_team_id": 285,
+        "away_team_id": 95,
+        "season_id": 1504
+    },
+    {
+        "id": 418984,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-26 22:00:00",
+        "match_day": 31,
+        "home_team_id": 82,
+        "away_team_id": 267,
+        "season_id": 1504
+    },
+    {
+        "id": 418985,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-26 22:00:00",
+        "match_day": 31,
+        "home_team_id": 94,
+        "away_team_id": 80,
+        "season_id": 1504
+    },
+    {
+        "id": 418986,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-26 22:00:00",
+        "match_day": 31,
+        "home_team_id": 87,
+        "away_team_id": 81,
+        "season_id": 1504
+    },
+    {
+        "id": 418987,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-26 22:00:00",
+        "match_day": 31,
+        "home_team_id": 298,
+        "away_team_id": 86,
+        "season_id": 1504
+    },
+    {
+        "id": 418988,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-26 22:00:00",
+        "match_day": 31,
+        "home_team_id": 95,
+        "away_team_id": 250,
+        "season_id": 1504
+    },
+    {
+        "id": 418989,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-26 22:00:00",
+        "match_day": 31,
+        "home_team_id": 264,
+        "away_team_id": 79,
+        "season_id": 1504
+    },
+    {
+        "id": 418990,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-26 22:00:00",
+        "match_day": 31,
+        "home_team_id": 558,
+        "away_team_id": 285,
+        "season_id": 1504
+    },
+    {
+        "id": 418991,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-26 22:00:00",
+        "match_day": 31,
+        "home_team_id": 90,
+        "away_team_id": 92,
+        "season_id": 1504
+    },
+    {
+        "id": 418992,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-26 22:00:00",
+        "match_day": 31,
+        "home_team_id": 78,
+        "away_team_id": 89,
+        "season_id": 1504
+    },
+    {
+        "id": 418993,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-26 22:00:00",
+        "match_day": 31,
+        "home_team_id": 77,
+        "away_team_id": 559,
+        "season_id": 1504
+    },
+    {
+        "id": 418974,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-30 22:00:00",
+        "match_day": 32,
+        "home_team_id": 559,
+        "away_team_id": 298,
+        "season_id": 1504
+    },
+    {
+        "id": 418975,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-30 22:00:00",
+        "match_day": 32,
+        "home_team_id": 86,
+        "away_team_id": 267,
+        "season_id": 1504
+    },
+    {
+        "id": 418976,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-30 22:00:00",
+        "match_day": 32,
+        "home_team_id": 94,
+        "away_team_id": 558,
+        "season_id": 1504
+    },
+    {
+        "id": 418977,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-30 22:00:00",
+        "match_day": 32,
+        "home_team_id": 250,
+        "away_team_id": 78,
+        "season_id": 1504
+    },
+    {
+        "id": 418978,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-30 22:00:00",
+        "match_day": 32,
+        "home_team_id": 89,
+        "away_team_id": 77,
+        "season_id": 1504
+    },
+    {
+        "id": 418979,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-30 22:00:00",
+        "match_day": 32,
+        "home_team_id": 79,
+        "away_team_id": 92,
+        "season_id": 1504
+    },
+    {
+        "id": 418980,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-30 22:00:00",
+        "match_day": 32,
+        "home_team_id": 80,
+        "away_team_id": 82,
+        "season_id": 1504
+    },
+    {
+        "id": 418981,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-30 22:00:00",
+        "match_day": 32,
+        "home_team_id": 264,
+        "away_team_id": 95,
+        "season_id": 1504
+    },
+    {
+        "id": 418982,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-30 22:00:00",
+        "match_day": 32,
+        "home_team_id": 285,
+        "away_team_id": 87,
+        "season_id": 1504
+    },
+    {
+        "id": 418983,
+        "status": "SCHEDULED",
+        "utc_date": "2023-04-30 22:00:00",
+        "match_day": 32,
+        "home_team_id": 81,
+        "away_team_id": 90,
+        "season_id": 1504
+    },
+    {
+        "id": 418964,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-03 22:00:00",
+        "match_day": 33,
+        "home_team_id": 92,
+        "away_team_id": 86,
+        "season_id": 1504
+    },
+    {
+        "id": 418965,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-03 22:00:00",
+        "match_day": 33,
+        "home_team_id": 559,
+        "away_team_id": 80,
+        "season_id": 1504
+    },
+    {
+        "id": 418966,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-03 22:00:00",
+        "match_day": 33,
+        "home_team_id": 82,
+        "away_team_id": 558,
+        "season_id": 1504
+    },
+    {
+        "id": 418967,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-03 22:00:00",
+        "match_day": 33,
+        "home_team_id": 298,
+        "away_team_id": 89,
+        "season_id": 1504
+    },
+    {
+        "id": 418968,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-03 22:00:00",
+        "match_day": 33,
+        "home_team_id": 267,
+        "away_team_id": 285,
+        "season_id": 1504
+    },
+    {
+        "id": 418969,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-03 22:00:00",
+        "match_day": 33,
+        "home_team_id": 87,
+        "away_team_id": 250,
+        "season_id": 1504
+    },
+    {
+        "id": 418970,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-03 22:00:00",
+        "match_day": 33,
+        "home_team_id": 95,
+        "away_team_id": 94,
+        "season_id": 1504
+    },
+    {
+        "id": 418971,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-03 22:00:00",
+        "match_day": 33,
+        "home_team_id": 81,
+        "away_team_id": 79,
+        "season_id": 1504
+    },
+    {
+        "id": 418972,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-03 22:00:00",
+        "match_day": 33,
+        "home_team_id": 78,
+        "away_team_id": 264,
+        "season_id": 1504
+    },
+    {
+        "id": 418973,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-03 22:00:00",
+        "match_day": 33,
+        "home_team_id": 77,
+        "away_team_id": 90,
+        "season_id": 1504
+    },
+    {
+        "id": 418954,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-14 22:00:00",
+        "match_day": 34,
+        "home_team_id": 92,
+        "away_team_id": 298,
+        "season_id": 1504
+    },
+    {
+        "id": 418955,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-14 22:00:00",
+        "match_day": 34,
+        "home_team_id": 79,
+        "away_team_id": 267,
+        "season_id": 1504
+    },
+    {
+        "id": 418956,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-14 22:00:00",
+        "match_day": 34,
+        "home_team_id": 250,
+        "away_team_id": 559,
+        "season_id": 1504
+    },
+    {
+        "id": 418957,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-14 22:00:00",
+        "match_day": 34,
+        "home_team_id": 89,
+        "away_team_id": 264,
+        "season_id": 1504
+    },
+    {
+        "id": 418958,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-14 22:00:00",
+        "match_day": 34,
+        "home_team_id": 86,
+        "away_team_id": 82,
+        "season_id": 1504
+    },
+    {
+        "id": 418959,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-14 22:00:00",
+        "match_day": 34,
+        "home_team_id": 80,
+        "away_team_id": 81,
+        "season_id": 1504
+    },
+    {
+        "id": 418960,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-14 22:00:00",
+        "match_day": 34,
+        "home_team_id": 285,
+        "away_team_id": 78,
+        "season_id": 1504
+    },
+    {
+        "id": 418961,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-14 22:00:00",
+        "match_day": 34,
+        "home_team_id": 94,
+        "away_team_id": 77,
+        "season_id": 1504
+    },
+    {
+        "id": 418962,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-14 22:00:00",
+        "match_day": 34,
+        "home_team_id": 558,
+        "away_team_id": 95,
+        "season_id": 1504
+    },
+    {
+        "id": 418963,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-14 22:00:00",
+        "match_day": 34,
+        "home_team_id": 90,
+        "away_team_id": 87,
+        "season_id": 1504
+    },
+    {
+        "id": 418944,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-21 22:00:00",
+        "match_day": 35,
+        "home_team_id": 95,
+        "away_team_id": 86,
+        "season_id": 1504
+    },
+    {
+        "id": 418945,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-21 22:00:00",
+        "match_day": 35,
+        "home_team_id": 87,
+        "away_team_id": 80,
+        "season_id": 1504
+    },
+    {
+        "id": 418946,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-21 22:00:00",
+        "match_day": 35,
+        "home_team_id": 82,
+        "away_team_id": 285,
+        "season_id": 1504
+    },
+    {
+        "id": 418947,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-21 22:00:00",
+        "match_day": 35,
+        "home_team_id": 559,
+        "away_team_id": 90,
+        "season_id": 1504
+    },
+    {
+        "id": 418948,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-21 22:00:00",
+        "match_day": 35,
+        "home_team_id": 298,
+        "away_team_id": 94,
+        "season_id": 1504
+    },
+    {
+        "id": 418949,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-21 22:00:00",
+        "match_day": 35,
+        "home_team_id": 267,
+        "away_team_id": 89,
+        "season_id": 1504
+    },
+    {
+        "id": 418950,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-21 22:00:00",
+        "match_day": 35,
+        "home_team_id": 264,
+        "away_team_id": 250,
+        "season_id": 1504
+    },
+    {
+        "id": 418951,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-21 22:00:00",
+        "match_day": 35,
+        "home_team_id": 81,
+        "away_team_id": 92,
+        "season_id": 1504
+    },
+    {
+        "id": 418952,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-21 22:00:00",
+        "match_day": 35,
+        "home_team_id": 78,
+        "away_team_id": 79,
+        "season_id": 1504
+    },
+    {
+        "id": 418953,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-21 22:00:00",
+        "match_day": 35,
+        "home_team_id": 77,
+        "away_team_id": 558,
+        "season_id": 1504
+    },
+    {
+        "id": 418934,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-24 22:00:00",
+        "match_day": 36,
+        "home_team_id": 92,
+        "away_team_id": 267,
+        "season_id": 1504
+    },
+    {
+        "id": 418935,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-24 22:00:00",
+        "match_day": 36,
+        "home_team_id": 86,
+        "away_team_id": 87,
+        "season_id": 1504
+    },
+    {
+        "id": 418936,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-24 22:00:00",
+        "match_day": 36,
+        "home_team_id": 94,
+        "away_team_id": 264,
+        "season_id": 1504
+    },
+    {
+        "id": 418937,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-24 22:00:00",
+        "match_day": 36,
+        "home_team_id": 250,
+        "away_team_id": 81,
+        "season_id": 1504
+    },
+    {
+        "id": 418938,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-24 22:00:00",
+        "match_day": 36,
+        "home_team_id": 80,
+        "away_team_id": 78,
+        "season_id": 1504
+    },
+    {
+        "id": 418939,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-24 22:00:00",
+        "match_day": 36,
+        "home_team_id": 79,
+        "away_team_id": 77,
+        "season_id": 1504
+    },
+    {
+        "id": 418940,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-24 22:00:00",
+        "match_day": 36,
+        "home_team_id": 89,
+        "away_team_id": 95,
+        "season_id": 1504
+    },
+    {
+        "id": 418941,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-24 22:00:00",
+        "match_day": 36,
+        "home_team_id": 285,
+        "away_team_id": 559,
+        "season_id": 1504
+    },
+    {
+        "id": 418942,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-24 22:00:00",
+        "match_day": 36,
+        "home_team_id": 558,
+        "away_team_id": 298,
+        "season_id": 1504
+    },
+    {
+        "id": 418943,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-24 22:00:00",
+        "match_day": 36,
+        "home_team_id": 90,
+        "away_team_id": 82,
+        "season_id": 1504
+    },
+    {
+        "id": 418924,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-28 22:00:00",
+        "match_day": 37,
+        "home_team_id": 559,
+        "away_team_id": 86,
+        "season_id": 1504
+    },
+    {
+        "id": 418925,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-28 22:00:00",
+        "match_day": 37,
+        "home_team_id": 95,
+        "away_team_id": 80,
+        "season_id": 1504
+    },
+    {
+        "id": 418926,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-28 22:00:00",
+        "match_day": 37,
+        "home_team_id": 298,
+        "away_team_id": 90,
+        "season_id": 1504
+    },
+    {
+        "id": 418927,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-28 22:00:00",
+        "match_day": 37,
+        "home_team_id": 267,
+        "away_team_id": 250,
+        "season_id": 1504
+    },
+    {
+        "id": 418928,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-28 22:00:00",
+        "match_day": 37,
+        "home_team_id": 87,
+        "away_team_id": 94,
+        "season_id": 1504
+    },
+    {
+        "id": 418929,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-28 22:00:00",
+        "match_day": 37,
+        "home_team_id": 264,
+        "away_team_id": 558,
+        "season_id": 1504
+    },
+    {
+        "id": 418930,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-28 22:00:00",
+        "match_day": 37,
+        "home_team_id": 82,
+        "away_team_id": 79,
+        "season_id": 1504
+    },
+    {
+        "id": 418931,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-28 22:00:00",
+        "match_day": 37,
+        "home_team_id": 81,
+        "away_team_id": 89,
+        "season_id": 1504
+    },
+    {
+        "id": 418932,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-28 22:00:00",
+        "match_day": 37,
+        "home_team_id": 78,
+        "away_team_id": 92,
+        "season_id": 1504
+    },
+    {
+        "id": 418933,
+        "status": "SCHEDULED",
+        "utc_date": "2023-05-28 22:00:00",
+        "match_day": 37,
+        "home_team_id": 77,
+        "away_team_id": 285,
+        "season_id": 1504
+    },
+    {
+        "id": 418914,
+        "status": "SCHEDULED",
+        "utc_date": "2023-06-04 22:00:00",
+        "match_day": 38,
+        "home_team_id": 79,
+        "away_team_id": 298,
+        "season_id": 1504
+    },
+    {
+        "id": 418915,
+        "status": "SCHEDULED",
+        "utc_date": "2023-06-04 22:00:00",
+        "match_day": 38,
+        "home_team_id": 80,
+        "away_team_id": 267,
+        "season_id": 1504
+    },
+    {
+        "id": 418916,
+        "status": "SCHEDULED",
+        "utc_date": "2023-06-04 22:00:00",
+        "match_day": 38,
+        "home_team_id": 285,
+        "away_team_id": 264,
+        "season_id": 1504
+    },
+    {
+        "id": 418917,
+        "status": "SCHEDULED",
+        "utc_date": "2023-06-04 22:00:00",
+        "match_day": 38,
+        "home_team_id": 250,
+        "away_team_id": 82,
+        "season_id": 1504
+    },
+    {
+        "id": 418918,
+        "status": "SCHEDULED",
+        "utc_date": "2023-06-04 22:00:00",
+        "match_day": 38,
+        "home_team_id": 558,
+        "away_team_id": 81,
+        "season_id": 1504
+    },
+    {
+        "id": 418919,
+        "status": "SCHEDULED",
+        "utc_date": "2023-06-04 22:00:00",
+        "match_day": 38,
+        "home_team_id": 94,
+        "away_team_id": 78,
+        "season_id": 1504
+    },
+    {
+        "id": 418920,
+        "status": "SCHEDULED",
+        "utc_date": "2023-06-04 22:00:00",
+        "match_day": 38,
+        "home_team_id": 86,
+        "away_team_id": 77,
+        "season_id": 1504
+    },
+    {
+        "id": 418921,
+        "status": "SCHEDULED",
+        "utc_date": "2023-06-04 22:00:00",
+        "match_day": 38,
+        "home_team_id": 92,
+        "away_team_id": 559,
+        "season_id": 1504
+    },
+    {
+        "id": 418922,
+        "status": "SCHEDULED",
+        "utc_date": "2023-06-04 22:00:00",
+        "match_day": 38,
+        "home_team_id": 89,
+        "away_team_id": 87,
+        "season_id": 1504
+    },
+    {
+        "id": 418923,
+        "status": "SCHEDULED",
+        "utc_date": "2023-06-04 22:00:00",
+        "match_day": 38,
+        "home_team_id": 90,
+        "away_team_id": 95,
+        "season_id": 1504
+    },
+    {
+        "id": 331355,
+        "status": "FINISHED",
+        "utc_date": "2021-08-14 04:00:00",
+        "match_day": 1,
+        "home_team_id": 95,
+        "away_team_id": 82,
+        "season_id": 380
+    },
+    {
+        "id": 331358,
+        "status": "FINISHED",
+        "utc_date": "2021-08-15 02:30:00",
+        "match_day": 1,
+        "home_team_id": 264,
+        "away_team_id": 88,
+        "season_id": 380
+    },
+    {
+        "id": 331359,
+        "status": "FINISHED",
+        "utc_date": "2021-08-15 02:30:00",
+        "match_day": 1,
+        "home_team_id": 89,
+        "away_team_id": 90,
+        "season_id": 380
+    },
+    {
+        "id": 331357,
+        "status": "FINISHED",
+        "utc_date": "2021-08-15 05:00:00",
+        "match_day": 1,
+        "home_team_id": 79,
+        "away_team_id": 80,
+        "season_id": 380
+    },
+    {
+        "id": 331362,
+        "status": "FINISHED",
+        "utc_date": "2021-08-15 05:00:00",
+        "match_day": 1,
+        "home_team_id": 263,
+        "away_team_id": 86,
+        "season_id": 380
+    },
+    {
+        "id": 331360,
+        "status": "FINISHED",
+        "utc_date": "2021-08-16 00:30:00",
+        "match_day": 1,
+        "home_team_id": 558,
+        "away_team_id": 78,
+        "season_id": 380
+    },
+    {
+        "id": 331361,
+        "status": "FINISHED",
+        "utc_date": "2021-08-16 03:00:00",
+        "match_day": 1,
+        "home_team_id": 81,
+        "away_team_id": 92,
+        "season_id": 380
+    },
+    {
+        "id": 331356,
+        "status": "FINISHED",
+        "utc_date": "2021-08-16 05:15:00",
+        "match_day": 1,
+        "home_team_id": 559,
+        "away_team_id": 87,
+        "season_id": 380
+    },
+    {
+        "id": 331354,
+        "status": "FINISHED",
+        "utc_date": "2021-08-17 03:00:00",
+        "match_day": 1,
+        "home_team_id": 94,
+        "away_team_id": 83,
+        "season_id": 380
+    },
+    {
+        "id": 331353,
+        "status": "FINISHED",
+        "utc_date": "2021-08-17 05:00:00",
+        "match_day": 1,
+        "home_team_id": 285,
+        "away_team_id": 77,
+        "season_id": 380
+    },
+    {
+        "id": 331349,
+        "status": "FINISHED",
+        "utc_date": "2021-08-21 04:00:00",
+        "match_day": 2,
+        "home_team_id": 90,
+        "away_team_id": 264,
+        "season_id": 380
+    },
+    {
+        "id": 331352,
+        "status": "FINISHED",
+        "utc_date": "2021-08-22 00:00:00",
+        "match_day": 2,
+        "home_team_id": 263,
+        "away_team_id": 89,
+        "season_id": 380
+    },
+    {
+        "id": 331346,
+        "status": "FINISHED",
+        "utc_date": "2021-08-22 02:30:00",
+        "match_day": 2,
+        "home_team_id": 80,
+        "away_team_id": 94,
+        "season_id": 380
+    },
+    {
+        "id": 331347,
+        "status": "FINISHED",
+        "utc_date": "2021-08-22 02:30:00",
+        "match_day": 2,
+        "home_team_id": 83,
+        "away_team_id": 95,
+        "season_id": 380
+    },
+    {
+        "id": 331351,
+        "status": "FINISHED",
+        "utc_date": "2021-08-22 05:00:00",
+        "match_day": 2,
+        "home_team_id": 77,
+        "away_team_id": 81,
+        "season_id": 380
+    },
+    {
+        "id": 331343,
+        "status": "FINISHED",
+        "utc_date": "2021-08-23 00:00:00",
+        "match_day": 2,
+        "home_team_id": 92,
+        "away_team_id": 87,
+        "season_id": 380
+    },
+    {
+        "id": 331350,
+        "status": "FINISHED",
+        "utc_date": "2021-08-23 02:30:00",
+        "match_day": 2,
+        "home_team_id": 78,
+        "away_team_id": 285,
+        "season_id": 380
+    },
+    {
+        "id": 331345,
+        "status": "FINISHED",
+        "utc_date": "2021-08-23 05:00:00",
+        "match_day": 2,
+        "home_team_id": 88,
+        "away_team_id": 86,
+        "season_id": 380
+    },
+    {
+        "id": 331348,
+        "status": "FINISHED",
+        "utc_date": "2021-08-24 03:00:00",
+        "match_day": 2,
+        "home_team_id": 82,
+        "away_team_id": 559,
+        "season_id": 380
+    },
+    {
+        "id": 331344,
+        "status": "FINISHED",
+        "utc_date": "2021-08-24 05:00:00",
+        "match_day": 2,
+        "home_team_id": 79,
+        "away_team_id": 558,
+        "season_id": 380
+    },
+    {
+        "id": 331338,
+        "status": "FINISHED",
+        "utc_date": "2021-08-28 03:00:00",
+        "match_day": 3,
+        "home_team_id": 89,
+        "away_team_id": 80,
+        "season_id": 380
+    },
+    {
+        "id": 331335,
+        "status": "FINISHED",
+        "utc_date": "2021-08-28 05:15:00",
+        "match_day": 3,
+        "home_team_id": 95,
+        "away_team_id": 263,
+        "season_id": 380
+    },
+    {
+        "id": 331339,
+        "status": "FINISHED",
+        "utc_date": "2021-08-29 00:00:00",
+        "match_day": 3,
+        "home_team_id": 558,
+        "away_team_id": 77,
+        "season_id": 380
+    },
+    {
+        "id": 331333,
+        "status": "FINISHED",
+        "utc_date": "2021-08-29 02:30:00",
+        "match_day": 3,
+        "home_team_id": 285,
+        "away_team_id": 559,
+        "season_id": 380
+    },
+    {
+        "id": 331336,
+        "status": "FINISHED",
+        "utc_date": "2021-08-29 02:30:00",
+        "match_day": 3,
+        "home_team_id": 92,
+        "away_team_id": 88,
+        "season_id": 380
+    },
+    {
+        "id": 331340,
+        "status": "FINISHED",
+        "utc_date": "2021-08-29 05:00:00",
+        "match_day": 3,
+        "home_team_id": 90,
+        "away_team_id": 86,
+        "season_id": 380
+    },
+    {
+        "id": 331341,
+        "status": "FINISHED",
+        "utc_date": "2021-08-30 00:00:00",
+        "match_day": 3,
+        "home_team_id": 81,
+        "away_team_id": 82,
+        "season_id": 380
+    },
+    {
+        "id": 331334,
+        "status": "FINISHED",
+        "utc_date": "2021-08-30 02:30:00",
+        "match_day": 3,
+        "home_team_id": 87,
+        "away_team_id": 83,
+        "season_id": 380
+    },
+    {
+        "id": 331337,
+        "status": "FINISHED",
+        "utc_date": "2021-08-30 02:30:00",
+        "match_day": 3,
+        "home_team_id": 264,
+        "away_team_id": 79,
+        "season_id": 380
+    },
+    {
+        "id": 331342,
+        "status": "FINISHED",
+        "utc_date": "2021-08-30 05:00:00",
+        "match_day": 3,
+        "home_team_id": 78,
+        "away_team_id": 94,
+        "season_id": 380
+    },
+    {
+        "id": 331327,
+        "status": "FINISHED",
+        "utc_date": "2021-09-12 01:30:00",
+        "match_day": 4,
+        "home_team_id": 88,
+        "away_team_id": 87,
+        "season_id": 380
+    },
+    {
+        "id": 331332,
+        "status": "FINISHED",
+        "utc_date": "2021-09-12 04:00:00",
+        "match_day": 4,
+        "home_team_id": 77,
+        "away_team_id": 89,
+        "season_id": 380
+    },
+    {
+        "id": 331328,
+        "status": "FINISHED",
+        "utc_date": "2021-09-12 21:00:00",
+        "match_day": 4,
+        "home_team_id": 80,
+        "away_team_id": 78,
+        "season_id": 380
+    },
+    {
+        "id": 331326,
+        "status": "FINISHED",
+        "utc_date": "2021-09-12 23:15:00",
+        "match_day": 4,
+        "home_team_id": 79,
+        "away_team_id": 95,
+        "season_id": 380
+    },
+    {
+        "id": 331330,
+        "status": "FINISHED",
+        "utc_date": "2021-09-13 01:30:00",
+        "match_day": 4,
+        "home_team_id": 264,
+        "away_team_id": 92,
+        "season_id": 380
+    },
+    {
+        "id": 331325,
+        "status": "FINISHED",
+        "utc_date": "2021-09-13 04:00:00",
+        "match_day": 4,
+        "home_team_id": 86,
+        "away_team_id": 558,
+        "season_id": 380
+    },
+    {
+        "id": 331331,
+        "status": "FINISHED",
+        "utc_date": "2021-09-14 03:00:00",
+        "match_day": 4,
+        "home_team_id": 82,
+        "away_team_id": 285,
+        "season_id": 380
+    },
+    {
+        "id": 331329,
+        "status": "FINISHED",
+        "utc_date": "2021-09-14 05:00:00",
+        "match_day": 4,
+        "home_team_id": 83,
+        "away_team_id": 90,
+        "season_id": 380
+    },
+    {
+        "id": 331318,
+        "status": "FINISHED",
+        "utc_date": "2021-09-18 04:00:00",
+        "match_day": 5,
+        "home_team_id": 558,
+        "away_team_id": 264,
+        "season_id": 380
+    },
+    {
+        "id": 331314,
+        "status": "FINISHED",
+        "utc_date": "2021-09-18 21:00:00",
+        "match_day": 5,
+        "home_team_id": 87,
+        "away_team_id": 82,
+        "season_id": 380
+    },
+    {
+        "id": 331321,
+        "status": "FINISHED",
+        "utc_date": "2021-09-18 23:15:00",
+        "match_day": 5,
+        "home_team_id": 78,
+        "away_team_id": 77,
+        "season_id": 380
+    },
+    {
+        "id": 331313,
+        "status": "FINISHED",
+        "utc_date": "2021-09-19 01:30:00",
+        "match_day": 5,
+        "home_team_id": 285,
+        "away_team_id": 88,
+        "season_id": 380
+    },
+    {
+        "id": 331322,
+        "status": "FINISHED",
+        "utc_date": "2021-09-19 04:00:00",
+        "match_day": 5,
+        "home_team_id": 263,
+        "away_team_id": 79,
+        "season_id": 380
+    },
+    {
+        "id": 331317,
+        "status": "FINISHED",
+        "utc_date": "2021-09-19 21:00:00",
+        "match_day": 5,
+        "home_team_id": 89,
+        "away_team_id": 94,
+        "season_id": 380
+    },
+    {
+        "id": 331316,
+        "status": "FINISHED",
+        "utc_date": "2021-09-19 23:15:00",
+        "match_day": 5,
+        "home_team_id": 92,
+        "away_team_id": 559,
+        "season_id": 380
+    },
+    {
+        "id": 331319,
+        "status": "FINISHED",
+        "utc_date": "2021-09-20 01:30:00",
+        "match_day": 5,
+        "home_team_id": 90,
+        "away_team_id": 80,
+        "season_id": 380
+    },
+    {
+        "id": 331315,
+        "status": "FINISHED",
+        "utc_date": "2021-09-20 04:00:00",
+        "match_day": 5,
+        "home_team_id": 95,
+        "away_team_id": 86,
+        "season_id": 380
+    },
+    {
+        "id": 331320,
+        "status": "FINISHED",
+        "utc_date": "2021-09-21 04:00:00",
+        "match_day": 5,
+        "home_team_id": 81,
+        "away_team_id": 83,
+        "season_id": 380
+    },
+    {
+        "id": 331311,
+        "status": "FINISHED",
+        "utc_date": "2021-09-22 02:30:00",
+        "match_day": 6,
+        "home_team_id": 82,
+        "away_team_id": 78,
+        "season_id": 380
+    },
+    {
+        "id": 331307,
+        "status": "FINISHED",
+        "utc_date": "2021-09-22 05:00:00",
+        "match_day": 6,
+        "home_team_id": 88,
+        "away_team_id": 558,
+        "season_id": 380
+    },
+    {
+        "id": 331312,
+        "status": "FINISHED",
+        "utc_date": "2021-09-22 05:00:00",
+        "match_day": 6,
+        "home_team_id": 77,
+        "away_team_id": 87,
+        "season_id": 380
+    },
+    {
+        "id": 331304,
+        "status": "FINISHED",
+        "utc_date": "2021-09-23 02:30:00",
+        "match_day": 6,
+        "home_team_id": 559,
+        "away_team_id": 95,
+        "season_id": 380
+    },
+    {
+        "id": 331308,
+        "status": "FINISHED",
+        "utc_date": "2021-09-23 02:30:00",
+        "match_day": 6,
+        "home_team_id": 80,
+        "away_team_id": 263,
+        "season_id": 380
+    },
+    {
+        "id": 331303,
+        "status": "FINISHED",
+        "utc_date": "2021-09-23 05:00:00",
+        "match_day": 6,
+        "home_team_id": 94,
+        "away_team_id": 285,
+        "season_id": 380
+    },
+    {
+        "id": 331305,
+        "status": "FINISHED",
+        "utc_date": "2021-09-23 05:00:00",
+        "match_day": 6,
+        "home_team_id": 86,
+        "away_team_id": 89,
+        "season_id": 380
+    },
+    {
+        "id": 331306,
+        "status": "FINISHED",
+        "utc_date": "2021-09-24 02:30:00",
+        "match_day": 6,
+        "home_team_id": 79,
+        "away_team_id": 90,
+        "season_id": 380
+    },
+    {
+        "id": 331309,
+        "status": "FINISHED",
+        "utc_date": "2021-09-24 02:30:00",
+        "match_day": 6,
+        "home_team_id": 83,
+        "away_team_id": 92,
+        "season_id": 380
+    },
+    {
+        "id": 331310,
+        "status": "FINISHED",
+        "utc_date": "2021-09-24 05:00:00",
+        "match_day": 6,
+        "home_team_id": 264,
+        "away_team_id": 81,
+        "season_id": 380
+    },
+    {
+        "id": 331302,
+        "status": "FINISHED",
+        "utc_date": "2021-09-25 21:00:00",
+        "match_day": 7,
+        "home_team_id": 263,
+        "away_team_id": 78,
+        "season_id": 380
+    },
+    {
+        "id": 331294,
+        "status": "FINISHED",
+        "utc_date": "2021-09-25 23:15:00",
+        "match_day": 7,
+        "home_team_id": 95,
+        "away_team_id": 77,
+        "season_id": 380
+    },
+    {
+        "id": 331295,
+        "status": "FINISHED",
+        "utc_date": "2021-09-26 01:30:00",
+        "match_day": 7,
+        "home_team_id": 559,
+        "away_team_id": 80,
+        "season_id": 380
+    },
+    {
+        "id": 331297,
+        "status": "FINISHED",
+        "utc_date": "2021-09-26 04:00:00",
+        "match_day": 7,
+        "home_team_id": 86,
+        "away_team_id": 94,
+        "season_id": 380
+    },
+    {
+        "id": 331298,
+        "status": "FINISHED",
+        "utc_date": "2021-09-26 21:00:00",
+        "match_day": 7,
+        "home_team_id": 89,
+        "away_team_id": 79,
+        "season_id": 380
+    },
+    {
+        "id": 331301,
+        "status": "FINISHED",
+        "utc_date": "2021-09-26 23:15:00",
+        "match_day": 7,
+        "home_team_id": 81,
+        "away_team_id": 88,
+        "season_id": 380
+    },
+    {
+        "id": 331293,
+        "status": "FINISHED",
+        "utc_date": "2021-09-27 01:30:00",
+        "match_day": 7,
+        "home_team_id": 87,
+        "away_team_id": 264,
+        "season_id": 380
+    },
+    {
+        "id": 331296,
+        "status": "FINISHED",
+        "utc_date": "2021-09-27 01:30:00",
+        "match_day": 7,
+        "home_team_id": 92,
+        "away_team_id": 285,
+        "season_id": 380
+    },
+    {
+        "id": 331300,
+        "status": "FINISHED",
+        "utc_date": "2021-09-27 04:00:00",
+        "match_day": 7,
+        "home_team_id": 90,
+        "away_team_id": 82,
+        "season_id": 380
+    },
+    {
+        "id": 331299,
+        "status": "FINISHED",
+        "utc_date": "2021-09-28 04:00:00",
+        "match_day": 7,
+        "home_team_id": 558,
+        "away_team_id": 83,
+        "season_id": 380
+    },
+    {
+        "id": 331292,
+        "status": "FINISHED",
+        "utc_date": "2021-10-02 04:00:00",
+        "match_day": 8,
+        "home_team_id": 77,
+        "away_team_id": 263,
+        "season_id": 380
+    },
+    {
+        "id": 331285,
+        "status": "FINISHED",
+        "utc_date": "2021-10-02 21:00:00",
+        "match_day": 8,
+        "home_team_id": 79,
+        "away_team_id": 87,
+        "season_id": 380
+    },
+    {
+        "id": 331290,
+        "status": "FINISHED",
+        "utc_date": "2021-10-02 23:15:00",
+        "match_day": 8,
+        "home_team_id": 89,
+        "away_team_id": 88,
+        "season_id": 380
+    },
+    {
+        "id": 331288,
+        "status": "FINISHED",
+        "utc_date": "2021-10-03 01:30:00",
+        "match_day": 8,
+        "home_team_id": 264,
+        "away_team_id": 95,
+        "season_id": 380
+    },
+    {
+        "id": 331291,
+        "status": "FINISHED",
+        "utc_date": "2021-10-03 04:00:00",
+        "match_day": 8,
+        "home_team_id": 78,
+        "away_team_id": 81,
+        "season_id": 380
+    },
+    {
+        "id": 331283,
+        "status": "FINISHED",
+        "utc_date": "2021-10-03 21:00:00",
+        "match_day": 8,
+        "home_team_id": 285,
+        "away_team_id": 558,
+        "season_id": 380
+    },
+    {
+        "id": 331286,
+        "status": "FINISHED",
+        "utc_date": "2021-10-03 23:15:00",
+        "match_day": 8,
+        "home_team_id": 80,
+        "away_team_id": 86,
+        "season_id": 380
+    },
+    {
+        "id": 331284,
+        "status": "FINISHED",
+        "utc_date": "2021-10-04 01:30:00",
+        "match_day": 8,
+        "home_team_id": 94,
+        "away_team_id": 90,
+        "season_id": 380
+    },
+    {
+        "id": 331289,
+        "status": "FINISHED",
+        "utc_date": "2021-10-04 01:30:00",
+        "match_day": 8,
+        "home_team_id": 82,
+        "away_team_id": 92,
+        "season_id": 380
+    },
+    {
+        "id": 331287,
+        "status": "FINISHED",
+        "utc_date": "2021-10-04 04:00:00",
+        "match_day": 8,
+        "home_team_id": 83,
+        "away_team_id": 559,
+        "season_id": 380
+    },
+    {
+        "id": 331277,
+        "status": "FINISHED",
+        "utc_date": "2021-10-17 01:30:00",
+        "match_day": 9,
+        "home_team_id": 88,
+        "away_team_id": 82,
+        "season_id": 380
+    },
+    {
+        "id": 331275,
+        "status": "FINISHED",
+        "utc_date": "2021-10-17 04:00:00",
+        "match_day": 9,
+        "home_team_id": 92,
+        "away_team_id": 89,
+        "season_id": 380
+    },
+    {
+        "id": 331274,
+        "status": "FINISHED",
+        "utc_date": "2021-10-17 21:00:00",
+        "match_day": 9,
+        "home_team_id": 87,
+        "away_team_id": 285,
+        "season_id": 380
+    },
+    {
+        "id": 331280,
+        "status": "FINISHED",
+        "utc_date": "2021-10-17 23:15:00",
+        "match_day": 9,
+        "home_team_id": 558,
+        "away_team_id": 559,
+        "season_id": 380
+    },
+    {
+        "id": 331273,
+        "status": "FINISHED",
+        "utc_date": "2021-10-18 01:30:00",
+        "match_day": 9,
+        "home_team_id": 94,
+        "away_team_id": 79,
+        "season_id": 380
+    },
+    {
+        "id": 331281,
+        "status": "FINISHED",
+        "utc_date": "2021-10-18 04:00:00",
+        "match_day": 9,
+        "home_team_id": 81,
+        "away_team_id": 95,
+        "season_id": 380
+    },
+    {
+        "id": 331282,
+        "status": "FINISHED",
+        "utc_date": "2021-10-19 02:00:00",
+        "match_day": 9,
+        "home_team_id": 263,
+        "away_team_id": 90,
+        "season_id": 380
+    },
+    {
+        "id": 331278,
+        "status": "FINISHED",
+        "utc_date": "2021-10-19 04:00:00",
+        "match_day": 9,
+        "home_team_id": 80,
+        "away_team_id": 264,
+        "season_id": 380
+    },
+    {
+        "id": 331266,
+        "status": "FINISHED",
+        "utc_date": "2021-10-23 04:00:00",
+        "match_day": 10,
+        "home_team_id": 79,
+        "away_team_id": 83,
+        "season_id": 380
+    },
+    {
+        "id": 331264,
+        "status": "FINISHED",
+        "utc_date": "2021-10-23 21:00:00",
+        "match_day": 10,
+        "home_team_id": 95,
+        "away_team_id": 89,
+        "season_id": 380
+    },
+    {
+        "id": 331267,
+        "status": "FINISHED",
+        "utc_date": "2021-10-23 23:15:00",
+        "match_day": 10,
+        "home_team_id": 264,
+        "away_team_id": 263,
+        "season_id": 380
+    },
+    {
+        "id": 331263,
+        "status": "FINISHED",
+        "utc_date": "2021-10-24 01:30:00",
+        "match_day": 10,
+        "home_team_id": 285,
+        "away_team_id": 80,
+        "season_id": 380
+    },
+    {
+        "id": 331272,
+        "status": "FINISHED",
+        "utc_date": "2021-10-24 04:00:00",
+        "match_day": 10,
+        "home_team_id": 77,
+        "away_team_id": 94,
+        "season_id": 380
+    },
+    {
+        "id": 331265,
+        "status": "FINISHED",
+        "utc_date": "2021-10-24 21:00:00",
+        "match_day": 10,
+        "home_team_id": 559,
+        "away_team_id": 88,
+        "season_id": 380
+    },
+    {
+        "id": 331270,
+        "status": "FINISHED",
+        "utc_date": "2021-10-24 23:15:00",
+        "match_day": 10,
+        "home_team_id": 81,
+        "away_team_id": 86,
+        "season_id": 380
+    },
+    {
+        "id": 331269,
+        "status": "FINISHED",
+        "utc_date": "2021-10-25 01:30:00",
+        "match_day": 10,
+        "home_team_id": 90,
+        "away_team_id": 87,
+        "season_id": 380
+    },
+    {
+        "id": 331271,
+        "status": "FINISHED",
+        "utc_date": "2021-10-25 04:00:00",
+        "match_day": 10,
+        "home_team_id": 78,
+        "away_team_id": 92,
+        "season_id": 380
+    },
+    {
+        "id": 331268,
+        "status": "FINISHED",
+        "utc_date": "2021-10-26 04:00:00",
+        "match_day": 10,
+        "home_team_id": 82,
+        "away_team_id": 558,
+        "season_id": 380
+    },
+    {
+        "id": 331262,
+        "status": "FINISHED",
+        "utc_date": "2021-10-27 02:00:00",
+        "match_day": 11,
+        "home_team_id": 263,
+        "away_team_id": 285,
+        "season_id": 380
+    },
+    {
+        "id": 331257,
+        "status": "FINISHED",
+        "utc_date": "2021-10-27 04:00:00",
+        "match_day": 11,
+        "home_team_id": 80,
+        "away_team_id": 77,
+        "season_id": 380
+    },
+    {
+        "id": 331253,
+        "status": "FINISHED",
+        "utc_date": "2021-10-27 04:30:00",
+        "match_day": 11,
+        "home_team_id": 94,
+        "away_team_id": 264,
+        "season_id": 380
+    },
+    {
+        "id": 331254,
+        "status": "FINISHED",
+        "utc_date": "2021-10-28 02:00:00",
+        "match_day": 11,
+        "home_team_id": 87,
+        "away_team_id": 81,
+        "season_id": 380
+    },
+    {
+        "id": 331259,
+        "status": "FINISHED",
+        "utc_date": "2021-10-28 02:00:00",
+        "match_day": 11,
+        "home_team_id": 89,
+        "away_team_id": 559,
+        "season_id": 380
+    },
+    {
+        "id": 331261,
+        "status": "FINISHED",
+        "utc_date": "2021-10-28 03:00:00",
+        "match_day": 11,
+        "home_team_id": 90,
+        "away_team_id": 95,
+        "season_id": 380
+    },
+    {
+        "id": 331255,
+        "status": "FINISHED",
+        "utc_date": "2021-10-28 04:30:00",
+        "match_day": 11,
+        "home_team_id": 86,
+        "away_team_id": 79,
+        "season_id": 380
+    },
+    {
+        "id": 331260,
+        "status": "FINISHED",
+        "utc_date": "2021-10-29 02:00:00",
+        "match_day": 11,
+        "home_team_id": 558,
+        "away_team_id": 92,
+        "season_id": 380
+    },
+    {
+        "id": 331258,
+        "status": "FINISHED",
+        "utc_date": "2021-10-29 03:00:00",
+        "match_day": 11,
+        "home_team_id": 83,
+        "away_team_id": 82,
+        "season_id": 380
+    },
+    {
+        "id": 331256,
+        "status": "FINISHED",
+        "utc_date": "2021-10-29 04:30:00",
+        "match_day": 11,
+        "home_team_id": 88,
+        "away_team_id": 78,
+        "season_id": 380
+    },
+    {
+        "id": 331243,
+        "status": "FINISHED",
+        "utc_date": "2021-10-30 21:00:00",
+        "match_day": 12,
+        "home_team_id": 285,
+        "away_team_id": 86,
+        "season_id": 380
+    },
+    {
+        "id": 331246,
+        "status": "FINISHED",
+        "utc_date": "2021-10-30 23:15:00",
+        "match_day": 12,
+        "home_team_id": 559,
+        "away_team_id": 79,
+        "season_id": 380
+    },
+    {
+        "id": 331245,
+        "status": "FINISHED",
+        "utc_date": "2021-10-31 01:30:00",
+        "match_day": 12,
+        "home_team_id": 95,
+        "away_team_id": 94,
+        "season_id": 380
+    },
+    {
+        "id": 331251,
+        "status": "FINISHED",
+        "utc_date": "2021-10-31 04:00:00",
+        "match_day": 12,
+        "home_team_id": 81,
+        "away_team_id": 263,
+        "season_id": 380
+    },
+    {
+        "id": 331249,
+        "status": "FINISHED",
+        "utc_date": "2021-10-31 22:00:00",
+        "match_day": 12,
+        "home_team_id": 264,
+        "away_team_id": 89,
+        "season_id": 380
+    },
+    {
+        "id": 331252,
+        "status": "FINISHED",
+        "utc_date": "2021-11-01 00:15:00",
+        "match_day": 12,
+        "home_team_id": 78,
+        "away_team_id": 90,
+        "season_id": 380
+    },
+    {
+        "id": 331250,
+        "status": "FINISHED",
+        "utc_date": "2021-11-01 02:30:00",
+        "match_day": 12,
+        "home_team_id": 82,
+        "away_team_id": 80,
+        "season_id": 380
+    },
+    {
+        "id": 331247,
+        "status": "FINISHED",
+        "utc_date": "2021-11-01 05:00:00",
+        "match_day": 12,
+        "home_team_id": 92,
+        "away_team_id": 77,
+        "season_id": 380
+    },
+    {
+        "id": 331244,
+        "status": "FINISHED",
+        "utc_date": "2021-11-02 02:30:00",
+        "match_day": 12,
+        "home_team_id": 87,
+        "away_team_id": 558,
+        "season_id": 380
+    },
+    {
+        "id": 331248,
+        "status": "FINISHED",
+        "utc_date": "2021-11-02 05:00:00",
+        "match_day": 12,
+        "home_team_id": 88,
+        "away_team_id": 83,
+        "season_id": 380
+    },
+    {
+        "id": 331241,
+        "status": "FINISHED",
+        "utc_date": "2021-11-06 05:00:00",
+        "match_day": 13,
+        "home_team_id": 77,
+        "away_team_id": 264,
+        "season_id": 380
+    },
+    {
+        "id": 331237,
+        "status": "FINISHED",
+        "utc_date": "2021-11-06 22:00:00",
+        "match_day": 13,
+        "home_team_id": 80,
+        "away_team_id": 83,
+        "season_id": 380
+    },
+    {
+        "id": 331239,
+        "status": "FINISHED",
+        "utc_date": "2021-11-07 00:15:00",
+        "match_day": 13,
+        "home_team_id": 558,
+        "away_team_id": 81,
+        "season_id": 380
+    },
+    {
+        "id": 331242,
+        "status": "FINISHED",
+        "utc_date": "2021-11-07 02:30:00",
+        "match_day": 13,
+        "home_team_id": 263,
+        "away_team_id": 88,
+        "season_id": 380
+    },
+    {
+        "id": 331235,
+        "status": "FINISHED",
+        "utc_date": "2021-11-07 05:00:00",
+        "match_day": 13,
+        "home_team_id": 86,
+        "away_team_id": 87,
+        "season_id": 380
+    },
+    {
+        "id": 331233,
+        "status": "FINISHED",
+        "utc_date": "2021-11-07 22:00:00",
+        "match_day": 13,
+        "home_team_id": 94,
+        "away_team_id": 82,
+        "season_id": 380
+    },
+    {
+        "id": 331234,
+        "status": "FINISHED",
+        "utc_date": "2021-11-08 00:15:00",
+        "match_day": 13,
+        "home_team_id": 95,
+        "away_team_id": 78,
+        "season_id": 380
+    },
+    {
+        "id": 331236,
+        "status": "FINISHED",
+        "utc_date": "2021-11-08 02:30:00",
+        "match_day": 13,
+        "home_team_id": 79,
+        "away_team_id": 92,
+        "season_id": 380
+    },
+    {
+        "id": 331238,
+        "status": "FINISHED",
+        "utc_date": "2021-11-08 02:30:00",
+        "match_day": 13,
+        "home_team_id": 89,
+        "away_team_id": 285,
+        "season_id": 380
+    },
+    {
+        "id": 331240,
+        "status": "FINISHED",
+        "utc_date": "2021-11-08 05:00:00",
+        "match_day": 13,
+        "home_team_id": 90,
+        "away_team_id": 559,
+        "season_id": 380
+    },
+    {
+        "id": 331227,
+        "status": "FINISHED",
+        "utc_date": "2021-11-20 05:00:00",
+        "match_day": 14,
+        "home_team_id": 88,
+        "away_team_id": 77,
+        "season_id": 380
+    },
+    {
+        "id": 331230,
+        "status": "FINISHED",
+        "utc_date": "2021-11-20 22:00:00",
+        "match_day": 14,
+        "home_team_id": 558,
+        "away_team_id": 94,
+        "season_id": 380
+    },
+    {
+        "id": 331225,
+        "status": "FINISHED",
+        "utc_date": "2021-11-21 00:15:00",
+        "match_day": 14,
+        "home_team_id": 559,
+        "away_team_id": 263,
+        "season_id": 380
+    },
+    {
+        "id": 331232,
+        "status": "FINISHED",
+        "utc_date": "2021-11-21 02:30:00",
+        "match_day": 14,
+        "home_team_id": 78,
+        "away_team_id": 79,
+        "season_id": 380
+    },
+    {
+        "id": 331231,
+        "status": "FINISHED",
+        "utc_date": "2021-11-21 05:00:00",
+        "match_day": 14,
+        "home_team_id": 81,
+        "away_team_id": 80,
+        "season_id": 380
+    },
+    {
+        "id": 331229,
+        "status": "FINISHED",
+        "utc_date": "2021-11-21 22:00:00",
+        "match_day": 14,
+        "home_team_id": 82,
+        "away_team_id": 264,
+        "season_id": 380
+    },
+    {
+        "id": 331228,
+        "status": "FINISHED",
+        "utc_date": "2021-11-22 00:15:00",
+        "match_day": 14,
+        "home_team_id": 83,
+        "away_team_id": 86,
+        "season_id": 380
+    },
+    {
+        "id": 331223,
+        "status": "FINISHED",
+        "utc_date": "2021-11-22 02:30:00",
+        "match_day": 14,
+        "home_team_id": 285,
+        "away_team_id": 90,
+        "season_id": 380
+    },
+    {
+        "id": 331226,
+        "status": "FINISHED",
+        "utc_date": "2021-11-22 05:00:00",
+        "match_day": 14,
+        "home_team_id": 92,
+        "away_team_id": 95,
+        "season_id": 380
+    },
+    {
+        "id": 331224,
+        "status": "FINISHED",
+        "utc_date": "2021-11-23 05:00:00",
+        "match_day": 14,
+        "home_team_id": 87,
+        "away_team_id": 89,
+        "season_id": 380
+    },
+    {
+        "id": 331221,
+        "status": "FINISHED",
+        "utc_date": "2021-11-27 05:00:00",
+        "match_day": 15,
+        "home_team_id": 77,
+        "away_team_id": 83,
+        "season_id": 380
+    },
+    {
+        "id": 331222,
+        "status": "FINISHED",
+        "utc_date": "2021-11-27 22:00:00",
+        "match_day": 15,
+        "home_team_id": 263,
+        "away_team_id": 558,
+        "season_id": 380
+    },
+    {
+        "id": 331214,
+        "status": "FINISHED",
+        "utc_date": "2021-11-28 00:15:00",
+        "match_day": 15,
+        "home_team_id": 95,
+        "away_team_id": 87,
+        "season_id": 380
+    },
+    {
+        "id": 331219,
+        "status": "FINISHED",
+        "utc_date": "2021-11-28 02:30:00",
+        "match_day": 15,
+        "home_team_id": 89,
+        "away_team_id": 82,
+        "season_id": 380
+    },
+    {
+        "id": 331213,
+        "status": "FINISHED",
+        "utc_date": "2021-11-28 05:00:00",
+        "match_day": 15,
+        "home_team_id": 94,
+        "away_team_id": 81,
+        "season_id": 380
+    },
+    {
+        "id": 331220,
+        "status": "FINISHED",
+        "utc_date": "2021-11-28 22:00:00",
+        "match_day": 15,
+        "home_team_id": 90,
+        "away_team_id": 88,
+        "season_id": 380
+    },
+    {
+        "id": 331217,
+        "status": "FINISHED",
+        "utc_date": "2021-11-29 00:15:00",
+        "match_day": 15,
+        "home_team_id": 80,
+        "away_team_id": 92,
+        "season_id": 380
+    },
+    {
+        "id": 331218,
+        "status": "FINISHED",
+        "utc_date": "2021-11-29 02:30:00",
+        "match_day": 15,
+        "home_team_id": 264,
+        "away_team_id": 78,
+        "season_id": 380
+    },
+    {
+        "id": 331215,
+        "status": "FINISHED",
+        "utc_date": "2021-11-29 05:00:00",
+        "match_day": 15,
+        "home_team_id": 86,
+        "away_team_id": 559,
+        "season_id": 380
+    },
+    {
+        "id": 331216,
+        "status": "FINISHED",
+        "utc_date": "2021-11-30 05:00:00",
+        "match_day": 15,
+        "home_team_id": 79,
+        "away_team_id": 285,
+        "season_id": 380
+    },
+    {
+        "id": 331276,
+        "status": "FINISHED",
+        "utc_date": "2021-12-02 05:00:00",
+        "match_day": 9,
+        "home_team_id": 86,
+        "away_team_id": 77,
+        "season_id": 380
+    },
+    {
+        "id": 331208,
+        "status": "FINISHED",
+        "utc_date": "2021-12-04 05:00:00",
+        "match_day": 16,
+        "home_team_id": 83,
+        "away_team_id": 263,
+        "season_id": 380
+    },
+    {
+        "id": 331205,
+        "status": "FINISHED",
+        "utc_date": "2021-12-04 22:00:00",
+        "match_day": 16,
+        "home_team_id": 559,
+        "away_team_id": 94,
+        "season_id": 380
+    },
+    {
+        "id": 331211,
+        "status": "FINISHED",
+        "utc_date": "2021-12-05 00:15:00",
+        "match_day": 16,
+        "home_team_id": 81,
+        "away_team_id": 90,
+        "season_id": 380
+    },
+    {
+        "id": 331212,
+        "status": "FINISHED",
+        "utc_date": "2021-12-05 02:30:00",
+        "match_day": 16,
+        "home_team_id": 78,
+        "away_team_id": 89,
+        "season_id": 380
+    },
+    {
+        "id": 331206,
+        "status": "FINISHED",
+        "utc_date": "2021-12-05 05:00:00",
+        "match_day": 16,
+        "home_team_id": 92,
+        "away_team_id": 86,
+        "season_id": 380
+    },
+    {
+        "id": 331204,
+        "status": "FINISHED",
+        "utc_date": "2021-12-05 22:00:00",
+        "match_day": 16,
+        "home_team_id": 87,
+        "away_team_id": 80,
+        "season_id": 380
+    },
+    {
+        "id": 331203,
+        "status": "FINISHED",
+        "utc_date": "2021-12-06 00:15:00",
+        "match_day": 16,
+        "home_team_id": 285,
+        "away_team_id": 264,
+        "season_id": 380
+    },
+    {
+        "id": 331207,
+        "status": "FINISHED",
+        "utc_date": "2021-12-06 02:30:00",
+        "match_day": 16,
+        "home_team_id": 88,
+        "away_team_id": 79,
+        "season_id": 380
+    },
+    {
+        "id": 331210,
+        "status": "FINISHED",
+        "utc_date": "2021-12-06 05:00:00",
+        "match_day": 16,
+        "home_team_id": 558,
+        "away_team_id": 95,
+        "season_id": 380
+    },
+    {
+        "id": 331209,
+        "status": "FINISHED",
+        "utc_date": "2021-12-07 05:00:00",
+        "match_day": 16,
+        "home_team_id": 82,
+        "away_team_id": 77,
+        "season_id": 380
+    },
+    {
+        "id": 331199,
+        "status": "FINISHED",
+        "utc_date": "2021-12-11 05:00:00",
+        "match_day": 17,
+        "home_team_id": 89,
+        "away_team_id": 558,
+        "season_id": 380
+    },
+    {
+        "id": 331197,
+        "status": "FINISHED",
+        "utc_date": "2021-12-11 22:00:00",
+        "match_day": 17,
+        "home_team_id": 80,
+        "away_team_id": 88,
+        "season_id": 380
+    },
+    {
+        "id": 331202,
+        "status": "FINISHED",
+        "utc_date": "2021-12-12 00:15:00",
+        "match_day": 17,
+        "home_team_id": 263,
+        "away_team_id": 82,
+        "season_id": 380
+    },
+    {
+        "id": 331194,
+        "status": "FINISHED",
+        "utc_date": "2021-12-12 02:30:00",
+        "match_day": 17,
+        "home_team_id": 95,
+        "away_team_id": 285,
+        "season_id": 380
+    },
+    {
+        "id": 331201,
+        "status": "FINISHED",
+        "utc_date": "2021-12-12 05:00:00",
+        "match_day": 17,
+        "home_team_id": 77,
+        "away_team_id": 559,
+        "season_id": 380
+    },
+    {
+        "id": 331193,
+        "status": "FINISHED",
+        "utc_date": "2021-12-12 22:00:00",
+        "match_day": 17,
+        "home_team_id": 94,
+        "away_team_id": 87,
+        "season_id": 380
+    },
+    {
+        "id": 331196,
+        "status": "FINISHED",
+        "utc_date": "2021-12-13 00:15:00",
+        "match_day": 17,
+        "home_team_id": 79,
+        "away_team_id": 81,
+        "season_id": 380
+    },
+    {
+        "id": 331200,
+        "status": "FINISHED",
+        "utc_date": "2021-12-13 02:30:00",
+        "match_day": 17,
+        "home_team_id": 90,
+        "away_team_id": 92,
+        "season_id": 380
+    },
+    {
+        "id": 331195,
+        "status": "FINISHED",
+        "utc_date": "2021-12-13 05:00:00",
+        "match_day": 17,
+        "home_team_id": 86,
+        "away_team_id": 78,
+        "season_id": 380
+    },
+    {
+        "id": 331198,
+        "status": "FINISHED",
+        "utc_date": "2021-12-14 05:00:00",
+        "match_day": 17,
+        "home_team_id": 264,
+        "away_team_id": 83,
+        "season_id": 380
+    },
+    {
+        "id": 331190,
+        "status": "FINISHED",
+        "utc_date": "2021-12-18 05:00:00",
+        "match_day": 18,
+        "home_team_id": 558,
+        "away_team_id": 80,
+        "season_id": 380
+    },
+    {
+        "id": 331183,
+        "status": "FINISHED",
+        "utc_date": "2021-12-18 22:00:00",
+        "match_day": 18,
+        "home_team_id": 87,
+        "away_team_id": 263,
+        "season_id": 380
+    },
+    {
+        "id": 331185,
+        "status": "FINISHED",
+        "utc_date": "2021-12-19 00:15:00",
+        "match_day": 18,
+        "home_team_id": 92,
+        "away_team_id": 94,
+        "season_id": 380
+    },
+    {
+        "id": 331191,
+        "status": "FINISHED",
+        "utc_date": "2021-12-19 02:30:00",
+        "match_day": 18,
+        "home_team_id": 81,
+        "away_team_id": 285,
+        "season_id": 380
+    },
+    {
+        "id": 331184,
+        "status": "FINISHED",
+        "utc_date": "2021-12-19 05:00:00",
+        "match_day": 18,
+        "home_team_id": 559,
+        "away_team_id": 78,
+        "season_id": 380
+    },
+    {
+        "id": 331188,
+        "status": "FINISHED",
+        "utc_date": "2021-12-19 22:00:00",
+        "match_day": 18,
+        "home_team_id": 83,
+        "away_team_id": 89,
+        "season_id": 380
+    },
+    {
+        "id": 331192,
+        "status": "FINISHED",
+        "utc_date": "2021-12-20 00:15:00",
+        "match_day": 18,
+        "home_team_id": 77,
+        "away_team_id": 90,
+        "season_id": 380
+    },
+    {
+        "id": 331189,
+        "status": "FINISHED",
+        "utc_date": "2021-12-20 02:30:00",
+        "match_day": 18,
+        "home_team_id": 82,
+        "away_team_id": 79,
+        "season_id": 380
+    },
+    {
+        "id": 331186,
+        "status": "FINISHED",
+        "utc_date": "2021-12-20 05:00:00",
+        "match_day": 18,
+        "home_team_id": 86,
+        "away_team_id": 264,
+        "season_id": 380
+    },
+    {
+        "id": 331187,
+        "status": "FINISHED",
+        "utc_date": "2021-12-21 05:00:00",
+        "match_day": 18,
+        "home_team_id": 88,
+        "away_team_id": 95,
+        "season_id": 380
+    },
+    {
+        "id": 331323,
+        "status": "FINISHED",
+        "utc_date": "2021-12-22 03:00:00",
+        "match_day": 4,
+        "home_team_id": 94,
+        "away_team_id": 263,
+        "season_id": 380
+    },
+    {
+        "id": 331324,
+        "status": "FINISHED",
+        "utc_date": "2021-12-22 05:30:00",
+        "match_day": 4,
+        "home_team_id": 559,
+        "away_team_id": 81,
+        "season_id": 380
+    },
+    {
+        "id": 331279,
+        "status": "FINISHED",
+        "utc_date": "2021-12-23 03:00:00",
+        "match_day": 9,
+        "home_team_id": 83,
+        "away_team_id": 78,
+        "season_id": 380
+    },
+    {
+        "id": 331162,
+        "status": "FINISHED",
+        "utc_date": "2021-12-23 05:30:00",
+        "match_day": 21,
+        "home_team_id": 77,
+        "away_team_id": 86,
+        "season_id": 380
+    },
+    {
+        "id": 331175,
+        "status": "FINISHED",
+        "utc_date": "2022-01-01 00:15:00",
+        "match_day": 19,
+        "home_team_id": 95,
+        "away_team_id": 80,
+        "season_id": 380
+    },
+    {
+        "id": 331178,
+        "status": "FINISHED",
+        "utc_date": "2022-01-02 22:00:00",
+        "match_day": 19,
+        "home_team_id": 82,
+        "away_team_id": 86,
+        "season_id": 380
+    },
+    {
+        "id": 331173,
+        "status": "FINISHED",
+        "utc_date": "2022-01-03 00:15:00",
+        "match_day": 19,
+        "home_team_id": 285,
+        "away_team_id": 83,
+        "season_id": 380
+    },
+    {
+        "id": 331181,
+        "status": "FINISHED",
+        "utc_date": "2022-01-03 00:15:00",
+        "match_day": 19,
+        "home_team_id": 78,
+        "away_team_id": 87,
+        "season_id": 380
+    },
+    {
+        "id": 331180,
+        "status": "FINISHED",
+        "utc_date": "2022-01-03 02:30:00",
+        "match_day": 19,
+        "home_team_id": 90,
+        "away_team_id": 558,
+        "season_id": 380
+    },
+    {
+        "id": 331182,
+        "status": "FINISHED",
+        "utc_date": "2022-01-03 02:30:00",
+        "match_day": 19,
+        "home_team_id": 263,
+        "away_team_id": 92,
+        "season_id": 380
+    },
+    {
+        "id": 331179,
+        "status": "FINISHED",
+        "utc_date": "2022-01-03 05:00:00",
+        "match_day": 19,
+        "home_team_id": 89,
+        "away_team_id": 81,
+        "season_id": 380
+    },
+    {
+        "id": 331174,
+        "status": "FINISHED",
+        "utc_date": "2022-01-04 03:00:00",
+        "match_day": 19,
+        "home_team_id": 94,
+        "away_team_id": 88,
+        "season_id": 380
+    },
+    {
+        "id": 331176,
+        "status": "FINISHED",
+        "utc_date": "2022-01-04 05:05:00",
+        "match_day": 19,
+        "home_team_id": 79,
+        "away_team_id": 77,
+        "season_id": 380
+    },
+    {
+        "id": 331177,
+        "status": "FINISHED",
+        "utc_date": "2022-01-04 05:15:00",
+        "match_day": 19,
+        "home_team_id": 264,
+        "away_team_id": 559,
+        "season_id": 380
+    },
+    {
+        "id": 331169,
+        "status": "FINISHED",
+        "utc_date": "2022-01-08 22:00:00",
+        "match_day": 20,
+        "home_team_id": 88,
+        "away_team_id": 89,
+        "season_id": 380
+    },
+    {
+        "id": 331166,
+        "status": "FINISHED",
+        "utc_date": "2022-01-09 00:15:00",
+        "match_day": 20,
+        "home_team_id": 92,
+        "away_team_id": 558,
+        "season_id": 380
+    },
+    {
+        "id": 331171,
+        "status": "FINISHED",
+        "utc_date": "2022-01-09 02:30:00",
+        "match_day": 20,
+        "home_team_id": 83,
+        "away_team_id": 81,
+        "season_id": 380
+    },
+    {
+        "id": 331167,
+        "status": "FINISHED",
+        "utc_date": "2022-01-09 05:00:00",
+        "match_day": 20,
+        "home_team_id": 86,
+        "away_team_id": 95,
+        "season_id": 380
+    },
+    {
+        "id": 331164,
+        "status": "FINISHED",
+        "utc_date": "2022-01-09 22:00:00",
+        "match_day": 20,
+        "home_team_id": 87,
+        "away_team_id": 90,
+        "season_id": 380
+    },
+    {
+        "id": 331165,
+        "status": "FINISHED",
+        "utc_date": "2022-01-10 00:15:00",
+        "match_day": 20,
+        "home_team_id": 559,
+        "away_team_id": 82,
+        "season_id": 380
+    },
+    {
+        "id": 331168,
+        "status": "FINISHED",
+        "utc_date": "2022-01-10 02:30:00",
+        "match_day": 20,
+        "home_team_id": 79,
+        "away_team_id": 264,
+        "season_id": 380
+    },
+    {
+        "id": 331172,
+        "status": "FINISHED",
+        "utc_date": "2022-01-10 02:30:00",
+        "match_day": 20,
+        "home_team_id": 263,
+        "away_team_id": 77,
+        "season_id": 380
+    },
+    {
+        "id": 331163,
+        "status": "FINISHED",
+        "utc_date": "2022-01-10 05:00:00",
+        "match_day": 20,
+        "home_team_id": 94,
+        "away_team_id": 78,
+        "season_id": 380
+    },
+    {
+        "id": 331170,
+        "status": "FINISHED",
+        "utc_date": "2022-01-11 05:00:00",
+        "match_day": 20,
+        "home_team_id": 80,
+        "away_team_id": 285,
+        "season_id": 380
+    },
+    {
+        "id": 331153,
+        "status": "FINISHED",
+        "utc_date": "2022-01-16 22:00:00",
+        "match_day": 21,
+        "home_team_id": 285,
+        "away_team_id": 94,
+        "season_id": 380
+    },
+    {
+        "id": 331159,
+        "status": "FINISHED",
+        "utc_date": "2022-01-19 04:00:00",
+        "match_day": 21,
+        "home_team_id": 90,
+        "away_team_id": 263,
+        "season_id": 380
+    },
+    {
+        "id": 331155,
+        "status": "FINISHED",
+        "utc_date": "2022-01-19 05:30:00",
+        "match_day": 21,
+        "home_team_id": 264,
+        "away_team_id": 80,
+        "season_id": 380
+    },
+    {
+        "id": 331158,
+        "status": "FINISHED",
+        "utc_date": "2022-01-20 03:00:00",
+        "match_day": 21,
+        "home_team_id": 558,
+        "away_team_id": 79,
+        "season_id": 380
+    },
+    {
+        "id": 331154,
+        "status": "FINISHED",
+        "utc_date": "2022-01-20 05:30:00",
+        "match_day": 21,
+        "home_team_id": 95,
+        "away_team_id": 559,
+        "season_id": 380
+    },
+    {
+        "id": 331156,
+        "status": "FINISHED",
+        "utc_date": "2022-01-21 03:00:00",
+        "match_day": 21,
+        "home_team_id": 82,
+        "away_team_id": 83,
+        "season_id": 380
+    },
+    {
+        "id": 331149,
+        "status": "FINISHED",
+        "utc_date": "2022-01-22 05:00:00",
+        "match_day": 22,
+        "home_team_id": 80,
+        "away_team_id": 90,
+        "season_id": 380
+    },
+    {
+        "id": 331148,
+        "status": "FINISHED",
+        "utc_date": "2022-01-22 22:00:00",
+        "match_day": 22,
+        "home_team_id": 88,
+        "away_team_id": 264,
+        "season_id": 380
+    },
+    {
+        "id": 331143,
+        "status": "FINISHED",
+        "utc_date": "2022-01-23 00:15:00",
+        "match_day": 22,
+        "home_team_id": 94,
+        "away_team_id": 89,
+        "season_id": 380
+    },
+    {
+        "id": 331145,
+        "status": "FINISHED",
+        "utc_date": "2022-01-23 02:30:00",
+        "match_day": 22,
+        "home_team_id": 559,
+        "away_team_id": 558,
+        "season_id": 380
+    },
+    {
+        "id": 331151,
+        "status": "FINISHED",
+        "utc_date": "2022-01-23 05:00:00",
+        "match_day": 22,
+        "home_team_id": 78,
+        "away_team_id": 95,
+        "season_id": 380
+    },
+    {
+        "id": 331150,
+        "status": "FINISHED",
+        "utc_date": "2022-01-23 22:00:00",
+        "match_day": 22,
+        "home_team_id": 83,
+        "away_team_id": 79,
+        "season_id": 380
+    },
+    {
+        "id": 331147,
+        "status": "FINISHED",
+        "utc_date": "2022-01-24 00:15:00",
+        "match_day": 22,
+        "home_team_id": 86,
+        "away_team_id": 285,
+        "season_id": 380
+    },
+    {
+        "id": 331144,
+        "status": "FINISHED",
+        "utc_date": "2022-01-24 02:30:00",
+        "match_day": 22,
+        "home_team_id": 87,
+        "away_team_id": 77,
+        "season_id": 380
+    },
+    {
+        "id": 331146,
+        "status": "FINISHED",
+        "utc_date": "2022-01-24 02:30:00",
+        "match_day": 22,
+        "home_team_id": 92,
+        "away_team_id": 82,
+        "season_id": 380
+    },
+    {
+        "id": 331152,
+        "status": "FINISHED",
+        "utc_date": "2022-01-24 05:00:00",
+        "match_day": 22,
+        "home_team_id": 263,
+        "away_team_id": 81,
+        "season_id": 380
+    },
+    {
+        "id": 331137,
+        "status": "FINISHED",
+        "utc_date": "2022-02-05 05:00:00",
+        "match_day": 23,
+        "home_team_id": 82,
+        "away_team_id": 88,
+        "season_id": 380
+    },
+    {
+        "id": 331133,
+        "status": "FINISHED",
+        "utc_date": "2022-02-05 22:00:00",
+        "match_day": 23,
+        "home_team_id": 285,
+        "away_team_id": 263,
+        "season_id": 380
+    },
+    {
+        "id": 331138,
+        "status": "FINISHED",
+        "utc_date": "2022-02-06 00:15:00",
+        "match_day": 23,
+        "home_team_id": 89,
+        "away_team_id": 264,
+        "season_id": 380
+    },
+    {
+        "id": 331139,
+        "status": "FINISHED",
+        "utc_date": "2022-02-06 02:30:00",
+        "match_day": 23,
+        "home_team_id": 558,
+        "away_team_id": 87,
+        "season_id": 380
+    },
+    {
+        "id": 331136,
+        "status": "FINISHED",
+        "utc_date": "2022-02-06 05:00:00",
+        "match_day": 23,
+        "home_team_id": 79,
+        "away_team_id": 559,
+        "season_id": 380
+    },
+    {
+        "id": 331134,
+        "status": "FINISHED",
+        "utc_date": "2022-02-06 22:00:00",
+        "match_day": 23,
+        "home_team_id": 95,
+        "away_team_id": 92,
+        "season_id": 380
+    },
+    {
+        "id": 331141,
+        "status": "FINISHED",
+        "utc_date": "2022-02-07 00:15:00",
+        "match_day": 23,
+        "home_team_id": 81,
+        "away_team_id": 78,
+        "season_id": 380
+    },
+    {
+        "id": 331140,
+        "status": "FINISHED",
+        "utc_date": "2022-02-07 02:30:00",
+        "match_day": 23,
+        "home_team_id": 90,
+        "away_team_id": 94,
+        "season_id": 380
+    },
+    {
+        "id": 331135,
+        "status": "FINISHED",
+        "utc_date": "2022-02-07 05:00:00",
+        "match_day": 23,
+        "home_team_id": 86,
+        "away_team_id": 83,
+        "season_id": 380
+    },
+    {
+        "id": 331142,
+        "status": "FINISHED",
+        "utc_date": "2022-02-08 05:00:00",
+        "match_day": 23,
+        "home_team_id": 77,
+        "away_team_id": 80,
+        "season_id": 380
+    },
+    {
+        "id": 331125,
+        "status": "FINISHED",
+        "utc_date": "2022-02-12 05:00:00",
+        "match_day": 24,
+        "home_team_id": 559,
+        "away_team_id": 285,
+        "season_id": 380
+    },
+    {
+        "id": 331129,
+        "status": "FINISHED",
+        "utc_date": "2022-02-12 22:00:00",
+        "match_day": 24,
+        "home_team_id": 264,
+        "away_team_id": 558,
+        "season_id": 380
+    },
+    {
+        "id": 331123,
+        "status": "FINISHED",
+        "utc_date": "2022-02-13 00:15:00",
+        "match_day": 24,
+        "home_team_id": 94,
+        "away_team_id": 86,
+        "season_id": 380
+    },
+    {
+        "id": 331124,
+        "status": "FINISHED",
+        "utc_date": "2022-02-13 02:30:00",
+        "match_day": 24,
+        "home_team_id": 87,
+        "away_team_id": 79,
+        "season_id": 380
+    },
+    {
+        "id": 331131,
+        "status": "FINISHED",
+        "utc_date": "2022-02-13 05:00:00",
+        "match_day": 24,
+        "home_team_id": 78,
+        "away_team_id": 82,
+        "season_id": 380
+    },
+    {
+        "id": 331132,
+        "status": "FINISHED",
+        "utc_date": "2022-02-13 22:00:00",
+        "match_day": 24,
+        "home_team_id": 263,
+        "away_team_id": 95,
+        "season_id": 380
+    },
+    {
+        "id": 331127,
+        "status": "FINISHED",
+        "utc_date": "2022-02-14 00:15:00",
+        "match_day": 24,
+        "home_team_id": 88,
+        "away_team_id": 90,
+        "season_id": 380
+    },
+    {
+        "id": 331126,
+        "status": "FINISHED",
+        "utc_date": "2022-02-14 02:30:00",
+        "match_day": 24,
+        "home_team_id": 92,
+        "away_team_id": 83,
+        "season_id": 380
+    },
+    {
+        "id": 331128,
+        "status": "FINISHED",
+        "utc_date": "2022-02-14 05:00:00",
+        "match_day": 24,
+        "home_team_id": 80,
+        "away_team_id": 81,
+        "season_id": 380
+    },
+    {
+        "id": 331130,
+        "status": "FINISHED",
+        "utc_date": "2022-02-15 05:00:00",
+        "match_day": 24,
+        "home_team_id": 89,
+        "away_team_id": 77,
+        "season_id": 380
+    },
+    {
+        "id": 331161,
+        "status": "FINISHED",
+        "utc_date": "2022-02-17 03:00:00",
+        "match_day": 21,
+        "home_team_id": 78,
+        "away_team_id": 88,
+        "season_id": 380
+    },
+    {
+        "id": 331113,
+        "status": "FINISHED",
+        "utc_date": "2022-02-19 05:00:00",
+        "match_day": 25,
+        "home_team_id": 285,
+        "away_team_id": 87,
+        "season_id": 380
+    },
+    {
+        "id": 331118,
+        "status": "FINISHED",
+        "utc_date": "2022-02-19 22:00:00",
+        "match_day": 25,
+        "home_team_id": 83,
+        "away_team_id": 94,
+        "season_id": 380
+    },
+    {
+        "id": 331116,
+        "status": "FINISHED",
+        "utc_date": "2022-02-20 00:15:00",
+        "match_day": 25,
+        "home_team_id": 79,
+        "away_team_id": 78,
+        "season_id": 380
+    },
+    {
+        "id": 331119,
+        "status": "FINISHED",
+        "utc_date": "2022-02-20 02:30:00",
+        "match_day": 25,
+        "home_team_id": 264,
+        "away_team_id": 82,
+        "season_id": 380
+    },
+    {
+        "id": 331115,
+        "status": "FINISHED",
+        "utc_date": "2022-02-20 05:00:00",
+        "match_day": 25,
+        "home_team_id": 86,
+        "away_team_id": 263,
+        "season_id": 380
+    },
+    {
+        "id": 331117,
+        "status": "FINISHED",
+        "utc_date": "2022-02-20 22:00:00",
+        "match_day": 25,
+        "home_team_id": 80,
+        "away_team_id": 559,
+        "season_id": 380
+    },
+    {
+        "id": 331114,
+        "status": "FINISHED",
+        "utc_date": "2022-02-21 00:15:00",
+        "match_day": 25,
+        "home_team_id": 95,
+        "away_team_id": 81,
+        "season_id": 380
+    },
+    {
+        "id": 331121,
+        "status": "FINISHED",
+        "utc_date": "2022-02-21 02:30:00",
+        "match_day": 25,
+        "home_team_id": 90,
+        "away_team_id": 89,
+        "season_id": 380
+    },
+    {
+        "id": 331122,
+        "status": "FINISHED",
+        "utc_date": "2022-02-21 05:00:00",
+        "match_day": 25,
+        "home_team_id": 77,
+        "away_team_id": 92,
+        "season_id": 380
+    },
+    {
+        "id": 331120,
+        "status": "FINISHED",
+        "utc_date": "2022-02-22 05:00:00",
+        "match_day": 25,
+        "home_team_id": 558,
+        "away_team_id": 88,
+        "season_id": 380
+    },
+    {
+        "id": 331107,
+        "status": "FINISHED",
+        "utc_date": "2022-02-26 05:00:00",
+        "match_day": 26,
+        "home_team_id": 88,
+        "away_team_id": 285,
+        "season_id": 380
+    },
+    {
+        "id": 331110,
+        "status": "FINISHED",
+        "utc_date": "2022-02-26 22:00:00",
+        "match_day": 26,
+        "home_team_id": 89,
+        "away_team_id": 95,
+        "season_id": 380
+    },
+    {
+        "id": 331109,
+        "status": "FINISHED",
+        "utc_date": "2022-02-27 00:15:00",
+        "match_day": 26,
+        "home_team_id": 82,
+        "away_team_id": 263,
+        "season_id": 380
+    },
+    {
+        "id": 331104,
+        "status": "FINISHED",
+        "utc_date": "2022-02-27 02:30:00",
+        "match_day": 26,
+        "home_team_id": 87,
+        "away_team_id": 86,
+        "season_id": 380
+    },
+    {
+        "id": 331112,
+        "status": "FINISHED",
+        "utc_date": "2022-02-27 05:00:00",
+        "match_day": 26,
+        "home_team_id": 78,
+        "away_team_id": 558,
+        "season_id": 380
+    },
+    {
+        "id": 331103,
+        "status": "FINISHED",
+        "utc_date": "2022-02-27 22:00:00",
+        "match_day": 26,
+        "home_team_id": 94,
+        "away_team_id": 80,
+        "season_id": 380
+    },
+    {
+        "id": 331105,
+        "status": "FINISHED",
+        "utc_date": "2022-02-28 00:15:00",
+        "match_day": 26,
+        "home_team_id": 559,
+        "away_team_id": 90,
+        "season_id": 380
+    },
+    {
+        "id": 331106,
+        "status": "FINISHED",
+        "utc_date": "2022-02-28 02:30:00",
+        "match_day": 26,
+        "home_team_id": 92,
+        "away_team_id": 79,
+        "season_id": 380
+    },
+    {
+        "id": 331111,
+        "status": "FINISHED",
+        "utc_date": "2022-02-28 05:00:00",
+        "match_day": 26,
+        "home_team_id": 81,
+        "away_team_id": 77,
+        "season_id": 380
+    },
+    {
+        "id": 331108,
+        "status": "FINISHED",
+        "utc_date": "2022-03-01 05:00:00",
+        "match_day": 26,
+        "home_team_id": 83,
+        "away_team_id": 264,
+        "season_id": 380
+    },
+    {
+        "id": 331157,
+        "status": "FINISHED",
+        "utc_date": "2022-03-03 05:00:00",
+        "match_day": 21,
+        "home_team_id": 89,
+        "away_team_id": 92,
+        "season_id": 380
+    },
+    {
+        "id": 331102,
+        "status": "FINISHED",
+        "utc_date": "2022-03-05 05:00:00",
+        "match_day": 27,
+        "home_team_id": 263,
+        "away_team_id": 559,
+        "season_id": 380
+    },
+    {
+        "id": 331096,
+        "status": "FINISHED",
+        "utc_date": "2022-03-05 22:00:00",
+        "match_day": 27,
+        "home_team_id": 79,
+        "away_team_id": 94,
+        "season_id": 380
+    },
+    {
+        "id": 331097,
+        "status": "FINISHED",
+        "utc_date": "2022-03-06 00:15:00",
+        "match_day": 27,
+        "home_team_id": 80,
+        "away_team_id": 82,
+        "season_id": 380
+    },
+    {
+        "id": 331094,
+        "status": "FINISHED",
+        "utc_date": "2022-03-06 02:30:00",
+        "match_day": 27,
+        "home_team_id": 95,
+        "away_team_id": 83,
+        "season_id": 380
+    },
+    {
+        "id": 331095,
+        "status": "FINISHED",
+        "utc_date": "2022-03-06 05:00:00",
+        "match_day": 27,
+        "home_team_id": 86,
+        "away_team_id": 92,
+        "season_id": 380
+    },
+    {
+        "id": 331098,
+        "status": "FINISHED",
+        "utc_date": "2022-03-06 22:00:00",
+        "match_day": 27,
+        "home_team_id": 264,
+        "away_team_id": 87,
+        "season_id": 380
+    },
+    {
+        "id": 331093,
+        "status": "FINISHED",
+        "utc_date": "2022-03-07 00:15:00",
+        "match_day": 27,
+        "home_team_id": 285,
+        "away_team_id": 81,
+        "season_id": 380
+    },
+    {
+        "id": 331099,
+        "status": "FINISHED",
+        "utc_date": "2022-03-07 02:30:00",
+        "match_day": 27,
+        "home_team_id": 558,
+        "away_team_id": 89,
+        "season_id": 380
+    },
+    {
+        "id": 331100,
+        "status": "FINISHED",
+        "utc_date": "2022-03-07 05:00:00",
+        "match_day": 27,
+        "home_team_id": 90,
+        "away_team_id": 78,
+        "season_id": 380
+    },
+    {
+        "id": 331101,
+        "status": "FINISHED",
+        "utc_date": "2022-03-08 05:00:00",
+        "match_day": 27,
+        "home_team_id": 77,
+        "away_team_id": 88,
+        "season_id": 380
+    },
+    {
+        "id": 331092,
+        "status": "FINISHED",
+        "utc_date": "2022-03-12 05:00:00",
+        "match_day": 28,
+        "home_team_id": 78,
+        "away_team_id": 264,
+        "season_id": 380
+    },
+    {
+        "id": 331086,
+        "status": "FINISHED",
+        "utc_date": "2022-03-12 22:00:00",
+        "match_day": 28,
+        "home_team_id": 88,
+        "away_team_id": 80,
+        "season_id": 380
+    },
+    {
+        "id": 331087,
+        "status": "FINISHED",
+        "utc_date": "2022-03-13 00:15:00",
+        "match_day": 28,
+        "home_team_id": 83,
+        "away_team_id": 285,
+        "season_id": 380
+    },
+    {
+        "id": 331083,
+        "status": "FINISHED",
+        "utc_date": "2022-03-13 02:30:00",
+        "match_day": 28,
+        "home_team_id": 94,
+        "away_team_id": 558,
+        "season_id": 380
+    },
+    {
+        "id": 331088,
+        "status": "FINISHED",
+        "utc_date": "2022-03-13 05:00:00",
+        "match_day": 28,
+        "home_team_id": 82,
+        "away_team_id": 95,
+        "season_id": 380
+    },
+    {
+        "id": 331084,
+        "status": "FINISHED",
+        "utc_date": "2022-03-13 22:00:00",
+        "match_day": 28,
+        "home_team_id": 87,
+        "away_team_id": 559,
+        "season_id": 380
+    },
+    {
+        "id": 331090,
+        "status": "FINISHED",
+        "utc_date": "2022-03-14 00:15:00",
+        "match_day": 28,
+        "home_team_id": 90,
+        "away_team_id": 77,
+        "season_id": 380
+    },
+    {
+        "id": 331085,
+        "status": "FINISHED",
+        "utc_date": "2022-03-14 02:30:00",
+        "match_day": 28,
+        "home_team_id": 92,
+        "away_team_id": 263,
+        "season_id": 380
+    },
+    {
+        "id": 331091,
+        "status": "FINISHED",
+        "utc_date": "2022-03-14 05:00:00",
+        "match_day": 28,
+        "home_team_id": 81,
+        "away_team_id": 79,
+        "season_id": 380
+    },
+    {
+        "id": 331089,
+        "status": "FINISHED",
+        "utc_date": "2022-03-15 05:00:00",
+        "match_day": 28,
+        "home_team_id": 89,
+        "away_team_id": 86,
+        "season_id": 380
+    },
+    {
+        "id": 331081,
+        "status": "FINISHED",
+        "utc_date": "2022-03-19 05:00:00",
+        "match_day": 29,
+        "home_team_id": 77,
+        "away_team_id": 82,
+        "season_id": 380
+    },
+    {
+        "id": 331082,
+        "status": "FINISHED",
+        "utc_date": "2022-03-19 22:00:00",
+        "match_day": 29,
+        "home_team_id": 263,
+        "away_team_id": 83,
+        "season_id": 380
+    },
+    {
+        "id": 331073,
+        "status": "FINISHED",
+        "utc_date": "2022-03-20 00:15:00",
+        "match_day": 29,
+        "home_team_id": 285,
+        "away_team_id": 95,
+        "season_id": 380
+    },
+    {
+        "id": 331077,
+        "status": "FINISHED",
+        "utc_date": "2022-03-20 02:30:00",
+        "match_day": 29,
+        "home_team_id": 79,
+        "away_team_id": 88,
+        "season_id": 380
+    },
+    {
+        "id": 331074,
+        "status": "FINISHED",
+        "utc_date": "2022-03-20 05:00:00",
+        "match_day": 29,
+        "home_team_id": 87,
+        "away_team_id": 78,
+        "season_id": 380
+    },
+    {
+        "id": 331078,
+        "status": "FINISHED",
+        "utc_date": "2022-03-20 22:00:00",
+        "match_day": 29,
+        "home_team_id": 80,
+        "away_team_id": 89,
+        "season_id": 380
+    },
+    {
+        "id": 331079,
+        "status": "FINISHED",
+        "utc_date": "2022-03-21 00:15:00",
+        "match_day": 29,
+        "home_team_id": 264,
+        "away_team_id": 94,
+        "season_id": 380
+    },
+    {
+        "id": 331080,
+        "status": "FINISHED",
+        "utc_date": "2022-03-21 00:15:00",
+        "match_day": 29,
+        "home_team_id": 558,
+        "away_team_id": 90,
+        "season_id": 380
+    },
+    {
+        "id": 331075,
+        "status": "FINISHED",
+        "utc_date": "2022-03-21 02:30:00",
+        "match_day": 29,
+        "home_team_id": 559,
+        "away_team_id": 92,
+        "season_id": 380
+    },
+    {
+        "id": 331076,
+        "status": "FINISHED",
+        "utc_date": "2022-03-21 05:00:00",
+        "match_day": 29,
+        "home_team_id": 86,
+        "away_team_id": 81,
+        "season_id": 380
+    },
+    {
+        "id": 331067,
+        "status": "FINISHED",
+        "utc_date": "2022-04-02 21:00:00",
+        "match_day": 30,
+        "home_team_id": 82,
+        "away_team_id": 89,
+        "season_id": 380
+    },
+    {
+        "id": 331065,
+        "status": "FINISHED",
+        "utc_date": "2022-04-02 23:15:00",
+        "match_day": 30,
+        "home_team_id": 88,
+        "away_team_id": 94,
+        "season_id": 380
+    },
+    {
+        "id": 331068,
+        "status": "FINISHED",
+        "utc_date": "2022-04-03 01:30:00",
+        "match_day": 30,
+        "home_team_id": 558,
+        "away_team_id": 86,
+        "season_id": 380
+    },
+    {
+        "id": 331071,
+        "status": "FINISHED",
+        "utc_date": "2022-04-03 04:00:00",
+        "match_day": 30,
+        "home_team_id": 78,
+        "away_team_id": 263,
+        "season_id": 380
+    },
+    {
+        "id": 331072,
+        "status": "FINISHED",
+        "utc_date": "2022-04-03 21:00:00",
+        "match_day": 30,
+        "home_team_id": 77,
+        "away_team_id": 285,
+        "season_id": 380
+    },
+    {
+        "id": 331069,
+        "status": "FINISHED",
+        "utc_date": "2022-04-03 23:15:00",
+        "match_day": 30,
+        "home_team_id": 90,
+        "away_team_id": 79,
+        "season_id": 380
+    },
+    {
+        "id": 331063,
+        "status": "FINISHED",
+        "utc_date": "2022-04-04 01:30:00",
+        "match_day": 30,
+        "home_team_id": 95,
+        "away_team_id": 264,
+        "season_id": 380
+    },
+    {
+        "id": 331066,
+        "status": "FINISHED",
+        "utc_date": "2022-04-04 01:30:00",
+        "match_day": 30,
+        "home_team_id": 83,
+        "away_team_id": 87,
+        "season_id": 380
+    },
+    {
+        "id": 331070,
+        "status": "FINISHED",
+        "utc_date": "2022-04-04 04:00:00",
+        "match_day": 30,
+        "home_team_id": 81,
+        "away_team_id": 559,
+        "season_id": 380
+    },
+    {
+        "id": 331064,
+        "status": "FINISHED",
+        "utc_date": "2022-04-05 04:00:00",
+        "match_day": 30,
+        "home_team_id": 92,
+        "away_team_id": 80,
+        "season_id": 380
+    },
+    {
+        "id": 331056,
+        "status": "FINISHED",
+        "utc_date": "2022-04-09 04:00:00",
+        "match_day": 31,
+        "home_team_id": 559,
+        "away_team_id": 83,
+        "season_id": 380
+    },
+    {
+        "id": 331061,
+        "status": "FINISHED",
+        "utc_date": "2022-04-09 21:00:00",
+        "match_day": 31,
+        "home_team_id": 264,
+        "away_team_id": 90,
+        "season_id": 380
+    },
+    {
+        "id": 331062,
+        "status": "FINISHED",
+        "utc_date": "2022-04-09 23:15:00",
+        "match_day": 31,
+        "home_team_id": 89,
+        "away_team_id": 78,
+        "season_id": 380
+    },
+    {
+        "id": 331054,
+        "status": "FINISHED",
+        "utc_date": "2022-04-10 01:30:00",
+        "match_day": 31,
+        "home_team_id": 94,
+        "away_team_id": 77,
+        "season_id": 380
+    },
+    {
+        "id": 331057,
+        "status": "FINISHED",
+        "utc_date": "2022-04-10 04:00:00",
+        "match_day": 31,
+        "home_team_id": 86,
+        "away_team_id": 82,
+        "season_id": 380
+    },
+    {
+        "id": 331058,
+        "status": "FINISHED",
+        "utc_date": "2022-04-10 21:00:00",
+        "match_day": 31,
+        "home_team_id": 79,
+        "away_team_id": 263,
+        "season_id": 380
+    },
+    {
+        "id": 331060,
+        "status": "FINISHED",
+        "utc_date": "2022-04-10 23:15:00",
+        "match_day": 31,
+        "home_team_id": 80,
+        "away_team_id": 558,
+        "season_id": 380
+    },
+    {
+        "id": 331053,
+        "status": "FINISHED",
+        "utc_date": "2022-04-11 01:30:00",
+        "match_day": 31,
+        "home_team_id": 285,
+        "away_team_id": 92,
+        "season_id": 380
+    },
+    {
+        "id": 331059,
+        "status": "FINISHED",
+        "utc_date": "2022-04-11 04:00:00",
+        "match_day": 31,
+        "home_team_id": 88,
+        "away_team_id": 81,
+        "season_id": 380
+    },
+    {
+        "id": 331055,
+        "status": "FINISHED",
+        "utc_date": "2022-04-12 04:00:00",
+        "match_day": 31,
+        "home_team_id": 87,
+        "away_team_id": 95,
+        "season_id": 380
+    },
+    {
+        "id": 331046,
+        "status": "FINISHED",
+        "utc_date": "2022-04-16 04:00:00",
+        "match_day": 32,
+        "home_team_id": 92,
+        "away_team_id": 90,
+        "season_id": 380
+    },
+    {
+        "id": 331043,
+        "status": "FINISHED",
+        "utc_date": "2022-04-16 21:00:00",
+        "match_day": 32,
+        "home_team_id": 285,
+        "away_team_id": 89,
+        "season_id": 380
+    },
+    {
+        "id": 331052,
+        "status": "FINISHED",
+        "utc_date": "2022-04-16 23:15:00",
+        "match_day": 32,
+        "home_team_id": 263,
+        "away_team_id": 87,
+        "season_id": 380
+    },
+    {
+        "id": 331044,
+        "status": "FINISHED",
+        "utc_date": "2022-04-17 01:30:00",
+        "match_day": 32,
+        "home_team_id": 95,
+        "away_team_id": 79,
+        "season_id": 380
+    },
+    {
+        "id": 331048,
+        "status": "FINISHED",
+        "utc_date": "2022-04-17 04:00:00",
+        "match_day": 32,
+        "home_team_id": 82,
+        "away_team_id": 94,
+        "season_id": 380
+    },
+    {
+        "id": 331047,
+        "status": "FINISHED",
+        "utc_date": "2022-04-17 21:00:00",
+        "match_day": 32,
+        "home_team_id": 83,
+        "away_team_id": 88,
+        "season_id": 380
+    },
+    {
+        "id": 331050,
+        "status": "FINISHED",
+        "utc_date": "2022-04-17 23:15:00",
+        "match_day": 32,
+        "home_team_id": 78,
+        "away_team_id": 80,
+        "season_id": 380
+    },
+    {
+        "id": 331051,
+        "status": "FINISHED",
+        "utc_date": "2022-04-18 01:30:00",
+        "match_day": 32,
+        "home_team_id": 77,
+        "away_team_id": 558,
+        "season_id": 380
+    },
+    {
+        "id": 331045,
+        "status": "FINISHED",
+        "utc_date": "2022-04-18 04:00:00",
+        "match_day": 32,
+        "home_team_id": 559,
+        "away_team_id": 86,
+        "season_id": 380
+    },
+    {
+        "id": 331049,
+        "status": "FINISHED",
+        "utc_date": "2022-04-19 04:00:00",
+        "match_day": 32,
+        "home_team_id": 81,
+        "away_team_id": 264,
+        "season_id": 380
+    },
+    {
+        "id": 331039,
+        "status": "FINISHED",
+        "utc_date": "2022-04-20 02:00:00",
+        "match_day": 33,
+        "home_team_id": 89,
+        "away_team_id": 263,
+        "season_id": 380
+    },
+    {
+        "id": 331041,
+        "status": "FINISHED",
+        "utc_date": "2022-04-20 04:00:00",
+        "match_day": 33,
+        "home_team_id": 90,
+        "away_team_id": 285,
+        "season_id": 380
+    },
+    {
+        "id": 331033,
+        "status": "FINISHED",
+        "utc_date": "2022-04-20 04:30:00",
+        "match_day": 33,
+        "home_team_id": 94,
+        "away_team_id": 95,
+        "season_id": 380
+    },
+    {
+        "id": 331042,
+        "status": "FINISHED",
+        "utc_date": "2022-04-21 02:00:00",
+        "match_day": 33,
+        "home_team_id": 78,
+        "away_team_id": 83,
+        "season_id": 380
+    },
+    {
+        "id": 331040,
+        "status": "FINISHED",
+        "utc_date": "2022-04-21 03:00:00",
+        "match_day": 33,
+        "home_team_id": 558,
+        "away_team_id": 82,
+        "season_id": 380
+    },
+    {
+        "id": 331035,
+        "status": "FINISHED",
+        "utc_date": "2022-04-21 04:30:00",
+        "match_day": 33,
+        "home_team_id": 79,
+        "away_team_id": 86,
+        "season_id": 380
+    },
+    {
+        "id": 331036,
+        "status": "FINISHED",
+        "utc_date": "2022-04-22 02:00:00",
+        "match_day": 33,
+        "home_team_id": 88,
+        "away_team_id": 559,
+        "season_id": 380
+    },
+    {
+        "id": 331037,
+        "status": "FINISHED",
+        "utc_date": "2022-04-22 02:00:00",
+        "match_day": 33,
+        "home_team_id": 80,
+        "away_team_id": 87,
+        "season_id": 380
+    },
+    {
+        "id": 331038,
+        "status": "FINISHED",
+        "utc_date": "2022-04-22 03:00:00",
+        "match_day": 33,
+        "home_team_id": 264,
+        "away_team_id": 77,
+        "season_id": 380
+    },
+    {
+        "id": 331034,
+        "status": "FINISHED",
+        "utc_date": "2022-04-22 04:30:00",
+        "match_day": 33,
+        "home_team_id": 92,
+        "away_team_id": 81,
+        "season_id": 380
+    },
+    {
+        "id": 331160,
+        "status": "FINISHED",
+        "utc_date": "2022-04-25 04:00:00",
+        "match_day": 21,
+        "home_team_id": 81,
+        "away_team_id": 87,
+        "season_id": 380
+    },
+    {
+        "id": 331026,
+        "status": "FINISHED",
+        "utc_date": "2022-04-30 04:00:00",
+        "match_day": 34,
+        "home_team_id": 559,
+        "away_team_id": 264,
+        "season_id": 380
+    },
+    {
+        "id": 331032,
+        "status": "FINISHED",
+        "utc_date": "2022-04-30 21:00:00",
+        "match_day": 34,
+        "home_team_id": 263,
+        "away_team_id": 94,
+        "season_id": 380
+    },
+    {
+        "id": 331027,
+        "status": "FINISHED",
+        "utc_date": "2022-04-30 23:15:00",
+        "match_day": 34,
+        "home_team_id": 86,
+        "away_team_id": 80,
+        "season_id": 380
+    },
+    {
+        "id": 331025,
+        "status": "FINISHED",
+        "utc_date": "2022-05-01 01:30:00",
+        "match_day": 34,
+        "home_team_id": 95,
+        "away_team_id": 88,
+        "season_id": 380
+    },
+    {
+        "id": 331031,
+        "status": "FINISHED",
+        "utc_date": "2022-05-01 04:00:00",
+        "match_day": 34,
+        "home_team_id": 77,
+        "away_team_id": 78,
+        "season_id": 380
+    },
+    {
+        "id": 331023,
+        "status": "FINISHED",
+        "utc_date": "2022-05-01 21:00:00",
+        "match_day": 34,
+        "home_team_id": 285,
+        "away_team_id": 79,
+        "season_id": 380
+    },
+    {
+        "id": 331028,
+        "status": "FINISHED",
+        "utc_date": "2022-05-01 23:15:00",
+        "match_day": 34,
+        "home_team_id": 83,
+        "away_team_id": 558,
+        "season_id": 380
+    },
+    {
+        "id": 331024,
+        "status": "FINISHED",
+        "utc_date": "2022-05-02 01:30:00",
+        "match_day": 34,
+        "home_team_id": 87,
+        "away_team_id": 92,
+        "season_id": 380
+    },
+    {
+        "id": 331030,
+        "status": "FINISHED",
+        "utc_date": "2022-05-02 04:00:00",
+        "match_day": 34,
+        "home_team_id": 81,
+        "away_team_id": 89,
+        "season_id": 380
+    },
+    {
+        "id": 331029,
+        "status": "FINISHED",
+        "utc_date": "2022-05-03 04:00:00",
+        "match_day": 34,
+        "home_team_id": 82,
+        "away_team_id": 90,
+        "season_id": 380
+    },
+    {
+        "id": 331014,
+        "status": "FINISHED",
+        "utc_date": "2022-05-07 04:00:00",
+        "match_day": 35,
+        "home_team_id": 88,
+        "away_team_id": 92,
+        "season_id": 380
+    },
+    {
+        "id": 331018,
+        "status": "FINISHED",
+        "utc_date": "2022-05-07 21:00:00",
+        "match_day": 35,
+        "home_team_id": 89,
+        "away_team_id": 83,
+        "season_id": 380
+    },
+    {
+        "id": 331022,
+        "status": "FINISHED",
+        "utc_date": "2022-05-07 23:15:00",
+        "match_day": 35,
+        "home_team_id": 77,
+        "away_team_id": 95,
+        "season_id": 380
+    },
+    {
+        "id": 331016,
+        "status": "FINISHED",
+        "utc_date": "2022-05-08 01:30:00",
+        "match_day": 35,
+        "home_team_id": 264,
+        "away_team_id": 285,
+        "season_id": 380
+    },
+    {
+        "id": 331019,
+        "status": "FINISHED",
+        "utc_date": "2022-05-08 01:30:00",
+        "match_day": 35,
+        "home_team_id": 558,
+        "away_team_id": 263,
+        "season_id": 380
+    },
+    {
+        "id": 331020,
+        "status": "FINISHED",
+        "utc_date": "2022-05-08 04:00:00",
+        "match_day": 35,
+        "home_team_id": 90,
+        "away_team_id": 81,
+        "season_id": 380
+    },
+    {
+        "id": 331017,
+        "status": "FINISHED",
+        "utc_date": "2022-05-08 21:00:00",
+        "match_day": 35,
+        "home_team_id": 82,
+        "away_team_id": 87,
+        "season_id": 380
+    },
+    {
+        "id": 331013,
+        "status": "FINISHED",
+        "utc_date": "2022-05-08 23:15:00",
+        "match_day": 35,
+        "home_team_id": 94,
+        "away_team_id": 559,
+        "season_id": 380
+    },
+    {
+        "id": 331015,
+        "status": "FINISHED",
+        "utc_date": "2022-05-09 01:30:00",
+        "match_day": 35,
+        "home_team_id": 80,
+        "away_team_id": 79,
+        "season_id": 380
+    },
+    {
+        "id": 331021,
+        "status": "FINISHED",
+        "utc_date": "2022-05-09 04:00:00",
+        "match_day": 35,
+        "home_team_id": 78,
+        "away_team_id": 86,
+        "season_id": 380
+    },
+    {
+        "id": 331005,
+        "status": "FINISHED",
+        "utc_date": "2022-05-11 02:00:00",
+        "match_day": 36,
+        "home_team_id": 95,
+        "away_team_id": 90,
+        "season_id": 380
+    },
+    {
+        "id": 331010,
+        "status": "FINISHED",
+        "utc_date": "2022-05-11 03:00:00",
+        "match_day": 36,
+        "home_team_id": 83,
+        "away_team_id": 77,
+        "season_id": 380
+    },
+    {
+        "id": 331011,
+        "status": "FINISHED",
+        "utc_date": "2022-05-11 04:30:00",
+        "match_day": 36,
+        "home_team_id": 81,
+        "away_team_id": 558,
+        "season_id": 380
+    },
+    {
+        "id": 331009,
+        "status": "FINISHED",
+        "utc_date": "2022-05-12 02:00:00",
+        "match_day": 36,
+        "home_team_id": 79,
+        "away_team_id": 82,
+        "season_id": 380
+    },
+    {
+        "id": 331012,
+        "status": "FINISHED",
+        "utc_date": "2022-05-12 02:00:00",
+        "match_day": 36,
+        "home_team_id": 263,
+        "away_team_id": 80,
+        "season_id": 380
+    },
+    {
+        "id": 331006,
+        "status": "FINISHED",
+        "utc_date": "2022-05-12 03:30:00",
+        "match_day": 36,
+        "home_team_id": 559,
+        "away_team_id": 89,
+        "season_id": 380
+    },
+    {
+        "id": 331003,
+        "status": "FINISHED",
+        "utc_date": "2022-05-12 04:30:00",
+        "match_day": 36,
+        "home_team_id": 285,
+        "away_team_id": 78,
+        "season_id": 380
+    },
+    {
+        "id": 331007,
+        "status": "FINISHED",
+        "utc_date": "2022-05-13 02:00:00",
+        "match_day": 36,
+        "home_team_id": 92,
+        "away_team_id": 264,
+        "season_id": 380
+    },
+    {
+        "id": 331004,
+        "status": "FINISHED",
+        "utc_date": "2022-05-13 03:00:00",
+        "match_day": 36,
+        "home_team_id": 87,
+        "away_team_id": 94,
+        "season_id": 380
+    },
+    {
+        "id": 331008,
+        "status": "FINISHED",
+        "utc_date": "2022-05-13 04:30:00",
+        "match_day": 36,
+        "home_team_id": 86,
+        "away_team_id": 88,
+        "season_id": 380
+    },
+    {
+        "id": 330995,
+        "status": "FINISHED",
+        "utc_date": "2022-05-15 01:30:00",
+        "match_day": 37,
+        "home_team_id": 80,
+        "away_team_id": 95,
+        "season_id": 380
+    },
+    {
+        "id": 330993,
+        "status": "FINISHED",
+        "utc_date": "2022-05-16 02:30:00",
+        "match_day": 37,
+        "home_team_id": 94,
+        "away_team_id": 92,
+        "season_id": 380
+    },
+    {
+        "id": 330994,
+        "status": "FINISHED",
+        "utc_date": "2022-05-16 02:30:00",
+        "match_day": 37,
+        "home_team_id": 88,
+        "away_team_id": 263,
+        "season_id": 380
+    },
+    {
+        "id": 330996,
+        "status": "FINISHED",
+        "utc_date": "2022-05-16 02:30:00",
+        "match_day": 37,
+        "home_team_id": 264,
+        "away_team_id": 86,
+        "season_id": 380
+    },
+    {
+        "id": 330997,
+        "status": "FINISHED",
+        "utc_date": "2022-05-16 02:30:00",
+        "match_day": 37,
+        "home_team_id": 82,
+        "away_team_id": 81,
+        "season_id": 380
+    },
+    {
+        "id": 330998,
+        "status": "FINISHED",
+        "utc_date": "2022-05-16 02:30:00",
+        "match_day": 37,
+        "home_team_id": 89,
+        "away_team_id": 87,
+        "season_id": 380
+    },
+    {
+        "id": 330999,
+        "status": "FINISHED",
+        "utc_date": "2022-05-16 02:30:00",
+        "match_day": 37,
+        "home_team_id": 558,
+        "away_team_id": 285,
+        "season_id": 380
+    },
+    {
+        "id": 331000,
+        "status": "FINISHED",
+        "utc_date": "2022-05-16 02:30:00",
+        "match_day": 37,
+        "home_team_id": 90,
+        "away_team_id": 83,
+        "season_id": 380
+    },
+    {
+        "id": 331001,
+        "status": "FINISHED",
+        "utc_date": "2022-05-16 02:30:00",
+        "match_day": 37,
+        "home_team_id": 78,
+        "away_team_id": 559,
+        "season_id": 380
+    },
+    {
+        "id": 331002,
+        "status": "FINISHED",
+        "utc_date": "2022-05-16 02:30:00",
+        "match_day": 37,
+        "home_team_id": 77,
+        "away_team_id": 79,
+        "season_id": 380
+    },
+    {
+        "id": 330984,
+        "status": "FINISHED",
+        "utc_date": "2022-05-21 04:00:00",
+        "match_day": 38,
+        "home_team_id": 87,
+        "away_team_id": 88,
+        "season_id": 380
+    },
+    {
+        "id": 330988,
+        "status": "FINISHED",
+        "utc_date": "2022-05-21 04:00:00",
+        "match_day": 38,
+        "home_team_id": 86,
+        "away_team_id": 90,
+        "season_id": 380
+    },
+    {
+        "id": 330985,
+        "status": "FINISHED",
+        "utc_date": "2022-05-22 00:30:00",
+        "match_day": 38,
+        "home_team_id": 95,
+        "away_team_id": 558,
+        "season_id": 380
+    },
+    {
+        "id": 330983,
+        "status": "FINISHED",
+        "utc_date": "2022-05-23 00:30:00",
+        "match_day": 38,
+        "home_team_id": 285,
+        "away_team_id": 82,
+        "season_id": 380
+    },
+    {
+        "id": 330989,
+        "status": "FINISHED",
+        "utc_date": "2022-05-23 03:00:00",
+        "match_day": 38,
+        "home_team_id": 79,
+        "away_team_id": 89,
+        "season_id": 380
+    },
+    {
+        "id": 330990,
+        "status": "FINISHED",
+        "utc_date": "2022-05-23 03:00:00",
+        "match_day": 38,
+        "home_team_id": 83,
+        "away_team_id": 80,
+        "season_id": 380
+    },
+    {
+        "id": 330992,
+        "status": "FINISHED",
+        "utc_date": "2022-05-23 03:00:00",
+        "match_day": 38,
+        "home_team_id": 263,
+        "away_team_id": 264,
+        "season_id": 380
+    },
+    {
+        "id": 330986,
+        "status": "FINISHED",
+        "utc_date": "2022-05-23 05:00:00",
+        "match_day": 38,
+        "home_team_id": 559,
+        "away_team_id": 77,
+        "season_id": 380
+    },
+    {
+        "id": 330987,
+        "status": "FINISHED",
+        "utc_date": "2022-05-23 05:00:00",
+        "match_day": 38,
+        "home_team_id": 92,
+        "away_team_id": 78,
+        "season_id": 380
+    },
+    {
+        "id": 330991,
+        "status": "FINISHED",
+        "utc_date": "2022-05-23 05:00:00",
+        "match_day": 38,
+        "home_team_id": 81,
+        "away_team_id": 94,
+        "season_id": 380
+    }
+]

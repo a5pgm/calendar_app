@@ -16,16 +16,16 @@ class UpdateTableSeeder extends Seeder
      */
     public function run()
     {
-        // $this->command->info("試合の更新を開始");
+        $this->command->info("試合の更新を開始");
         
         $pythonPath = __DIR__ . "/../../app/Python/";
         $command = "/usr/bin/python3 " . $pythonPath . "updateGame.py";
         exec($command , $outputs);
         
-        // $command1 = "pwd";
-        // exec($command1,$outpts);
+        $command1 = "pwd";
+        exec($command1,$outpts);
         // $this->command->info($outputs[1]);
-        // $this->command->info( __DIR__ );
+        $this->command->info($outputs);
         
         $json = file_get_contents(__DIR__ . '/../data/update_games.json');
         $matches = json_decode($json,true);

@@ -33,10 +33,9 @@ export default function Register() {
     return (
         <GuestLayout>
             <Head title="Register" />
-
             <form onSubmit={submit}>
                 <div>
-                    <InputLabel forInput="name" value="Name" />
+                    <InputLabel forInput="name" value="Name" className = 'text-default-white' />
 
                     <TextInput
                         type="text"
@@ -53,7 +52,7 @@ export default function Register() {
                 </div>
 
                 <div className="mt-4">
-                    <InputLabel forInput="email" value="Email" />
+                    <InputLabel forInput="email" value="Email" className = 'text-default-white' />
 
                     <TextInput
                         type="email"
@@ -69,7 +68,7 @@ export default function Register() {
                 </div>
 
                 <div className="mt-4">
-                    <InputLabel forInput="password" value="Password" />
+                    <InputLabel forInput="password" value="Password" className = 'text-default-white'/>
 
                     <TextInput
                         type="password"
@@ -85,7 +84,7 @@ export default function Register() {
                 </div>
 
                 <div className="mt-4">
-                    <InputLabel forInput="password_confirmation" value="Confirm Password" />
+                    <InputLabel forInput="password_confirmation" value="Confirm Password" className = 'text-default-white'/>
 
                     <TextInput
                         type="password"

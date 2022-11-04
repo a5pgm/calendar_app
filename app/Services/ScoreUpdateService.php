@@ -1,0 +1,78 @@
+<?php
+
+namespace App\Services;
+
+use DateTimeImmutable;
+use DateTimeZone;
+
+class ScoreUpdateService {
+
+    public static function outputNewScoreStatusDataToJson(){
+        // API通信開始
+        $data_set = [];
+
+/* 初期データ
+        // $uri = 'http://api.football-data.org/v4/competitions/PD/matches?season=2021';
+        // $reqPrefs['http']['method'] = 'GET';
+        // $reqPrefs['http']['header'] = 'X-Auth-Token: 57726296ccf440b899ef218bea2b5a9a';
+        // $stream_context = stream_context_create($reqPrefs);
+        // $response = file_get_contents($uri, false, $stream_context);
+        // $gameData = json_decode($response,true);
+
+        // foreach($gameData["matches"] as $game){
+        //     $id = $game["id"];
+        //     $game_id = $game["id"];
+        //     $winner = $game["score"]["winner"];
+        //     $full_home = $game["score"]["fullTime"]["home"];
+        //     $full_away = $game["score"]["fullTime"]["away"];
+        //     $half_home = $game["score"]["halfTime"]["home"];
+        //     $half_away = $game["score"]["halfTime"]["away"];
+        //     array_push($data_set,["id" => $id, "game_id" => $game_id, "winner" => $winner,
+        //                         "full_home" => $full_home, "full_away" => $full_away, 
+        //                         "half_home" => $half_home, "half_away" => $half_away]);
+        // }
+*/
+        $uri = 'http://api.football-data.org/v4/competitions/PD/matches';
+        $reqPrefs['http']['method'] = 'GET';
+        $reqPrefs['http']['header'] = 'X-Auth-Token: 57726296ccf440b899ef218bea2b5a9a';
+        $stream_context = stream_context_create($reqPrefs);
+        $response = file_get_contents($uri, false, $stream_context);
+        $gameData = json_decode($response,true);
+
+        foreach($gameData["matches"] as $game){
+            $id = $game["id"];
+            $game_id = $game["id"];
+            $winner = $game["score"]["winner"];
+            $full_home = $game["score"]["fullTime"]["home"];
+            $full_away = $game["score"]["fullTime"]["away"];
+            $half_home = $game["score"]["halfTime"]["home"];
+            $half_away = $game["score"]["halfTime"]["away"];
+            array_push($data_set,["id" => $id, "game_id" => $game_id, "winner" => $winner,
+                                "full_home" => $full_home, "full_away" => $full_away, 
+                                "half_home" => $half_home, "half_away" => $half_away]);
+        }
+
+        $data = json_encode($data_set, JSON_UNESCAPED_UNICODE | JSON_PRETTY_PRINT);
+
+        //前回のファイルがあれば削除
+        $pattern = '[0-9][0-9][0-9][0-9]_[0-9][0-9]_[0-9][0-9]_[0-9][0-9]_[0-9][0-9]_scores.json';
+        foreach(glob($pattern) as $file){
+            unlink($file);
+
+            echo $file . "を削除しました。\n";
+        }
+        //ファイル書き出し
+        $objDateTime = new DateTimeImmutable('now',new DateTimeZone('Asia/Tokyo'));
+        $outputFilename = $objDateTime -> format('Y_m_d_H_i') . "_scores" . ".json";
+        file_put_contents( $outputFilename ,$data);
+/* 初期データの書き出し
+        $outputFilename = "../../database/data/scores.json";
+        file_put_contents( $outputFilename ,$data);
+
+*/
+    }
+}
+
+$obj = new ScoreUpdateService();
+
+$obj -> outputNewScoreStatusDataToJson();

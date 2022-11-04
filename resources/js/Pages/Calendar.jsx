@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { Inertia } from "@inertiajs/inertia";
 import Authenticated from "@/Layouts/AuthenticatedLayout";
 import Modal from "@/Components/Modal";
-
-import FullCalendar,{ DateSelectArg, EventApi, EventClickArg,} from '@fullcalendar/react';
+import '@fullcalendar/react/dist/vdom';
+import FullCalendar from '@fullcalendar/react';
 import dayGridPlugin from '@fullcalendar/daygrid';
 import timeGridPlugin from '@fullcalendar/timegrid';
 import listPlugin from '@fullcalendar/list';
@@ -24,8 +24,8 @@ const Calendar = (props) => {
         <Authenticated auth={props.auth}
             /*header={ <h2 className="font-semibold text-xl text-gray-800 leading-tight"> Calendar </h2>}*/ >
         <div className = 'bg-default-white text-default-black'>
-        <a href ={`/updateData`} className = "px-5 py-2 border-2 border-black hover:text-white hover:bg-black duration-200 active:scale-95">
-                                  データのアップデート</a>
+        {/* <a href ={`/updateData`} className = "px-5 py-2 border-2 border-black hover:text-white hover:bg-black duration-200 active:scale-95">
+                                  データのアップデート</a> */}
                     {/*{ 
                         games.map((game) =>(
                             game.match_day == 7 && game.home_team.name == "Real Madrid CF" &&
@@ -48,7 +48,8 @@ const Calendar = (props) => {
                         prevYear: '1年前',
                         nextYear: '1年後',
                         prev: '先月',
-                        next: '次月'
+                        next: '次月',
+                        today: '今月'
                       }}
                       eventTimeFormat = {{
                           hour: 'numeric',
