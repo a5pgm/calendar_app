@@ -75,6 +75,7 @@ const Modal1 = (props) => {
                     <tr>
                       {clickedMatch.status == "FINISHED" && <th>試合終了 </th> }
                       {clickedMatch.status == "TIMED" && <th>試合開始前 </th> }
+                      {clickedMatch.status == "SCHEDULED" && <th>試合開始前 </th> }
                       {clickedMatch.status == "IN_PLAY" && <th>試合中 </th> }
                       <th>{ clickedScore.full_home }</th>
                       <th>  -  </th>
