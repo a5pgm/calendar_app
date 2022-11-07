@@ -4,6 +4,7 @@ namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
 use App\Services\GameUpdateService;
+use App\Services\UpdateTimeService;
 
 class GameDataUpdate extends Command
 {

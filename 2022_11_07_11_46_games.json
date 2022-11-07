@@ -1081,7 +1081,7 @@
     },
     {
         "id": 419168,
-        "status": "TIMED",
+        "status": "FINISHED",
         "utc_date": "2022-11-05 05:00:00",
         "match_day": 13,
         "home_team_id": 298,
@@ -1090,7 +1090,7 @@
     },
     {
         "id": 419165,
-        "status": "TIMED",
+        "status": "FINISHED",
         "utc_date": "2022-11-05 22:00:00",
         "match_day": 13,
         "home_team_id": 82,
@@ -1099,7 +1099,7 @@
     },
     {
         "id": 419167,
-        "status": "TIMED",
+        "status": "FINISHED",
         "utc_date": "2022-11-06 00:15:00",
         "match_day": 13,
         "home_team_id": 250,
@@ -1108,7 +1108,7 @@
     },
     {
         "id": 419171,
-        "status": "TIMED",
+        "status": "FINISHED",
         "utc_date": "2022-11-06 02:30:00",
         "match_day": 13,
         "home_team_id": 558,
@@ -1117,7 +1117,7 @@
     },
     {
         "id": 419164,
-        "status": "TIMED",
+        "status": "FINISHED",
         "utc_date": "2022-11-06 05:00:00",
         "match_day": 13,
         "home_team_id": 81,
@@ -1126,7 +1126,7 @@
     },
     {
         "id": 419173,
-        "status": "TIMED",
+        "status": "FINISHED",
         "utc_date": "2022-11-06 22:00:00",
         "match_day": 13,
         "home_team_id": 78,
@@ -1135,7 +1135,7 @@
     },
     {
         "id": 419170,
-        "status": "TIMED",
+        "status": "FINISHED",
         "utc_date": "2022-11-07 00:15:00",
         "match_day": 13,
         "home_team_id": 92,
@@ -1144,7 +1144,7 @@
     },
     {
         "id": 419166,
-        "status": "TIMED",
+        "status": "FINISHED",
         "utc_date": "2022-11-07 02:30:00",
         "match_day": 13,
         "home_team_id": 94,
@@ -1153,7 +1153,7 @@
     },
     {
         "id": 419172,
-        "status": "TIMED",
+        "status": "FINISHED",
         "utc_date": "2022-11-07 05:00:00",
         "match_day": 13,
         "home_team_id": 90,

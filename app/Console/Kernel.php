@@ -6,6 +6,8 @@ use Illuminate\Console\Scheduling\Schedule;
 use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
 use App\Console\Commands\GameDateUpdate;
 use App\Console\Commands\ScoreDataUpdate;
+use App\Services\UpdateTimeService;
+use App\Models\Game;
 
 
 
@@ -24,8 +26,11 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        $schedule -> command('GameDataUpdate') -> everyMinute();
-        $schedule -> command('ScoreDataUpdate') -> everyMinute();
+        $flg = false;
+        $flg = UpdateTimeService::UpdateTime();
+        logger($flg);
+        $schedule -> command('GameDataUpdate') -> when($flg);
+        $schedule -> command('ScoreDataUpdate') -> when($flg);
     }
 
     /**
