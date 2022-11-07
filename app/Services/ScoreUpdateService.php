@@ -16,11 +16,16 @@ class ScoreUpdateService {
 
         foreach($gameData as $key => $value){
             $now_score_data = Score::find($value["id"]);
-            $now_score_data->full_home = $value["full_home"];
-            $now_score_data->full_away = $value["full_away"];
-            $now_score_data->half_home = $value["half_home"];
-            $now_score_data->half_away = $value["half_away"];
-            $now_score_data -> save();
+            if($now_score_data->winner != $value["winner"] || $now_score_data->full_home != $value["full_home"] 
+                || $now_score_data->full_away != $value["full_away"] || $now_score_data->half_home != $value["half_home"] 
+                || $now_score_data->half_away != $value["half_away"]  ){
+                $now_score_data->winner = $value["winner"];
+                $now_score_data->full_home = $value["full_home"];
+                $now_score_data->full_away = $value["full_away"];
+                $now_score_data->half_home = $value["half_home"];
+                $now_score_data->half_away = $value["half_away"];
+                $now_score_data -> save();
+            }
         }
         logger("スコアデータの保存をしました。");
 

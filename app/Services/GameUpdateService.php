@@ -17,9 +17,11 @@ class GameUpdateService {
 
         foreach($gameData as $key => $value){
             $now_game_data = Game::find($value["id"]);
-            $now_game_data -> status = $value["status"];
-            $now_game_data -> utc_date = $value["utc_date"];
-            $now_game_data -> save();   
+            if($now_game_data -> status != $value["status"] || $now_game_data ->utc_date != $value["utc_date"]){
+                $now_game_data -> status = $value["status"];
+                $now_game_data -> utc_date = $value["utc_date"];
+                $now_game_data -> save(); 
+            }
         }
         logger("試合データの保存をしました。");
         
