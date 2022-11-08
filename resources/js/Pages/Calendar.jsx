@@ -59,12 +59,8 @@ const Calendar = (props) => {
                       'list-item'
                       }
                       contentHeight="75vh"
-                    //   aspectRatio = '2.50'
-                    //   dayMaxEvents={3}
                       events = { events }
                       eventClick = { clickInfo => { setClickedEventId(clickInfo.event.id), setShow(true)} }
-                    //   eventClassNames = 'text-default-green'
-                    //   dayCellClassNames = 'daycell'
                       eventTextColor = "#262626"
                       eventBackgroundColor = "black"
                       eventBorderColor = "#889c9b"
@@ -75,7 +71,7 @@ const Calendar = (props) => {
             
         </div>    
         </Authenticated>
-        );
+      );
 
 }
 
