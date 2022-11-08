@@ -29,7 +29,7 @@ class UpdateTimeService {
             $matchdate = new DateTime($value["utc_date"]);
             $datediff = $now -> diff($matchdate);
             if($datediff->invert == 1 && $datediff->y == 0 && $datediff->d == 0 && 
-                ( ($datediff->h * 3600 + $datediff->i * 60 + $datediff->s )) <= 7200 ){ //現在時刻のほうが大きいかつ、年と
+                ( ($datediff->h * 3600 + $datediff->i * 60 + $datediff->s )) <= 9000 ){ //現在時刻のほうが大きいかつ、時間差が2時間半以内であれば実行
                 $flg = true;
                 logger( $matchdate->format('Y-m-d H:i:s') );
             }

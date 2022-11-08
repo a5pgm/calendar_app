@@ -1,10 +1,10 @@
+
 import React, { useState } from "react";
 import { Inertia } from "@inertiajs/inertia";
 import { Link, useForm } from '@inertiajs/inertia-react';
 import Authenticated from "@/Layouts/AuthenticatedLayout";
 import Split from "react-split";
 import moment from "moment";
-
 const showGame = (props) => {
     
     const { game,score,comments } = props;
@@ -18,20 +18,13 @@ const showGame = (props) => {
         evaluation: "",
     });
     
-    const [myCount,setMyCount] = useState(0);
+    const [myCount, setMyCount] = useState(0);
     const [otherCount,setOtherCount] = useState(0);
-    
-    const myAdd = () => {
-        setMyCount(myCount + 1);
-        
-    } 
-    
-    const myIncrement = () => setMyCount((prevmyCount) => prevmyCount + 1);
-    const myDecrement = () => setMyCount((prevmyCount) => prevmyCount - 1);
+    var MYCOUNT = 0;
+    var OTHERCOUNT = 0;
+    const myIncrement = () => setMyCount((prevmyCount) => prevmyCount + 1 );
     
     const otherIncrement = () => setOtherCount((prevotherCount) => prevotherCount + 1);
-    const otherDecrement = () => setOtherCount((prevotherCount) => prevotherCount - 1);
-
     const handleSendComments = (e) => {
         e.preventDefault();
         post("/comments",{
@@ -46,67 +39,92 @@ const showGame = (props) => {
     };
     console.log(props);
     return (
-        <Authenticated auth={props.auth}>
+        <><Authenticated auth={props.auth}>
+            { comments.map((comment) =>(
+                    ( (props.auth.user.id == comment.user_id) )&&
+                    <div>
+                        { ( () => {
+                            MYCOUNT++;
+                        })()}
+                    </div>
+                ))
+            }
+            { comments.map((comment) =>(
+                    ( ( (comment.open == 0) && (props.auth.user.id != comment.user_id) )&& 
+                        <div>
+                            { ( () => {
+                                OTHERCOUNT++;
+                            })()}
+                        </div>
+                    )
+                ))
+            }
             <div className = "flex gap-2 bg-default-white">
                 <div  className = "w-1/2" >
                     <div className = "flex-col bg-default-white m-4 p-5 rounded text-default-black border-2 border-default-green" >
                         <div className = 'bg-default-black text-default-white rounded p-3 w-fit'> <h2> あなたのコメント </h2> </div>
+                        <div>
+                            { (MYCOUNT == 0)? <div> まだコメントはありません </div> : <div> {MYCOUNT}件のコメントがあります</div>}
+                        </div>
                         { comments.map((comment) =>(
-                                  ( (props.auth.user.id == comment.user_id) )&&  
-                                  <div className = "flex bg-default-white my-4 mx-auto p-3 rounded text-default-black border-2 border-default-green h-fit ">
-                                        <div className = "w-9/12 bg-default-green text-default-white rounded p-3">
-                                            <h1>{comment.user.name}</h1>
-                                            <h2>タイトル：{comment.title}</h2> 
-                                            <h3 className = 'truncate' >感想：{comment.body}</h3>
-                                            <p>評価：{comment.evaluation} 点</p>
-                                            <p>作成日時：{moment(comment.created_at).format('YYYY-MM-DD hh:mm') } </p>
-                                            { (comment.open == 0)? <p>公開されています</p> : <p>公開されていません</p> }
-                                            {/* {myAdd} */}
+                            ( (props.auth.user.id == comment.user_id) )&&  
+                                <><div className = "flex bg-default-white my-4 mx-auto p-3 rounded text-default-black border-2 border-default-green h-fit ">
+                                    <div className = "w-9/12 bg-default-green text-default-white rounded p-3">
+                                        <h1>{comment.user.name}</h1>
+                                        <h2>タイトル：{comment.title}</h2> 
+                                        <h3 className = 'truncate' >感想：{comment.body}</h3>
+                                        <p>評価：{comment.evaluation} 点</p>
+                                        <p>作成日時：{moment(comment.created_at).format('YYYY-MM-DD hh:mm') } </p>
+                                        { (comment.open == 0)? <p>公開されています</p> : <p>公開されていません</p> }
+                                    </div>
+                                    <div className = "flex-col justify-end mt-3 mx-auto">
+                                    {/* <div><button onClick={myIncrement}> + </button> </div> */}
+                                        <div>
+                                            <a href ={`/show/comment/${comment.id}/edit`}
+                                                className = "px-3 py-2 text-default-white bg-default-black border-b-4 border-dark-green 
+                                                font-bold hover:bg-light-green active:border-dark-green 
+                                                active:scale-95 rounded shadow-md w-fit h-fit ">
+                                                編集する
+                                            </a> 
                                         </div>
-                                        <div className = "flex-col justify-end mt-3 mx-auto ">
-                                            <div>
-                                                <a href ={`/show/comment/${comment.id}/edit`} 
-                                                    className = "px-3 py-2 text-default-white bg-default-black border-b-4 border-dark-green 
-                                                    font-bold hover:bg-light-green active:border-dark-green 
-                                                    active:scale-95 rounded shadow-md w-fit h-fit">
-                                                    編集する</a> 
-                                            </div>
-                                            <div>
-                                                <button onClick={() => handleDeleteComment(comment.id)}
-                                                    className = "px-3 py-2 mt-5 mb-5  text-default-white bg-default-black border-b-4 border-dark-green 
-                                                    font-bold hover:bg-light-green active:border-dark-green 
-                                                    active:scale-95 rounded shadow-md w-fit h-fit">
-                                                    削除する</button>
-                                            </div>
-                                            <div>
-                                                <a href ={`/show/comment/${comment.id}`} 
-                                                    className = "px-3 py-2 text-default-white bg-default-black border-b-4 border-dark-green 
-                                                    font-bold hover:bg-light-green active:border-dark-green 
-                                                    active:scale-95 rounded shadow-md w-fit h-fit">
-                                                    この感想を見る</a> 
-                                            </div>
+                                        <div>
+                                            <button onClick={() => handleDeleteComment(comment.id)}
+                                                className = "px-3 py-2 mt-5 mb-5  text-default-white bg-default-black border-b-4 border-dark-green 
+                                                font-bold hover:bg-light-green active:border-dark-green 
+                                                active:scale-95 rounded shadow-md w-fit h-fit">
+                                                削除する
+                                            </button>
+                                        </div>
+                                        <div>
+                                            <a href ={`/show/comment/${comment.id}`} 
+                                                className = "px-3 py-2 text-default-white bg-default-black border-b-4 border-dark-green 
+                                                font-bold hover:bg-light-green active:border-dark-green 
+                                                active:scale-95 rounded shadow-md w-fit h-fit">
+                                                この感想を見る
+                                            </a>
                                         </div>
                                     </div>
-
-                        )) }
-                        {/* { (myCount == 0) && <div> まだコメントはありません </div> } */}
+                                </div></>
+                            ))
+                        }
                     </div>
                     
                     <div className = "flex-col bg-default-white m-4 p-5 rounded text-default-black border-2 border-default-green" >
-                        <div className = 'bg-default-black text-default-white rounded p-3 w-fit'> <h2> 他の人のコメント </h2> </div>
+                        <div className = "bg-default-black text-default-white rounded p-3 w-fit"> <h2> 他の人のコメント </h2> </div>
+                        <div>
+                            { (OTHERCOUNT == 0)? <div> まだコメントはありません </div> : <div> {OTHERCOUNT}件のコメントがあります</div>}
+                        </div>
                         { comments.map((comment) =>(
                                   ( (comment.open == 0) && (props.auth.user.id != comment.user_id) )&&  
-                                  <div className = "flex bg-default-white my-4 mx-auto p-3 rounded text-default-black border-2 border-default-green h-fit ">
+                                    <div className = "flex bg-default-white my-4 mx-auto p-3 rounded text-default-black border-2 border-default-green h-fit ">
                                         <div className = "w-9/12 bg-default-green text-default-white rounded p-3">
                                             <h1>{comment.user.name}</h1>
                                             <h2>タイトル：{comment.title}</h2> 
                                             <h3 className = 'truncate' >感想：{comment.body}</h3>
                                             <p>評価：{comment.evaluation} 点</p>
                                             <p>作成日時：{moment(comment.created_at).format('YYYY-MM-DD hh:mm') } </p>
-                                            <div>{ otherIncrement() }</div>
                                         </div>
                                         <div className = "flex flex-end mt-auto mx-auto ">
-
                                             <a href ={`/show/comment/${comment.id}`} 
                                             className = "justify-end px-3 py-2 ml-3 text-default-white bg-default-black border-b-4 border-dark-green 
                                             font-bold hover:bg-light-green active:border-dark-green 
@@ -114,8 +132,8 @@ const showGame = (props) => {
                                             この感想を見る</a>     
                                         </div>
                                     </div>
-                        )) }
-                        {/* { (otherCount == 0) && <div> まだコメントはありません </div> } */}
+                            ))
+                        }
                     </div>
                 </div>
                 
@@ -191,11 +209,7 @@ const showGame = (props) => {
                     </div>
                 </div>
             </div>
-        </Authenticated>
+        </Authenticated></>
     );
-
 }
-
 export default showGame;
-
-

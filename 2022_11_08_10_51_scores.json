@@ -1163,11 +1163,11 @@
     {
         "id": 419169,
         "game_id": 419169,
-        "winner": null,
-        "full_home": null,
-        "full_away": null,
-        "half_home": null,
-        "half_away": null
+        "winner": "HOME_TEAM",
+        "full_home": 3,
+        "full_away": 2,
+        "half_home": 2,
+        "half_away": 2
     },
     {
         "id": 419162,
