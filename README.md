@@ -68,6 +68,10 @@ javascript - react
 
 php artisan serve --port=8080 を実行してアプリを起動する。
 
+##作成者
+青山学院大学　理工学部　情報テクノロジー学科3年　宮本侑弥
+a5820086@aoayama.jp
+
 ## Contributing
 Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 ## Code of Conduct
