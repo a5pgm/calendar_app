@@ -20,30 +20,43 @@ class GameController extends Controller
     //     $this->middleware('auth',['only' => ['storeComment']]);
     // }
     
-    public function getGame(Game $game, Team $team,Score $score) {
+    public function getGame(Game $game, Team $team,Score $score, Comment $comment) {
+        $isExistance = false;
         
         $games = Game::with("home_team","away_team","season",'score')->get();
-
+        $comments = $comment -> get() ->load('game','user');
         $schedules_list = [];
         foreach($games as $game)
         {
-           $data = [
-                "color" => '#4ED9A6',
-                "textColor" => '#4ED9A6',
-                "backgroundColor" => '#262626',
-                // "display" => "background",
-                "id" => $game -> id,
-                "title" => ($game->home_team->tla. " vs ". $game->away_team->tla),
-                "start" =>  $game->utc_date,
-            ];
+                foreach($comments as $comment){
+                    if($comment -> game_id == $game->id){
+                        $isExistance = true;
+                    }
+                }
+            if($isExistance){
+                $data = [
+                    "color" => '#4ED9A6',
+                    "textColor" => '#4ED9A6',
+                    "backgroundColor" => '#262626',
+                    "id" => $game -> id,
+                    "title" => ($game->home_team->tla. " vs ". $game->away_team->tla),
+                    "start" =>  $game->utc_date,
+                ];
+            }
+            else {
+                $data = [
+                    "color" => '#262626',
+                    "textColor" => '#4ED9A6',
+                    "backgroundColor" => '#262626',
+                    "id" => $game -> id,
+                    "title" => ($game->home_team->tla. " vs ". $game->away_team->tla),
+                    "start" =>  $game->utc_date,
+                ];
+            }
+
             array_push($schedules_list,$data);
+            $isExistance = false;
         }
-        // $settings = [
-        //         "color" => 'yellow',
-        //         "backgroundColor" => 'red',
-        // ];
-        // array_push($schedules_list,$settings);
-        // dd($schedules_list);
         return Inertia::render('Calendar',["events" => $schedules_list, "games" => $games,"scores" => $score->get() ] );
         
     }
