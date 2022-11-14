@@ -56,9 +56,9 @@ const editComment = (props) => {
     
                     </form>
                 </div>
-                <div>
+                <div className = "flex">
                     <a href={`/show/comment/${comment.id}`} 
-                    className = 'px-3 py-2 mt-10 mx-auto ml-3 text-default-white bg-default-black border-b-4 border-dark-green 
+                    className = 'px-3 py-2 mt-3 mx-auto mb-5 text-default-white bg-default-black border-b-4 border-dark-green 
                                 font-bold hover:bg-light-green active:border-dark-green 
                                 active:scale-95 rounded shadow-md w-fit h-fit'>戻る</a>
                 </div>

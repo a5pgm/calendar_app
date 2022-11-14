@@ -61,7 +61,7 @@ const showGame = (props) => {
             }
             <div className = "flex gap-2 bg-default-white">
                 <div  className = "w-1/2" >
-                    <div className = "flex-col bg-default-white m-4 p-5 rounded text-default-black border-2 border-default-green" >
+                    <div className = "flex-col bg-default-white m-4 p-5 rounded text-default-black border-2 border-default-green h-fit" >
                         <div className = 'bg-default-black text-default-white rounded p-3 w-fit'> <h2> あなたのコメント </h2> </div>
                         <div>
                             { (MYCOUNT == 0)? <div> まだコメントはありません </div> : <div> {MYCOUNT}件のコメントがあります</div>}

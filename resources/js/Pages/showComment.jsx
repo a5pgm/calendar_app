@@ -48,9 +48,9 @@ const showGame = (props) => {
                 }
             </div>
         </div>
-        <div>
+        <div className = "flex">
             <a href={`/show/game/${comment.game_id}`} 
-            className = 'px-3 py-2 mt-10 ml-32 text-default-white bg-default-black border-b-4 border-dark-green 
+            className = 'px-3 py-2 mt-5 m-auto text-default-white bg-default-black border-b-4 border-dark-green 
                         font-bold hover:bg-light-green active:border-dark-green 
                         active:scale-95 rounded shadow-md w-fit h-fit'>戻る</a>
         </div>
