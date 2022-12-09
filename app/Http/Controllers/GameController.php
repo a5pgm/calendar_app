@@ -13,15 +13,10 @@ use Database\Seeders\UpdateTableSeeder;
 
 
 class GameController extends Controller
-{
-    //
-    
-    // public function __construct() {
-    //     $this->middleware('auth',['only' => ['storeComment']]);
-    // }
-    
+{    
     public function getGame(Game $game, Team $team,Score $score, Comment $comment) {
         $isExistance = false;
+        $numOfComment = 0;
         
         $games = Game::with("home_team","away_team","season",'score')->get();
         $comments = $comment -> get() ->load('game','user');
@@ -29,8 +24,9 @@ class GameController extends Controller
         foreach($games as $game)
         {
                 foreach($comments as $comment){
-                    if($comment -> game_id == $game->id){
+                    if($comment -> game_id == $game->id && $comment -> open == 0){
                         $isExistance = true;
+                        $numOfComment ++;
                     }
                 }
             if($isExistance){
@@ -39,7 +35,7 @@ class GameController extends Controller
                     "textColor" => '#4ED9A6',
                     "backgroundColor" => '#262626',
                     "id" => $game -> id,
-                    "title" => ($game->home_team->tla. " vs ". $game->away_team->tla),
+                    "title" => ($game->home_team->tla. " vs ". $game->away_team->tla. " " . $numOfComment . "件"),
                     "start" =>  $game->utc_date,
                 ];
             }
